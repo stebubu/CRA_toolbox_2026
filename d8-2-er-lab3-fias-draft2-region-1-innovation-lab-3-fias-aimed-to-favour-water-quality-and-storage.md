@@ -1,22 +1,22 @@
-# Region 1 - Innovation Lab 3: FIAs aimed to favour water quality and storage.
+# D8.2 ER-Lab3 FIAs draft2
 
 ## Introduction and Objectives of the Climate Risk Assessment
 
 ### Regional context.
 
-The Innovation Lab 3 is located in the upper Bidente–Ronco basin, in the municipalities of [<span class="underline">Galeata</span>](https://maps.app.goo.gl/1z1h3h64Sf2cemWr7)–[<span class="underline">Santa Sofia</span>](https://maps.app.goo.gl/AaxfgSnbjj6mExaB7) (Forlì–Cesena Province, Emilia-Romagna, Italy). This area represents a mixed forest–agricultural landscape in the Apennine foothills, characterized by steep slopes, permeable soils, and high rainfall variability.
+The Innovation Lab 3 is located in the upper Bidente–Ronco basin, in the municipalities of [Galeata](https://maps.app.goo.gl/1z1h3h64Sf2cemWr7)–[Santa Sofia](https://maps.app.goo.gl/AaxfgSnbjj6mExaB7) (Forlì–Cesena Province, Emilia-Romagna, Italy). This area represents a mixed forest–agricultural landscape in the Apennine foothills, characterized by steep slopes, permeable soils, and high rainfall variability.
 
-|                                                                                                                                                                                                                                                                                                                                                                                      |                                                                                                                                                                                                                                                                                                                                                                                  |
-| ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| ![Immagine che contiene aria aperta, nuvola, cielo, paesaggio Il contenuto generato dall'IA potrebbe non essere corretto.](assets/d8-2-er-lab3-fias-draft2_image1.jpg) | ![Immagine che contiene aria aperta, nuvola, erba, natura Il contenuto generato dall'IA potrebbe non essere corretto.](assets/d8-2-er-lab3-fias-draft2_image2.jpg) |
+|                                                                                                                                                                                 |                                                                                                                                                                             |
+| ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| ![Immagine che contiene aria aperta, nuvola, cielo, paesaggio Il contenuto generato dall'IA potrebbe non essere corretto.](.gitbook/assets/d8-2-er-lab3-fias-draft2_image1.jpg) | ![Immagine che contiene aria aperta, nuvola, erba, natura Il contenuto generato dall'IA potrebbe non essere corretto.](.gitbook/assets/d8-2-er-lab3-fias-draft2_image2.jpg) |
 
-*Figure 1 - Figure of the study area: Castellaro Nursery*
+_Figure 1 - Figure of the study area: Castellaro Nursery_
 
 **Heavy precipitation events** often generate flash runoffs and landslides, while prolonged summer dry spells cause water scarcity and stress for crops and ecosystems. These combined hazards directly affect water availability, soil stability, and agricultural productivity. Within this setting, **Forested Infiltration Areas (FIAs)** are tested as a Nature-Based Solution to enhance infiltration, reduce runoff peaks, improve water quality, and support sustainable irrigation demand in forest nurseries and surrounding agricultural lands.
 
-![Immagine che contiene albero, Arte bambini, cartone animato, illustrazione Il contenuto generato dall'IA potrebbe non essere corretto.](assets/d8-2-er-lab3-fias-draft2_image3.png)
+![Immagine che contiene albero, Arte bambini, cartone animato, illustrazione Il contenuto generato dall'IA potrebbe non essere corretto.](.gitbook/assets/d8-2-er-lab3-fias-draft2_image3.png)
 
-*Figure 2 - Schematic example of the FIAs used in this Lab, source CER.*
+_Figure 2 - Schematic example of the FIAs used in this Lab, source CER._
 
 Nature-Based Solutions (NbS) represent an integrated approach to climate adaptation, based on the use and enhancement of natural processes to jointly address hydrological risks, environmental degradation, and the vulnerability of productive systems. In this study, Forested Infiltration Areas (FIAs) are considered a key NbS for improving water-resources management and strengthening the resilience of forest and agricultural systems.
 
@@ -24,33 +24,32 @@ As conceptually recalled in Figure 2, NbS operate within a virtuous cycle in whi
 
 At the same time, the environmental advantages produced by NbS contribute to strengthening the socio-economic resilience of the territory, by reducing exposure to climate-related risks and supporting more effective planning and decision-making processes. Within this framework, NbS are not regarded as isolated measures, but as structural components of medium- to long-term adaptation strategies, capable of activating positive feedback mechanisms between environmental conditions, resource management, and territorial governance.
 
-![Immagine che contiene testo, schermata, albero, Pubblicità online Il contenuto generato dall'IA potrebbe non essere corretto.](assets/d8-2-er-lab3-fias-draft2_image4.png)
+![Immagine che contiene testo, schermata, albero, Pubblicità online Il contenuto generato dall'IA potrebbe non essere corretto.](.gitbook/assets/d8-2-er-lab3-fias-draft2_image4.png)
 
-*Figure 3 - Conceptual representation of the virtuous cycle of Nature-Based Solutions (NbS), illustrating how ecosystem-based interventions enhance hydrological regulation, environmental quality, and socio-economic resilience through positive feedback mechanisms.*
+_Figure 3 - Conceptual representation of the virtuous cycle of Nature-Based Solutions (NbS), illustrating how ecosystem-based interventions enhance hydrological regulation, environmental quality, and socio-economic resilience through positive feedback mechanisms._
 
 The Castellaro Copilot site is located within the regional forest nursery owned by the Emilia-Romagna Region, in the municipality of Galeata (Forlì–Cesena Province), and lies in the upper sector of the Bidente–Ronco river basin, as contextualized in Figure 3. The site is embedded in a hilly Apennine landscape characterized by steep slopes, permeable soils, and a predominantly forested land cover that naturally drains towards the Bidente River.
 
-The forested area has a complex ecological history. Afforestation activities carried out between the 1960s and 1980s introduced mainly coniferous species, including *Abies alba*, *Picea abies*, and *Pinus nigra*, primarily for soil stabilization and forest restoration purposes. Over time, the site has undergone a process of natural ecological succession, progressively shifting towards a mixed deciduous forest dominated by native broadleaf species such as *Quercus cerris*, *Fraxinus* spp., *Ostrya carpinifolia*, *Carpinus betulus*, and *Corylus avellana*. This transition reflects a move towards a more biodiverse and potentially resilient forest structure.
+The forested area has a complex ecological history. Afforestation activities carried out between the 1960s and 1980s introduced mainly coniferous species, including _Abies alba_, _Picea abies_, and _Pinus nigra_, primarily for soil stabilization and forest restoration purposes. Over time, the site has undergone a process of natural ecological succession, progressively shifting towards a mixed deciduous forest dominated by native broadleaf species such as _Quercus cerris_, _Fraxinus_ spp., _Ostrya carpinifolia_, _Carpinus betulus_, and _Corylus avellana_. This transition reflects a move towards a more biodiverse and potentially resilient forest structure.
 
 From a hydrogeological perspective, the site plays a key role in local water regulation processes. Surface runoff and subsurface flows generated within the forested slopes historically contributed to groundwater recharge and to the functioning of a well supplying irrigation water to the nursery located downslope. However, the extreme rainfall events of May 2023 triggered an active landslide within the site, significantly altering soil stability and disrupting the existing hydrogeological network. As a result, groundwater availability has been reduced, and the vulnerability of the system to climate extremes has become more evident.
 
 These conditions make the Castellaro site particularly suitable for the implementation and testing of Forested Infiltration Areas (FIAs) as a Nature-Based Solution. The objective is to restore and enhance natural infiltration and water retention processes, mitigate runoff and erosion on steep slopes, and support both quantitative and qualitative aspects of the local water cycle. In this context, the site provides a representative case study for evaluating NbS performance in forested headwater areas and for linking site-scale processes with downstream water management and irrigation needs, within the spatial framework referenced in Figure 4.
 
-![Immagine che contiene mappa, testo, schermata Il contenuto generato dall'IA potrebbe non essere corretto.](assets/d8-2-er-lab3-fias-draft2_image5.png)
+![Immagine che contiene mappa, testo, schermata Il contenuto generato dall'IA potrebbe non essere corretto.](.gitbook/assets/d8-2-er-lab3-fias-draft2_image5.png)
 
-*Figure 4 - Location of the Castellaro Copilot site within the regional forest nursery*
+_Figure 4 - Location of the Castellaro Copilot site within the regional forest nursery_
 
-###  Scope of the tutorial.
+### Scope of the tutorial.
 
 This tutorial describes a replicable Climate Risk Assessment (CRA) workflow designed for a mixed forest–agricultural landscape in Emilia-Romagna. The assessment focuses on **Forested Infiltration Areas (FIAs)** as a Nature-Based Solution to address flash runoff, erosion, and water scarcity. Two complementary workflows are presented:
 
-  - a **sub catchment-scale workflow**, aimed at quantifying how NBS influence runoff, water harvesting and water quality.
-
-  - a **site-scale workflow**, focused on the water demand and irrigation management of a single forest nursery assessing how improved water harvesting capacity supports sustainable operations.
+* a **sub catchment-scale workflow**, aimed at quantifying how NBS influence runoff, water harvesting and water quality.
+* a **site-scale workflow**, focused on the water demand and irrigation management of a single forest nursery assessing how improved water harvesting capacity supports sustainable operations.
 
 Both workflows integrate geospatial datasets, environmental monitoring, and climate information, and are structured so that methods can be transferred and adapted to other regions. The approach supports the integration of NbS into adaptation planning, providing indicators for land-use strategies, water management, and regional policy development.
 
-  - #### Disclaimer
+* **Disclaimer**
 
 > This tutorial is intended as a general workflow example and does not replace software-specific documentation (e.g., GIS, hydrological, hydraulic models’ user/technical manuals). Users are expected to be familiar with geospatial data formats, pre-processing techniques, and the basic concepts of hydrological and environmental modelling. Inputs, outputs, and methodological details may need to be adapted depending on data availability, local conditions, and the specific software selected for the analysis, before attempting to replicate this workflow
 
@@ -58,25 +57,19 @@ Both workflows integrate geospatial datasets, environmental monitoring, and clim
 
 The Climate Risk Assessment in Innovation Lab 3 aims to:
 
-  - **Establish the baseline** — Define the current hydrology and water-quality status of the Galeata–Santa Sofia sub-catchment.
-
-  - **Quantify FIA effects at sub-catchment/micro-catchment scale** — Measure changes in infiltration rate, catchment water-harvesting potential, and runoff peaks, under current conditions and, where available, projected climate.
-
-  - **Evaluate pollutant retention/phytoremediation and erosion control** — Track Nitrogen, Phosphorus, and Suspended Solids (SS) to assess water-quality improvement and sediment trapping.
-
-  - **Assess site-scale irrigation implications** — Quantify nursery water demand and examine whether increased water-harvesting potential can meet the optimized demand at the nursery, noting that catchment and site workflows are run independently.
-
-  - **Support planning and policy** — Deliver decision-ready indicators/data for Water Protection Plans (PTAs) and Rural Development Programs (RDPs) and future design guidelines for FIAs.
+* **Establish the baseline** — Define the current hydrology and water-quality status of the Galeata–Santa Sofia sub-catchment.
+* **Quantify FIA effects at sub-catchment/micro-catchment scale** — Measure changes in infiltration rate, catchment water-harvesting potential, and runoff peaks, under current conditions and, where available, projected climate.
+* **Evaluate pollutant retention/phytoremediation and erosion control** — Track Nitrogen, Phosphorus, and Suspended Solids (SS) to assess water-quality improvement and sediment trapping.
+* **Assess site-scale irrigation implications** — Quantify nursery water demand and examine whether increased water-harvesting potential can meet the optimized demand at the nursery, noting that catchment and site workflows are run independently.
+* **Support planning and policy** — Deliver decision-ready indicators/data for Water Protection Plans (PTAs) and Rural Development Programs (RDPs) and future design guidelines for FIAs.
 
 ### Intended users.
 
 The outputs are designed for **regional policymakers and planners, land-reclamation consortia and environmental organisations** that need quantitative, model-based evidence to:
 
-  - Support the draft or update Water-Protection Plans (PTA) and Rural-Development Program (PSR) measures,
-
-  - develop best practices for Forested Infiltration Areas and other NbS,
-
-  - guide day-to-day decisions on irrigation scheduling and soil-erosion control within the study catchment or in the specific area (e.g. nursery area in this case)
+* Support the draft or update Water-Protection Plans (PTA) and Rural-Development Program (PSR) measures,
+* develop best practices for Forested Infiltration Areas and other NbS,
+* guide day-to-day decisions on irrigation scheduling and soil-erosion control within the study catchment or in the specific area (e.g. nursery area in this case)
 
 ## Catchment-Scale Hazard: Runoff, Erosion & Water Quality
 
@@ -96,44 +89,44 @@ The assessment uses regional datasets for elevation, soils, land use, and daily 
 | Water quality       | Nitrogen; Phosphorus;                                   | mg L⁻¹            | Evaluate pollutant-filtering effectiveness.               |
 | Erosion             | Suspended Solids (SS) concentration                     | mg L⁻¹            | Assess sediment trapping by forest cover.                 |
 
-*Table 1 – key indicators tracked- Catchment-Scale Hazard: Runoff, Erosion & Water Quality*
+_Table 1 – key indicators tracked- Catchment-Scale Hazard: Runoff, Erosion & Water Quality_
 
 The Figure 5 shows the study basin with the sub-basin highlighted in red where the SWAT+ model will be applied. It should be noted that the basin represented is the one obtained from the first simulations and is therefore not final. Moreover, the small size of the identified basin requires further evaluations to determine whether or not to confirm this preliminary result.
 
-![Immagine che contiene mappa, testo, schermata Il contenuto generato dall'IA potrebbe non essere corretto.](assets/d8-2-er-lab3-fias-draft2_image6.png)
+![Immagine che contiene mappa, testo, schermata Il contenuto generato dall'IA potrebbe non essere corretto.](.gitbook/assets/d8-2-er-lab3-fias-draft2_image6.png)
 
-*Figure 5– Example of the study area and the sub-basin in red where SWAT+ will be applied.*
+_Figure 5– Example of the study area and the sub-basin in red where SWAT+ will be applied._
 
 ### Data sources and tools
 
 Catchment-scale analysis uses regional elevation, soils, land-use, and daily meteorology to delineate sub-basins, parameterize hydrological response units, and force baseline vs FIA scenarios. Open European datasets are listed to enable replication beyond Emilia-Romagna.
 
-|                                             |                                                                                                                                                                                                                                                                       |                                                                           |                                                                                                                                                                                                                                                                                                                                                                                                             |
-| ------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| **Data type**                               | **Source**                                                                                                                                                                                                                                                            | **Role in workflow**                                                      | **Open/EU alternative**                                                                                                                                                                                                                                                                                                                                                                                     |
-| Digital Terrain Model (DTM) 5 m             | Emilia-Romagna Geoportal ([<span class="underline">open- WCS service</span>](https://geoportale.regione.emilia-romagna.it/servizi/servizi-ogc/wcs))                                                                                                                   | Delineates watershed & sub-basins; slope & flow-direction grids for SWAT+ | Copernicus DEM - Global and European Digital Elevation Model [<span class="underline">(open – raster 30m, 10m for selected users)</span>](https://dataspace.copernicus.eu/explore-data/data-collections/copernicus-contributing-missions/collections-description/COP-DEM)                                                                                                                                   |
-| Soil map 1:50 000 or higher scale           | Emilia-Romagna regional soil map ([<span class="underline">open , shapefile )</span>](https://datacatalog.regione.emilia-romagna.it/catalogCTA/dataset/r_emiro_2016-01-28t184735)                                                                                     | Supplies texture, OC, Ksat for each HRU; controls infiltration & erosion  | [<span class="underline">European Soil Database v2.0 (vector and attribute data)</span>](https://esdac.jrc.ec.europa.eu/content/european-soil-database-v20-vector-and-attribute-data)                                                                                                                                                                                                                       |
-| Land-cover 2023                             | ([<span class="underline">open AGREA shapefile</span>](https://geoportale.regione.emilia-romagna.it/download/dati-e-prodotti-cartografici-preconfezionati/pianificazione-e-catasto/uso-del-suolo/2020-coperture-vettoriali-uso-del-suolo-di-dettaglio-edizione-2023)) | Re-mapped to HRUs to parameterize vegetation and management               | [<span class="underline">CORINE Land Cover 2018 (vector/raster 100 m), Europe, 6-yearly</span>](https://land.copernicus.eu/en/products/corine-land-cover/clc2018)                                                                                                                                                                                                                                           |
-| Daily meteorology (P, T, RH, SR, wind, PET) | ARPAE DEXT3R [<span class="underline">(open- gauges time series)</span>](https://simc.arpae.it/dext3r/)                                                                                                                                                               | Atmospheric baseline and FIA scenarios                                    | Daily gridded observational dataset for precipitation, temperature, E-OBS [<span class="underline">(open , gridded )</span>](https://surfobs.climate.copernicus.eu/dataaccess/access_eobs.php), ERA5-Land post-processed daily statistics from 1950 to present ( [<span class="underline">open, raster</span>](https://cds.climate.copernicus.eu/datasets/derived-era5-land-daily-statistics?tab=overview)) |
+|                                             |                                                                                                                                                                                                                                        |                                                                           |                                                                                                                                                                                                                                                                                                                                               |
+| ------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| **Data type**                               | **Source**                                                                                                                                                                                                                             | **Role in workflow**                                                      | **Open/EU alternative**                                                                                                                                                                                                                                                                                                                       |
+| Digital Terrain Model (DTM) 5 m             | Emilia-Romagna Geoportal ([open- WCS service](https://geoportale.regione.emilia-romagna.it/servizi/servizi-ogc/wcs))                                                                                                                   | Delineates watershed & sub-basins; slope & flow-direction grids for SWAT+ | Copernicus DEM - Global and European Digital Elevation Model [(open – raster 30m, 10m for selected users)](https://dataspace.copernicus.eu/explore-data/data-collections/copernicus-contributing-missions/collections-description/COP-DEM)                                                                                                    |
+| Soil map 1:50 000 or higher scale           | Emilia-Romagna regional soil map ([open , shapefile )](https://datacatalog.regione.emilia-romagna.it/catalogCTA/dataset/r_emiro_2016-01-28t184735)                                                                                     | Supplies texture, OC, Ksat for each HRU; controls infiltration & erosion  | [European Soil Database v2.0 (vector and attribute data)](https://esdac.jrc.ec.europa.eu/content/european-soil-database-v20-vector-and-attribute-data)                                                                                                                                                                                        |
+| Land-cover 2023                             | ([open AGREA shapefile](https://geoportale.regione.emilia-romagna.it/download/dati-e-prodotti-cartografici-preconfezionati/pianificazione-e-catasto/uso-del-suolo/2020-coperture-vettoriali-uso-del-suolo-di-dettaglio-edizione-2023)) | Re-mapped to HRUs to parameterize vegetation and management               | [CORINE Land Cover 2018 (vector/raster 100 m), Europe, 6-yearly](https://land.copernicus.eu/en/products/corine-land-cover/clc2018)                                                                                                                                                                                                            |
+| Daily meteorology (P, T, RH, SR, wind, PET) | ARPAE DEXT3R [(open- gauges time series)](https://simc.arpae.it/dext3r/)                                                                                                                                                               | Atmospheric baseline and FIA scenarios                                    | Daily gridded observational dataset for precipitation, temperature, E-OBS [(open , gridded )](https://surfobs.climate.copernicus.eu/dataaccess/access_eobs.php), ERA5-Land post-processed daily statistics from 1950 to present ( [open, raster](https://cds.climate.copernicus.eu/datasets/derived-era5-land-daily-statistics?tab=overview)) |
 
-*Table 2 – used data, an alternative dataset to replicate the assessment outside the study area, when available*
+_Table 2 – used data, an alternative dataset to replicate the assessment outside the study area, when available_
 
-  - ##### Climate change effects 
+* **Climate change effects**
 
-> *Bias-corrected climate-projection datasets may be incorporated, with particular focus on hydrogeological modelling.*
-> 
-> *For example [<span class="underline">Copernicus Temperature and precipitation climate impact indicators from 1970 to 2100 derived from European climate projections</span>](https://cds.climate.copernicus.eu/datasets/sis-hydrology-meteorology-derived-projections?tab=overview); [<span class="underline">Climate and energy indicators for Europe from 2005 to 2100 derived from climate projections</span>](about:blank).*
+> _Bias-corrected climate-projection datasets may be incorporated, with particular focus on hydrogeological modelling._
+>
+> _For example_ [_Copernicus Temperature and precipitation climate impact indicators from 1970 to 2100 derived from European climate projections_](https://cds.climate.copernicus.eu/datasets/sis-hydrology-meteorology-derived-projections?tab=overview)_;_ [_Climate and energy indicators for Europe from 2005 to 2100 derived from climate projections_](about:blank)_._
 
 As tools you need a GIS platform, likely QGIS 3 LTR or higher given the availability of a specific plugin for the QSWAT+ to build the catchment model, and the SWAT+ Editor to configure and run simulations; the SWAT+ installer bundles QSWAT+ and the Editor, and QSWAT+ requires SWAT+ Editor v3.0+
 
-|                                                                                     |                                                                                                     |                                                                                                                     |
-| ----------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------- |
-| **Tool**                                                                            | **Type**                                                                                            | **Role in this workflow**                                                                                           |
-| [<span class="underline">QGIS</span>](https://qgis.org/download/)                   | Desktop GIS                                                                                         | Data prep, watershed delineation, HRU definition, mapping, results viewing.                                         |
-| QSWAT+ (QGIS plugin included in swat + installer hereafter)                         | SWAT+ pre/post-processor                                                                            | Build sub-basins, LSUs, HRUs; export to SWAT+; visualize outputs and compare scenarios.                             |
-| [<span class="underline">SWAT+ Editor</span>](https://swat.tamu.edu/software/plus/) | Model [<span class="underline">editor/runner</span>](https://swatplus.gitbook.io/docs/installation) | Import project DB, set weather data and print options, run SWAT+, write outputs to SQLite for QSWAT+ visualization. |
+|                                                             |                                                                      |                                                                                                                     |
+| ----------------------------------------------------------- | -------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------- |
+| **Tool**                                                    | **Type**                                                             | **Role in this workflow**                                                                                           |
+| [QGIS](https://qgis.org/download/)                          | Desktop GIS                                                          | Data prep, watershed delineation, HRU definition, mapping, results viewing.                                         |
+| QSWAT+ (QGIS plugin included in swat + installer hereafter) | SWAT+ pre/post-processor                                             | Build sub-basins, LSUs, HRUs; export to SWAT+; visualize outputs and compare scenarios.                             |
+| [SWAT+ Editor](https://swat.tamu.edu/software/plus/)        | Model [editor/runner](https://swatplus.gitbook.io/docs/installation) | Import project DB, set weather data and print options, run SWAT+, write outputs to SQLite for QSWAT+ visualization. |
 
-*Table 3 – used tools and role in the workflow, all tools are free to use.*
+_Table 3 – used tools and role in the workflow, all tools are free to use._
 
 ### Methodology
 
@@ -147,30 +140,17 @@ Prepare meteorological inputs as **station-based daily Time Series** in the mode
 
 The following images (Figure 6) show the basin analysed within **Co-Innovation Lab 3**, together with the results of the first tests carried out with **SWAT+** on the study area in terms of **Full HRU** and **Actual HRU**. It should be noted that the simulations are still ongoing; therefore, the results presented here are only **preliminary**.
 
-<table>
-<tbody>
-<tr class="odd">
-<td><p><img src="/content/drive/.shortcut-targets-by-id/1BOH_FwtZ9tUXgzgKa8QCt8QpfdSTT1pA/ARCADIA SHARED/WPs/WP8 - Design &amp; performance of NBS/Milestone/Task8.2/github_arcadia_repo/gitbook_repo_2026/_tmp_media/d8-2-er-lab3-fias-draft2/media/image7.png" style="width:3.00661in;height:1.83403in" alt="Immagine che contiene Aerofotogrammetria, Vista aerea, mappa, aereo Il contenuto generato dall&#39;IA potrebbe non essere corretto." /></p>
-<p>A</p></td>
-<td><p><img src="/content/drive/.shortcut-targets-by-id/1BOH_FwtZ9tUXgzgKa8QCt8QpfdSTT1pA/ARCADIA SHARED/WPs/WP8 - Design &amp; performance of NBS/Milestone/Task8.2/github_arcadia_repo/gitbook_repo_2026/_tmp_media/d8-2-er-lab3-fias-draft2/media/image8.png" style="width:3.23748in;height:1.81198in" alt="Immagine che contiene mappa Il contenuto generato dall&#39;IA potrebbe non essere corretto." /></p>
-<p>B</p></td>
-</tr>
-<tr class="even">
-<td><p><img src="/content/drive/.shortcut-targets-by-id/1BOH_FwtZ9tUXgzgKa8QCt8QpfdSTT1pA/ARCADIA SHARED/WPs/WP8 - Design &amp; performance of NBS/Milestone/Task8.2/github_arcadia_repo/gitbook_repo_2026/_tmp_media/d8-2-er-lab3-fias-draft2/media/image9.png" style="width:2.93719in;height:1.79954in" alt="Immagine che contiene mappa, testo Il contenuto generato dall&#39;IA potrebbe non essere corretto." /></p>
-<p>C</p></td>
-<td><p><img src="/content/drive/.shortcut-targets-by-id/1BOH_FwtZ9tUXgzgKa8QCt8QpfdSTT1pA/ARCADIA SHARED/WPs/WP8 - Design &amp; performance of NBS/Milestone/Task8.2/github_arcadia_repo/gitbook_repo_2026/_tmp_media/d8-2-er-lab3-fias-draft2/media/image10.png" style="width:3.06483in;height:1.77069in" alt="Immagine che contiene mappa, testo Il contenuto generato dall&#39;IA potrebbe non essere corretto." /></p>
-<p>D</p></td>
-</tr>
-</tbody>
-</table>
+| A | B |
+| - | - |
+| C | D |
 
-*Figure 6- Example of preprocessing of geospatial base layers clipped to the area of interest. Figure A represents the preliminary watershed identified from the first simulations; Figure B shows the basin with the DEM background; Figure C illustrates the Full HRUs and Figure D the basin with the Actual HRUs (see note for the definition of Full and Actual HRUs).*
+_Figure 6- Example of preprocessing of geospatial base layers clipped to the area of interest. Figure A represents the preliminary watershed identified from the first simulations; Figure B shows the basin with the DEM background; Figure C illustrates the Full HRUs and Figure D the basin with the Actual HRUs (see note for the definition of Full and Actual HRUs)._
 
-  - ##### Note: Difference between Full HRU and Actual HRU
+* **Note: Difference between Full HRU and Actual HRU**
 
 > **Full HRU**: all unique combinations of land use, soil type, and slope are represented, even if they cover a very small area. This allows for maximum spatial detail but increases the number of HRUs and computational effort. **Actual HRU**: only HRUs above user-defined thresholds are kept, while smaller ones are merged into larger units. This reduces model complexity and simulation time, at the cost of some spatial detail.
 
-  - ##### Note: Dimensions of the selected area
+* **Note: Dimensions of the selected area**
 
 > The sub-basin selected as Lab-3 constitutes an interesting case study for the NBS contest. However, to the sole hydrogeological modelling perspective, the catchment above the forest nursery is relatively small (both extent and variety of HRU) to achieve the full potentials of such models which are generally implemented in larger areas. Nonetheless, modelling challenges are often not affected by the basin size and the selected area’s dimensions offer the possibility of more accurate results.
 
@@ -184,30 +164,30 @@ The baseline run must yield decision-ready outputs for the key indicators tracke
 
 Baseline processing, in brief: perform **DEM-based topographic processing** to delineate watershed, sub-basins, and channels; then **assign attributes** by intersecting land use, soils, and slope to create **HRUs**; finally **run the daily water-balance and water-quality simulation** so outputs can be mapped and analyzed at **HRU/LSU/channel** level, including sediment.
 
-![Immagine che contiene mappa, testo, schermata Il contenuto generato dall'IA potrebbe non essere corretto.](assets/d8-2-er-lab3-fias-draft2_image11.png)
+![Immagine che contiene mappa, testo, schermata Il contenuto generato dall'IA potrebbe non essere corretto.](.gitbook/assets/d8-2-er-lab3-fias-draft2_image11.png)
 
-*Figure 7 – example of topographic processing delineates the watershed, sub-basins, and channels from the DEM. After reading grids and intersecting land use, soils, and slope, potential HRUs are created as polygons, enabling HRU-level mapping and analysis, source [<span class="underline">QSWAT+ manual</span>](https://1905549715-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2FgsvY4UbwriwcK1CI5lan%2Fuploads%2FgHq0X4ezLSWlotZ8Llyv%2FQSWATPlus%20Manual_v3.0.pdf?alt=media&token=dcaf77fa-a670-4a62-86d6-4451d593e69b). The images represent an illustrative example and are not related to our case study, as the modeling is still in progress and consistent results are not yet available.*
+_Figure 7 – example of topographic processing delineates the watershed, sub-basins, and channels from the DEM. After reading grids and intersecting land use, soils, and slope, potential HRUs are created as polygons, enabling HRU-level mapping and analysis, source_ [_QSWAT+ manual_](https://1905549715-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2FgsvY4UbwriwcK1CI5lan%2Fuploads%2FgHq0X4ezLSWlotZ8Llyv%2FQSWATPlus%20Manual_v3.0.pdf?alt=media\&token=dcaf77fa-a670-4a62-86d6-4451d593e69b)_. The images represent an illustrative example and are not related to our case study, as the modeling is still in progress and consistent results are not yet available._
 
-  - ##### Note — interface options
+* **Note — interface options**
 
-> *This tutorial targets QSWAT+ within QGIS. However, the SWAT+ toolchain can be used without the GIS interface by working directly with the SWAT+ Editor and its runners. If you prefer not to use QGIS, consult the official [<span class="underline">SWAT+ software page</span>](https://swat.tamu.edu/software/plus/) for alternative installers and workflows, then keep project databases and input folders consistent with this tutorial.*
+> _This tutorial targets QSWAT+ within QGIS. However, the SWAT+ toolchain can be used without the GIS interface by working directly with the SWAT+ Editor and its runners. If you prefer not to use QGIS, consult the official_ [_SWAT+ software page_](https://swat.tamu.edu/software/plus/) _for alternative installers and workflows, then keep project databases and input folders consistent with this tutorial._
 
 #### Step 3 - Analysis and interpretation
 
-We convert the baseline run into decision-ready indicators by extracting outlet runoff peak and base-flow, computing infiltration/storage proxies, and reading water-quality and erosion metrics (N, P, SS) at sub-basin and HRU level, consistent with the Lab 3 scope.  
-Results are inspected as tables and geospatial layers in GIS to map HRU/sub-basin patterns, plot time series, and export summaries for reporting; this locates runoff hot spots, sediment sources, and reaches with elevated nutrient.  
+We convert the baseline run into decision-ready indicators by extracting outlet runoff peak and base-flow, computing infiltration/storage proxies, and reading water-quality and erosion metrics (N, P, SS) at sub-basin and HRU level, consistent with the Lab 3 scope.\
+Results are inspected as tables and geospatial layers in GIS to map HRU/sub-basin patterns, plot time series, and export summaries for reporting; this locates runoff hot spots, sediment sources, and reaches with elevated nutrient.\
 Relate spatial signals to soils, land use, slope, and drainage, then record where baseline conditions meet objectives and where they do not. This becomes the key indicators baseline and the sole reference for Step 4 comparisons.
 
-Use two standard outputs (Figure 8, Figure 9): **a static HRU map** and an outlet flow time series. The HRU map is generated as a static shapefile with aggregated metrics ready for GIS analysis; the outlet series is plotted with **SWATGraph options** and can be compared with recorded values, for example a gauged hydrograph.  
+Use two standard outputs (Figure 8, Figure 9): **a static HRU map** and an outlet flow time series. The HRU map is generated as a static shapefile with aggregated metrics ready for GIS analysis; the outlet series is plotted with **SWATGraph options** and can be compared with recorded values, for example a gauged hydrograph.\
 If a gauge exists at basin closure, compare simulated and observed discharge and **iteratively refine the baseline setup before proceeding to Step 4,** also quality parameters may be compared in output Vs observed values.
 
-![Immagine che contiene testo, schermata, Diagramma, linea Il contenuto generato dall'IA potrebbe non essere corretto.](assets/d8-2-er-lab3-fias-draft2_image12.png)
+![Immagine che contiene testo, schermata, Diagramma, linea Il contenuto generato dall'IA potrebbe non essere corretto.](.gitbook/assets/d8-2-er-lab3-fias-draft2_image12.png)
 
-*Figure 8 - Top: Static HRU results Bottom: Outlet discharge time series. The static view exports HRU polygons with model metrics for GIS analysis; the time series plots simulated flow at basin closure and supports calibration against observed hydrographs, source [<span class="underline">QSWAT+ manual</span>](https://1905549715-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2FgsvY4UbwriwcK1CI5lan%2Fuploads%2FgHq0X4ezLSWlotZ8Llyv%2FQSWATPlus%20Manual_v3.0.pdf?alt=media&token=dcaf77fa-a670-4a62-86d6-4451d593e69b)*
+_Figure 8 - Top: Static HRU results Bottom: Outlet discharge time series. The static view exports HRU polygons with model metrics for GIS analysis; the time series plots simulated flow at basin closure and supports calibration against observed hydrographs, source_ [_QSWAT+ manual_](https://1905549715-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2FgsvY4UbwriwcK1CI5lan%2Fuploads%2FgHq0X4ezLSWlotZ8Llyv%2FQSWATPlus%20Manual_v3.0.pdf?alt=media\&token=dcaf77fa-a670-4a62-86d6-4451d593e69b)
 
-![Immagine che contiene testo, schermata, diagramma, mappa Il contenuto generato dall'IA potrebbe non essere corretto.](assets/d8-2-er-lab3-fias-draft2_image13.gif)
+![Immagine che contiene testo, schermata, diagramma, mappa Il contenuto generato dall'IA potrebbe non essere corretto.](.gitbook/assets/d8-2-er-lab3-fias-draft2_image13.gif)
 
-*Figure 9 - EXPLANATORY Example: with the sample data provided, above, in the basin, the outflow is simulated as the result of runoff, drainage, and infiltration. The colour represents the monthly risk index (with green-blue indicating the highest flow rates).*
+_Figure 9 - EXPLANATORY Example: with the sample data provided, above, in the basin, the outflow is simulated as the result of runoff, drainage, and infiltration. The colour represents the monthly risk index (with green-blue indicating the highest flow rates)._
 
 #### Step 4 - FIAs testing.
 
@@ -219,13 +199,13 @@ Eventually introduce **Climate Change effect in weather forcings** to test more 
 
 To provide an explanatory example, the output with the outflow and flooded area can be used to analyze NBS implementation for wetlands and lamination basins (in blue):
 
-![Immagine che contiene schermata, mappa, testo Il contenuto generato dall'IA potrebbe non essere corretto.](assets/d8-2-er-lab3-fias-draft2_image14.png)
+![Immagine che contiene schermata, mappa, testo Il contenuto generato dall'IA potrebbe non essere corretto.](.gitbook/assets/d8-2-er-lab3-fias-draft2_image14.png)
 
-*Figure 10 - explanatory example, the output with the outflow and flooded area can be used to analyze NBS implementation for wetlands and lamination basins (in blue)*
+_Figure 10 - explanatory example, the output with the outflow and flooded area can be used to analyze NBS implementation for wetlands and lamination basins (in blue)_
 
 USES:
 
-**Scenario Assessment:** Allows comparison between situations *with* and *without* NBS interventions, providing a quantitative estimate of the benefits of wetlands, riparian buffers, reforestation, and other green solutions.
+**Scenario Assessment:** Allows comparison between situations _with_ and _without_ NBS interventions, providing a quantitative estimate of the benefits of wetlands, riparian buffers, reforestation, and other green solutions.
 
 **Scalability and Detail:** Thanks to the flexible structure of sub-basins and landscape units, it is possible to analyze interventions from the local level to the basin scale, thus integrating site-specific actions with territorial planning.
 
@@ -247,11 +227,11 @@ Key indicators tracked in this tutorial at a Nursery-Scale are listed hereafter:
 | Irrigation demand                  | Crop water need (ETc for nursery plants)      | mm d⁻¹; mm/season | Computed from daily ETo and Kc by growth stage.                                        |
 | Irrigation scheduling & efficiency | Irrigation advice (next date and event depth) | date; mm/event    | Event timing and depth from soil–plant water balance thresholds (“irrigation advice”). |
 
-*Table 4 – key indicators tracked-Nursery scale-water demand.*
+_Table 4 – key indicators tracked-Nursery scale-water demand._
 
 ### Data sources and tools
 
-At local scale, an irrigation-balance model (field, block, or nursery in this example) needs **site-specific inputs** to compute **ETc (**\[1\]**)** and get the **irrigation advice** (“when” and “how much”): recent soil analyses, soil-moisture observations, crop coefficients for nursery plants, daily meteorology, and irrigation logs. Outputs are typically tabular; you may also consult the IRRIFRAME documentation ([<span class="underline">ENG</span>](https://www.irriframe.it/irriframe/Content/IrriFrame_Documentation_english_version.pdf) leaflet, [<span class="underline">ITA</span>](https://www.irriframe.it/irriframe/Content/Manuale_Irriframe.pdf) manual) to get more details on how such water balance models works.
+At local scale, an irrigation-balance model (field, block, or nursery in this example) needs **site-specific inputs** to compute **ETc (**\[1]**)** and get the **irrigation advice** (“when” and “how much”): recent soil analyses, soil-moisture observations, crop coefficients for nursery plants, daily meteorology, and irrigation logs. Outputs are typically tabular; you may also consult the IRRIFRAME documentation ([ENG](https://www.irriframe.it/irriframe/Content/IrriFrame_Documentation_english_version.pdf) leaflet, [ITA](https://www.irriframe.it/irriframe/Content/Manuale_Irriframe.pdf) manual) to get more details on how such water balance models works.
 
 IRRIFRAME is a web-based irrigation decision support system developed by ANBI and the Canale Emiliano Romagnolo (CER) and widely adopted in Emilia-Romagna for operational irrigation management. The tool is designed to support farmers, technicians, and water managers in optimizing irrigation scheduling at field, crop-block, or nursery scale, with the objective of improving water-use efficiency and reducing unnecessary withdrawals.
 
@@ -261,50 +241,15 @@ Based on the evolution of soil-water depletion relative to predefined thresholds
 
 Within this workflow, IRRIFRAME is used as a field-scale decision tool to quantify nursery water requirements and assess how improved infiltration and soil water storage, for example associated with Nature-Based Solutions such as Forested Infiltration Areas, can reduce irrigation demand without altering crop water needs.
 
-<table>
-<tbody>
-<tr class="odd">
-<td><strong>Data type</strong></td>
-<td><strong>Source</strong></td>
-<td><strong>Role in workflow</strong></td>
-<td><strong>Open / EU alternative</strong></td>
-</tr>
-<tr class="even">
-<td>Soil analyses</td>
-<td><p>Nursery lab tests (2024 season)</p>
-<p>At regional scale (<a href="https://datacatalog.regione.emilia-romagna.it/catalogCTA/dataset/r_emiro_2023-08-02t140310"><span class="underline">open repo</span></a>)</p></td>
-<td>Main soil properties like field capacity, wilting point, and soil parameters for the soil–plant water balance</td>
-<td>European Soil Database &amp; soil properties ( <a href="https://esdac.jrc.ec.europa.eu/resource-type/european-soil-database-soil-properties"><span class="underline">open. Raster-vector</span></a>)</td>
-</tr>
-<tr class="odd">
-<td>Soil-moisture readings</td>
-<td>On-site sensors</td>
-<td>Trigger thresholds and validation of advice</td>
-<td><a href="https://cds.climate.copernicus.eu/datasets/satellite-soil-moisture?tab=overview"><span class="underline">Soil moisture gridded data from 1978 to present</span></a> (<span class="underline">coarse</span> 0.25°X0.25°)</td>
-</tr>
-<tr class="even">
-<td>Nursery plants Kc and crop info</td>
-<td>Nursery records (species, stage)</td>
-<td>Compute ETc from ETo×Kc; scheduling by stage</td>
-<td><a href="https://www.fao.org/4/x0490e/x0490e0b.htm"><span class="underline">FAO-56 Kc tables;</span></a> <a href="https://ayhoekstra.nl/pubs/Report16Vol2.pdf"><span class="underline">Chapagain and Hoekstra (2004)</span></a>.</td>
-</tr>
-<tr class="odd">
-<td>Local meteorology (P, T, ET0) Daily</td>
-<td>ARPAE DEXT3R station series</td>
-<td><p>Drives ETo/ETc and advice.</p>
-<p>(ETo may be computed with the <a href="https://www.fao.org/4/x0490e/x0490e08.htm"><span class="underline">Hargreaves equation</span></a>) if precipitation and air temperature series are the only for the site</p></td>
-<td><a href="https://cds.climate.copernicus.eu/datasets/reanalysis-era5-land?tab=overview"><span class="underline">ERA5-Land hourly data from 1950 to present</span></a></td>
-</tr>
-<tr class="even">
-<td>Irrigation cycles logs</td>
-<td>Nursery records of past events</td>
-<td>Compare applied vs recommended; fine-tune scheduling</td>
-<td>—</td>
-</tr>
-</tbody>
-</table>
+| **Data type**                       | **Source**                                                                                                                                                                          | **Role in workflow**                                                                                                                                                                                                     | **Open / EU alternative**                                                                                                                               |
+| ----------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ | ------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Soil analyses                       | <p>Nursery lab tests (2024 season)</p><p>At regional scale (<a href="https://datacatalog.regione.emilia-romagna.it/catalogCTA/dataset/r_emiro_2023-08-02t140310">open repo</a>)</p> | Main soil properties like field capacity, wilting point, and soil parameters for the soil–plant water balance                                                                                                            | European Soil Database & soil properties ( [open. Raster-vector](https://esdac.jrc.ec.europa.eu/resource-type/european-soil-database-soil-properties))  |
+| Soil-moisture readings              | On-site sensors                                                                                                                                                                     | Trigger thresholds and validation of advice                                                                                                                                                                              | [Soil moisture gridded data from 1978 to present](https://cds.climate.copernicus.eu/datasets/satellite-soil-moisture?tab=overview) (coarse 0.25°X0.25°) |
+| Nursery plants Kc and crop info     | Nursery records (species, stage)                                                                                                                                                    | Compute ETc from ETo×Kc; scheduling by stage                                                                                                                                                                             | [FAO-56 Kc tables;](https://www.fao.org/4/x0490e/x0490e0b.htm) [Chapagain and Hoekstra (2004)](https://ayhoekstra.nl/pubs/Report16Vol2.pdf).            |
+| Local meteorology (P, T, ET0) Daily | ARPAE DEXT3R station series                                                                                                                                                         | <p>Drives ETo/ETc and advice.</p><p>(ETo may be computed with the <a href="https://www.fao.org/4/x0490e/x0490e08.htm">Hargreaves equation</a>) if precipitation and air temperature series are the only for the site</p> | [ERA5-Land hourly data from 1950 to present](https://cds.climate.copernicus.eu/datasets/reanalysis-era5-land?tab=overview)                              |
+| Irrigation cycles logs              | Nursery records of past events                                                                                                                                                      | Compare applied vs recommended; fine-tune scheduling                                                                                                                                                                     | —                                                                                                                                                       |
 
-*Table 5 – used data, an alternative dataset to replicate the assessment outside the study area, when available*
+_Table 5 – used data, an alternative dataset to replicate the assessment outside the study area, when available_
 
 |                            |          |           |
 | -------------------------- | -------- | --------- |
@@ -312,7 +257,7 @@ Within this workflow, IRRIFRAME is used as a field-scale decision tool to quanti
 | Sand content (upper layer) | %        | 36.2      |
 | Clay content (upper layer) | %        | 16.6      |
 
-*Table 6 - Texture composition of the upper soil layer at the nursery site used as input for the IRRIFRAME model.*
+_Table 6 - Texture composition of the upper soil layer at the nursery site used as input for the IRRIFRAME model._
 
 |                               |          |                                |
 | ----------------------------- | -------- | ------------------------------ |
@@ -322,38 +267,22 @@ Within this workflow, IRRIFRAME is used as a field-scale decision tool to quanti
 | Row spacing                   | m        | 3.0                            |
 | Single emitter discharge      | L h⁻¹    | 2.0                            |
 
-*Table 7 - Irrigation system characteristics used as input for the IRRIFRAME model.*
+_Table 7 - Irrigation system characteristics used as input for the IRRIFRAME model._
 
-  - ##### Climate change effects 
+* **Climate change effects**
 
-> *Bias-corrected climate-projection datasets may be incorporated, with particular focus on hydrogeological modelling.*
-> 
-> *For example [<span class="underline">Copernicus Temperature and precipitation climate impact indicators from 1970 to 2100 derived from European climate projections</span>](https://cds.climate.copernicus.eu/datasets/sis-hydrology-meteorology-derived-projections?tab=overview); [<span class="underline">Climate and energy indicators for Europe from 2005 to 2100 derived from climate projections</span>](about:blank).*
+> _Bias-corrected climate-projection datasets may be incorporated, with particular focus on hydrogeological modelling._
+>
+> _For example_ [_Copernicus Temperature and precipitation climate impact indicators from 1970 to 2100 derived from European climate projections_](https://cds.climate.copernicus.eu/datasets/sis-hydrology-meteorology-derived-projections?tab=overview)_;_ [_Climate and energy indicators for Europe from 2005 to 2100 derived from climate projections_](about:blank)_._
 
 At local scale, we use an irrigation decision tool to compute **ETc** and the **irrigation advice** (“when” and “how much”) from site soils, nursery-plant Kc, daily meteorology, and irrigation logs. Primary option is IRRIFRAME; AquaCrop is the open alternative. Outputs are tabular:
 
-<table>
-<tbody>
-<tr class="odd">
-<td><strong>Tool</strong></td>
-<td><strong>Type</strong></td>
-<td><strong>Role in this workflow</strong></td>
-</tr>
-<tr class="even">
-<td><a href="https://www.consorziocer.it/irrinet/"><strong><span class="underline">IRRIFRAME</span></strong> <span class="underline"> </span></a> (ANBI/CER)</td>
-<td><p>Proprietary <a href="https://www.irriframe.it/irriframe/Content/IrriFrame_Documentation_english_version.pdf"><span class="underline">Cloud DSS</span></a></p>
-<p>Working in ER</p></td>
-<td>Produces nursery-plant water requirement and operational <strong>irrigation advice</strong> from soil analyses, optional soil-moisture readings, Kc, local daily ETo/meteorology, and applied-irrigation logs; returns next irrigation date and event depth for scheduling and water-saving</td>
-</tr>
-<tr class="odd">
-<td><a href="https://www.fao.org/aquacrop/en/"><strong><span class="underline">AquaCrop</span></strong> <span class="underline"> </span></a> (FAO)</td>
-<td><a href="https://openknowledge.fao.org/server/api/core/bitstreams/ccfd6f4c-2900-4fb2-9a91-e0a93b1cbbda/content"><span class="underline">Open alternative</span></a></td>
-<td>Open alternative when IRRIFRAME is unavailable; runs the soil–crop–climate water balance to estimate <strong>ETc</strong> and event depths, enabling comparable irrigation scheduling at nursery scale.</td>
-</tr>
-</tbody>
-</table>
+| **Tool**                                                         | **Type**                                                                                                                                              | **Role in this workflow**                                                                                                                                                                                                                                                      |
+| ---------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
+| [**IRRIFRAME** ](https://www.consorziocer.it/irrinet/)(ANBI/CER) | <p>Proprietary <a href="https://www.irriframe.it/irriframe/Content/IrriFrame_Documentation_english_version.pdf">Cloud DSS</a></p><p>Working in ER</p> | Produces nursery-plant water requirement and operational **irrigation advice** from soil analyses, optional soil-moisture readings, Kc, local daily ETo/meteorology, and applied-irrigation logs; returns next irrigation date and event depth for scheduling and water-saving |
+| [**AquaCrop** ](https://www.fao.org/aquacrop/en/)(FAO)           | [Open alternative](https://openknowledge.fao.org/server/api/core/bitstreams/ccfd6f4c-2900-4fb2-9a91-e0a93b1cbbda/content)                             | Open alternative when IRRIFRAME is unavailable; runs the soil–crop–climate water balance to estimate **ETc** and event depths, enabling comparable irrigation scheduling at nursery scale.                                                                                     |
 
-*Table 8 – used tools and role in the workflow, all tools are free to use.*
+_Table 8 – used tools and role in the workflow, all tools are free to use._
 
 ### Methodology
 
@@ -365,13 +294,13 @@ Ensure soil parameters (field capacity, wilting point, texture) are available to
 
 the following diagram is (from the IRRINET English manual) schematizes of the soil–plant–atmosphere water-balance fluxes.
 
-  - ##### Note: tool specific formatting 
+* **Note: tool specific formatting**
 
-> *Use of alternative tools such as AquaCrop requires strict adherence to its input formats: the project file must reference climate files (e.g. ETo, temperature, rain) plus calendar, crop, irrigation/field management, soil profile, groundwater, initial/off-season and field-data files; consult the AquaCrop manual and match its file structures before any run.*
+> _Use of alternative tools such as AquaCrop requires strict adherence to its input formats: the project file must reference climate files (e.g. ETo, temperature, rain) plus calendar, crop, irrigation/field management, soil profile, groundwater, initial/off-season and field-data files; consult the AquaCrop manual and match its file structures before any run._
 
-![Immagine che contiene testo, diagramma, schermata, Piano Il contenuto generato dall'IA potrebbe non essere corretto.](assets/d8-2-er-lab3-fias-draft2_image15.png)
+![Immagine che contiene testo, diagramma, schermata, Piano Il contenuto generato dall'IA potrebbe non essere corretto.](.gitbook/assets/d8-2-er-lab3-fias-draft2_image15.png)
 
-*Figure 11 – fluxes of input-output in the water balance model implemented in IRRIFRAME, aimed at crop irrigation management at a field scale, courtesy of [<span class="underline">CER</span>](https://www.irriframe.it/irriframe/Content/IrriFrame_Documentation_english_version.pdf)*
+_Figure 11 – fluxes of input-output in the water balance model implemented in IRRIFRAME, aimed at crop irrigation management at a field scale, courtesy of_ [_CER_](https://www.irriframe.it/irriframe/Content/IrriFrame_Documentation_english_version.pdf)
 
 #### Step 2 - Model setup and run.
 
@@ -379,17 +308,17 @@ The model advances a daily soil–plant water balance: it reads **ETo**, **preci
 
 Open alternative: **AquaCrop** applies the same balance and provides daily ET, **Kc (Tr)**, and **net irrigation requirement (Inet)** from which ETc and event depth can be derived.
 
-![1: Flowchart of the AquaCrop model. Dotted arrows indicate processes... | Download Scientific Diagram](assets/d8-2-er-lab3-fias-draft2_image16.png)
+![1: Flowchart of the AquaCrop model. Dotted arrows indicate processes... | Download Scientific Diagram](.gitbook/assets/d8-2-er-lab3-fias-draft2_image16.png)
 
-*Figure 12 - Source: Van Gaelen, H. (2012). The effect of field management on yield and water productivity \[Master’s thesis, Katholieke Universiteit Leuven\]. ResearchGate. https://www.researchgate.net/publication/262952745\_The\_effect\_of\_field\_management\_on\_yield\_and\_water\_productivity*
+_Figure 12 - Source: Van Gaelen, H. (2012). The effect of field management on yield and water productivity \[Master’s thesis, Katholieke Universiteit Leuven]. ResearchGate. https://www.researchgate.net/publication/262952745\_The\_effect\_of\_field\_management\_on\_yield\_and\_water\_productivity_
 
 #### Step 3 - Analysis and interpretation
 
 Use the graphical outputs to derive two decision variables: ETc (crop water need) and the irrigation advice (next date and event depth).
 
-![Immagine che contiene testo, linea, Diagramma, Carattere Il contenuto generato dall'IA potrebbe non essere corretto.](assets/d8-2-er-lab3-fias-draft2_image17.png)
+![Immagine che contiene testo, linea, Diagramma, Carattere Il contenuto generato dall'IA potrebbe non essere corretto.](.gitbook/assets/d8-2-er-lab3-fias-draft2_image17.png)
 
-*Figure 13 - graphical outputs example of two decision variables: ETc (crop water need) and the irrigation advice (next date and event depth).*
+_Figure 13 - graphical outputs example of two decision variables: ETc (crop water need) and the irrigation advice (next date and event depth)._
 
 You may then use a standard spreadsheet tool to make informing plots like plot daily ETc with precipitation and temperature, then overlay advised vs applied events from the nursery log to quantify compliance, stress days, and potential savings.
 
@@ -409,18 +338,17 @@ With **AquaCrop**, you may build an analogous scenario by adjusting the field/so
 
 Analyze as in Step 3 but per scenario: fewer or smaller advised events indicate FIA benefit; unchanged Kc keeps plant demand constant, so differences arise from enhanced **effective rainfall** and soil storage, not from crop changes. Document the delta in seasonal irrigation requirement and event count for reporting.
 
-##### Bonus section: small tutorial dataset
+**Bonus section: small tutorial dataset**
 
-In this [<span class="underline">zip archive</span>](https://drive.google.com/file/d/1Dy1QbhwlS9UlOBhv1eHfDS--CK133uvf/view?usp=sharing) , users can find the input data required to reproduce the **Innovation Lab 3** SWAT+ tutorial case study (via **QSWAT+**). Keep the **filenames unchanged**, otherwise the project may not find rasters and climate inputs correctly.
+In this [zip archive](https://drive.google.com/file/d/1Dy1QbhwlS9UlOBhv1eHfDS--CK133uvf/view?usp=sharing) , users can find the input data required to reproduce the **Innovation Lab 3** SWAT+ tutorial case study (via **QSWAT+**). Keep the **filenames unchanged**, otherwise the project may not find rasters and climate inputs correctly.
 
 The dataset includes:
 
-  - **Geospatial rasters** for model setup: **DTM/DEM**, **soil properties**, and **land use** (e.g. uso\_suolo\_32632.tif, UTM 32N / EPSG:32632).
+* **Geospatial rasters** for model setup: **DTM/DEM**, **soil properties**, and **land use** (e.g. uso\_suolo\_32632.tif, UTM 32N / EPSG:32632).
+* **Weather station definition files** (pcp.txt, tmp.txt, wind.txt) containing station ID, name, coordinates and elevation, to be paired with the corresponding daily time series used by SWAT+.
 
-  - **Weather station definition files** (pcp.txt, tmp.txt, wind.txt) containing station ID, name, coordinates and elevation, to be paired with the corresponding daily time series used by SWAT+.
-
-##### Disclaimer**:**
+**Disclaimer\*\*:\*\***
 
 The tutorial dataset is based on public/open data.
 
-1.  **ETc (crop evapotranspiration):** water use of the crop under standard conditions. Units: mm d⁻¹ or mm per period. Computation: **ETc = Kc × ETo**; with water-stress adjustment the actual ET is **ETa = Kc × Ks × ETo**. Used to size irrigation depth once effective rainfall and soil storage are considered.
+1. **ETc (crop evapotranspiration):** water use of the crop under standard conditions. Units: mm d⁻¹ or mm per period. Computation: **ETc = Kc × ETo**; with water-stress adjustment the actual ET is **ETa = Kc × Ks × ETo**. Used to size irrigation depth once effective rainfall and soil storage are considered.

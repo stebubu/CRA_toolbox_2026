@@ -1,20 +1,20 @@
-# Region10 - Innovation Lab City Ptuj: Flood Mitigation and Heat stress 
+# D8.2 SLO-Podravje Region draft2
 
 ## Introduction and Objectives of the Climate Risk Assessment
 
 ### Regional context.
 
-The [<span class="underline">Podravje Region</span>](https://en.wikipedia.org/wiki/Podravje_Statistical_Region), located in northeastern Slovenia, covers a diverse mix of urban, rural, and riverine landscapes, with key urban centres such as [<span class="underline">Maribor</span>](https://en.wikipedia.org/wiki/Maribor) (the country’s second largest city) and <span class="underline">Ptuj</span> (one of Slovenia’s oldest towns). The region is dominated by the [<span class="underline">Drava River</span>](https://en.wikipedia.org/wiki/Drava) basin and its tributaries, with fertile agricultural lowlands and a dense network of settlements. This geographic setting, coupled with changing climatic patterns, exposes the area to multiple climate-related hazards. Riverine and pluvial flooding and urban heatwaves are identified as priority risks in this tutorial. Drought and biodiversity loss also affect the region but are not addressed in detail in this first release.
+The [Podravje Region](https://en.wikipedia.org/wiki/Podravje_Statistical_Region), located in northeastern Slovenia, covers a diverse mix of urban, rural, and riverine landscapes, with key urban centres such as [Maribor](https://en.wikipedia.org/wiki/Maribor) (the country’s second largest city) and Ptuj (one of Slovenia’s oldest towns). The region is dominated by the [Drava River](https://en.wikipedia.org/wiki/Drava) basin and its tributaries, with fertile agricultural lowlands and a dense network of settlements. This geographic setting, coupled with changing climatic patterns, exposes the area to multiple climate-related hazards. Riverine and pluvial flooding and urban heatwaves are identified as priority risks in this tutorial. Drought and biodiversity loss also affect the region but are not addressed in detail in this first release.
 
-![](assets/d8-2-slo-podravje-region-draft2_image1.png)
+![](.gitbook/assets/d8-2-slo-podravje-region-draft2_image1.png)
 
-*Figure 1: Slovenia - Podravje Region (Atlas voda – DRSV; GURS; GEOZS; SAZU; ARSO, 2025)*
+_Figure 1: Slovenia - Podravje Region (Atlas voda – DRSV; GURS; GEOZS; SAZU; ARSO, 2025)_
 
 ### Scope of the tutorial.
 
 This tutorial describes a replicable Climate Risk Assessment (CRA) workflow for the two main hazards — floods (both fluvial and pluvial) and urban heatwaves — in the Podravje Innovation Lab. The approach does not require coding and relies on a combination of national datasets, proprietary and open-source tools, and publicly available European datasets to ensure transferability to other regions. The workflow supports integration of Nature-Based Solutions (NbS) and Blue-Green Infrastructure (BGI) into local and regional adaptation strategies, enabling assessment under current and projected climate scenarios.
 
-  - #### Disclaimer
+* **Disclaimer**
 
 > This tutorial is intended as a general workflow example and does not replace software-specific documentation (e.g., GIS, hydrological, hydraulic, or urban climate modelling tools user/technical manuals). Users should already be familiar with the relevant geospatial data formats, data pre-processing techniques, and modelling concepts applicable to their hazard of interest (e.g., floods, UHIs, droughts, etc.), as well as with the specific input/output requirements and run functionalities of the modelling software before attempting to replicate this workflow
 
@@ -54,15 +54,15 @@ Climate projections indicate an increased frequency of extreme precipitation, wh
 | Flood extent & depth  | Flooded area and maximum water depth by return period (10, 100, 200 years) | km², m          | Identify hazard zones, quantify severity, and guide design standards |
 | Frequency & intensity | Return period statistics and climate-adjusted scenarios                    | Years, % change | Evaluate changing hazard probability under climate change            |
 
-*Table 1 – key indicators tracked-Flood Hazard*
+_Table 1 – key indicators tracked-Flood Hazard_
 
-![Slika, ki vsebuje besede zemljevid, besedilo, atlas Vsebina, ustvarjena z umetno inteligenco, morda ni pravilna.](assets/d8-2-slo-podravje-region-draft2_image2.png)
+![Slika, ki vsebuje besede zemljevid, besedilo, atlas Vsebina, ustvarjena z umetno inteligenco, morda ni pravilna.](.gitbook/assets/d8-2-slo-podravje-region-draft2_image2.png)
 
-*Figure 2 – example of flood risk map for Flood map Slovenia – river Drava in its downstream in Slovenia.*
+_Figure 2 – example of flood risk map for Flood map Slovenia – river Drava in its downstream in Slovenia._
 
-![](assets/d8-2-slo-podravje-region-draft2_image3.png)
+![](.gitbook/assets/d8-2-slo-podravje-region-draft2_image3.png)
 
-*Figure 3 – example of flood risk map for Flood map Slovenia – river Drava in its downstream in Slovenia (Atlas voda – DRSV; GURS; GEOZS; SAZU; ARSO, 2025). Data sources and tools*
+_Figure 3 – example of flood risk map for Flood map Slovenia – river Drava in its downstream in Slovenia (Atlas voda – DRSV; GURS; GEOZS; SAZU; ARSO, 2025). Data sources and tools_
 
 Flood risk assessment in Podravje relies on an integrated set of **hydrological**, **topographic**, and **land use** datasets.
 
@@ -74,90 +74,50 @@ High-resolution **LiDAR-based Digital Terrain Models (1 m and 0,5m)** provide th
 
 For regional transferability or gap-filling, **Copernicus DEM** (10–30 m), **Copernicus Climate Data Store** hydrology-related impact indicators, and harmonized land cover datasets (CLCplus Backbone, Urban Atlas) may be explored.
 
-<table>
-<tbody>
-<tr class="odd">
-<td><strong>Data type</strong></td>
-<td><strong>Source</strong></td>
-<td><strong>Role in workflow</strong></td>
-<td><strong>Open/EU alternative</strong></td>
-</tr>
-<tr class="even">
-<td>Annual max river discharge values</td>
-<td><a href="https://vode.arso.gov.si/hidarhiv/pov_arhiv_tab.php"><span class="underline">ARSO gauging stations</span></a></td>
-<td>Input to flood frequency analysis (if official extreme flood statistics are not available)</td>
-<td>None (site-specific)</td>
-</tr>
-<tr class="odd">
-<td>Historical flood event data and flood statistics</td>
-<td><a href="https://www.arso.gov.si/vode/podatki/"><span class="underline">ARSO publications</span></a></td>
-<td>Input for flood hazard maps</td>
-<td>Copernicus <a href="https://cds.climate.copernicus.eu/datasets/sis-hydrology-variables-derived-projections?tab=overview"><span class="underline">Hydrology-related climate impact indicators from 1970 to 2100 derived from bias adjusted European climate projections</span></a> (daily values only)</td>
-</tr>
-<tr class="even">
-<td>Digital Terrain Model (1 m LiDAR)</td>
-<td><a href="https://gis.arso.gov.si/evode/profile.aspx?id=atlas_voda_Lidar@Arso"><span class="underline">ARSO Geoportal</span></a></td>
-<td>Hydraulic model topography; floodplain delineation</td>
-<td><a href="https://dataspace.copernicus.eu/explore-data/data-collections/copernicus-contributing-missions/collections-description/COP-DEM"><span class="underline">Copernicus DEM</span></a> (10–30 m)</td>
-</tr>
-<tr class="odd">
-<td>Digital Terrain Model (05 m LiDAR)</td>
-<td><a href="https://clss.si/"><span class="underline">https://clss.si/</span></a></td>
-<td>Hydraulic model topography; floodplain delineation</td>
-<td><span class="underline"><a href="https://dataspace.copernicus.eu/explore-data/data-collections/copernicus-contributing-missions/collections-description/COP-DEM">Copernicus DEM</a> (10–30 m)</span></td>
-</tr>
-<tr class="even">
-<td>Land use / land cover</td>
-<td><a href="https://eprostor.gov.si/imps/srv/eng/catalog.search#/metadata/49c8dd3a-e5db-4ed1-8bf1-e1b7def60dd0"><span class="underline">Slovenski INSPIRE,</span></a></td>
-<td>Exposed assets overlay</td>
-<td><p>Copernicus <a href="https://land.copernicus.eu/en/products/urban-atlas"><span class="underline">Urban Atlas</span></a></p>
-<p><a href="https://land.copernicus.eu/en/products/clc-backbone"><span class="underline">CLCplus Backbone</span></a></p></td>
-</tr>
-<tr class="odd">
-<td>Building Footprints</td>
-<td><a href="https://eprostor.gov.si/imps/srv/eng/catalog.search#/metadata/9a8fd241-9162-407c-94e7-c98e05766881"><span class="underline">Slovenski INSPIRE</span></a></td>
-<td>Exposed assets overlay, DTM correction to consider building presence</td>
-<td><p>OpenStreetMap building layer (<a href="https://osmbuildings.org/"><span class="underline">vector, global)</span></a></p>
-<p>Copernicus <a href="https://land.copernicus.eu/en/products/urban-atlas"><span class="underline">Urban Atlas</span></a> (harmonised land use and land cover maps as well as information on <a href="https://land.copernicus.eu/en/products/urban-atlas?tab=building_height"><span class="underline">building block heights</span></a></p></td>
-</tr>
-</tbody>
-</table>
+| **Data type**                                    | **Source**                                                                                                               | **Role in workflow**                                                                       | **Open/EU alternative**                                                                                                                                                                                                                                                                                                                                                   |
+| ------------------------------------------------ | ------------------------------------------------------------------------------------------------------------------------ | ------------------------------------------------------------------------------------------ | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Annual max river discharge values                | [ARSO gauging stations](https://vode.arso.gov.si/hidarhiv/pov_arhiv_tab.php)                                             | Input to flood frequency analysis (if official extreme flood statistics are not available) | None (site-specific)                                                                                                                                                                                                                                                                                                                                                      |
+| Historical flood event data and flood statistics | [ARSO publications](https://www.arso.gov.si/vode/podatki/)                                                               | Input for flood hazard maps                                                                | Copernicus [Hydrology-related climate impact indicators from 1970 to 2100 derived from bias adjusted European climate projections](https://cds.climate.copernicus.eu/datasets/sis-hydrology-variables-derived-projections?tab=overview) (daily values only)                                                                                                               |
+| Digital Terrain Model (1 m LiDAR)                | [ARSO Geoportal](https://gis.arso.gov.si/evode/profile.aspx?id=atlas_voda_Lidar@Arso)                                    | Hydraulic model topography; floodplain delineation                                         | [Copernicus DEM](https://dataspace.copernicus.eu/explore-data/data-collections/copernicus-contributing-missions/collections-description/COP-DEM) (10–30 m)                                                                                                                                                                                                                |
+| Digital Terrain Model (05 m LiDAR)               | [https://clss.si/](https://clss.si/)                                                                                     | Hydraulic model topography; floodplain delineation                                         | [Copernicus DEM](https://dataspace.copernicus.eu/explore-data/data-collections/copernicus-contributing-missions/collections-description/COP-DEM) (10–30 m)                                                                                                                                                                                                                |
+| Land use / land cover                            | [Slovenski INSPIRE,](https://eprostor.gov.si/imps/srv/eng/catalog.search#/metadata/49c8dd3a-e5db-4ed1-8bf1-e1b7def60dd0) | Exposed assets overlay                                                                     | <p>Copernicus <a href="https://land.copernicus.eu/en/products/urban-atlas">Urban Atlas</a></p><p><a href="https://land.copernicus.eu/en/products/clc-backbone">CLCplus Backbone</a></p>                                                                                                                                                                                   |
+| Building Footprints                              | [Slovenski INSPIRE](https://eprostor.gov.si/imps/srv/eng/catalog.search#/metadata/9a8fd241-9162-407c-94e7-c98e05766881)  | Exposed assets overlay, DTM correction to consider building presence                       | <p>OpenStreetMap building layer (<a href="https://osmbuildings.org/">vector, global)</a></p><p>Copernicus <a href="https://land.copernicus.eu/en/products/urban-atlas">Urban Atlas</a> (harmonised land use and land cover maps as well as information on <a href="https://land.copernicus.eu/en/products/urban-atlas?tab=building_height">building block heights</a></p> |
 
-*Table 2 – used data, an alternative dataset to replicate the assessment outside the study area, when available*
+_Table 2 – used data, an alternative dataset to replicate the assessment outside the study area, when available_
 
-  - #### Climate change effects on hydrological extremes
+* **Climate change effects on hydrological extremes**
 
-> *Although the current workflow does not incorporate official climate projections, a first approximation of future flood hazards, if not available from local studies, may be derived using open datasets from the Copernicus Climate Data Store. These include bias-adjusted impact indicators such as daily river discharge extremes under different climate scenarios (e.g. RCP 8.5).*
-> 
-> *A practical example of this approach has been implemented [<span class="underline">here</span>](https://www.euspa.europa.eu/newsroom-events/success-stories/copernicus-hydropower-flood-assessments) for a hydropower site in Switzerland, where Copernicus climate projections, coupled with limited gauging station statistics for basic downscaling, were used to estimate future 100-year flood discharges and run simplified hydraulic simulations to assess potential downstream impacts. The methodology explores how to use Copernicus datasets to create a preliminary “climate-adjusted” flood map.*
+> _Although the current workflow does not incorporate official climate projections, a first approximation of future flood hazards, if not available from local studies, may be derived using open datasets from the Copernicus Climate Data Store. These include bias-adjusted impact indicators such as daily river discharge extremes under different climate scenarios (e.g. RCP 8.5)._
+>
+> _A practical example of this approach has been implemented_ [_here_](https://www.euspa.europa.eu/newsroom-events/success-stories/copernicus-hydropower-flood-assessments) _for a hydropower site in Switzerland, where Copernicus climate projections, coupled with limited gauging station statistics for basic downscaling, were used to estimate future 100-year flood discharges and run simplified hydraulic simulations to assess potential downstream impacts. The methodology explores how to use Copernicus datasets to create a preliminary “climate-adjusted” flood map._
 
 **The following tools**, both proprietary and open-source, can be used in the Podravje flood hazard workflow to acquire, process, and model hydrological and spatial data, to generate decision-ready outputs and replicate the assessment in other regions:
 
-|                                                                                                                                                             |             |                                                                                                                   |
-| ----------------------------------------------------------------------------------------------------------------------------------------------------------- | ----------- | ----------------------------------------------------------------------------------------------------------------- |
-| **Tool**                                                                                                                                                    | **Type**    | **Role**                                                                                                          |
-| [<span class="underline">HEC-RAS</span>](https://www.hec.usace.army.mil/software/hec-ras/download.aspx)                                                     | Open        | Hydraulic modelling of riverine and pluvial floods                                                                |
-| [<span class="underline">HEC-HMS</span>](https://www.hec.usace.army.mil/software/hec-hms/)                                                                  | Open        | HEC-HMS is used to simulate rainfall–runoff processes and generate design hydrographs for hydrological modelling. |
-| [<span class="underline">ArcGIS Pro Flood Simulation</span>](https://pro.arcgis.com/en/pro-app/latest/help/mapping/simulation/simulation-in-arcgis-pro.htm) | Proprietary | GIS based flood modeling tool                                                                                     |
-| [<span class="underline">SaferPlaces</span>](https://saferplaces.co/)                                                                                       | Proprietary | Cloud-based hazard modelling for fluvial, pluvial and coastal flooding scenarios                                  |
-| [<span class="underline">QGIS</span>](https://qgis.org/)                                                                                                    | Open        | Spatial analysis, mapping, and hazard–exposure overlay                                                            |
-| [<span class="underline">ArcGIS Pro</span>](https://www.esri.com/en-us/arcgis/products/arcgis-pro/overview)                                                 | Proprietary | Spatial analysis, mapping, and hazard–exposure overlay                                                            |
+|                                                                                                                              |             |                                                                                                                   |
+| ---------------------------------------------------------------------------------------------------------------------------- | ----------- | ----------------------------------------------------------------------------------------------------------------- |
+| **Tool**                                                                                                                     | **Type**    | **Role**                                                                                                          |
+| [HEC-RAS](https://www.hec.usace.army.mil/software/hec-ras/download.aspx)                                                     | Open        | Hydraulic modelling of riverine and pluvial floods                                                                |
+| [HEC-HMS](https://www.hec.usace.army.mil/software/hec-hms/)                                                                  | Open        | HEC-HMS is used to simulate rainfall–runoff processes and generate design hydrographs for hydrological modelling. |
+| [ArcGIS Pro Flood Simulation](https://pro.arcgis.com/en/pro-app/latest/help/mapping/simulation/simulation-in-arcgis-pro.htm) | Proprietary | GIS based flood modeling tool                                                                                     |
+| [SaferPlaces](https://saferplaces.co/)                                                                                       | Proprietary | Cloud-based hazard modelling for fluvial, pluvial and coastal flooding scenarios                                  |
+| [QGIS](https://qgis.org/)                                                                                                    | Open        | Spatial analysis, mapping, and hazard–exposure overlay                                                            |
+| [ArcGIS Pro](https://www.esri.com/en-us/arcgis/products/arcgis-pro/overview)                                                 | Proprietary | Spatial analysis, mapping, and hazard–exposure overlay                                                            |
 
-*Table 3 – used tools and role in the Flood Hazard workflow, when available a free similar alternative to proprietary solutions is provided.*
+_Table 3 – used tools and role in the Flood Hazard workflow, when available a free similar alternative to proprietary solutions is provided._
 
 ### Methodology
 
 **Study Area Overview – Ptuj, Ljudski Vrt Park**
 
-The modelling example focuses on the Ljudski Vrt urban park in Ptuj, where a small catchment of approximately 0.40 km² drains into an artificial pond fed by a steep, forested hillside stream.![](assets/d8-2-slo-podravje-region-draft2_image4.png)
+The modelling example focuses on the Ljudski Vrt urban park in Ptuj, where a small catchment of approximately 0.40 km² drains into an artificial pond fed by a steep, forested hillside stream.![](.gitbook/assets/d8-2-slo-podravje-region-draft2_image4.png)
 
-*Figure 4 - Study area (source: VGP Drava, d.o.o.; GURS DOF)*
+_Figure 4 - Study area (source: VGP Drava, d.o.o.; GURS DOF)_
 
 Due to high runoff velocities and limited downstream conveyance capacity (1.12–1.26 m³/s), intense rainfall events frequently caused rapid water-level rise and overflow toward the Ljudski Vrt Primary School and Župančičeva Street. Historical flooding, combined with reduced pond storage caused by sediment accumulation, made the area a representative case for demonstrating flood-mitigation modelling. The implemented solution—a dry retention basin with controlled overflow and drainage—serves as the baseline scenario for illustrating the flood-hazard assessment workflow.
 
-![](assets/d8-2-slo-podravje-region-draft2_image5.png)
+![](.gitbook/assets/d8-2-slo-podravje-region-draft2_image5.png)
 
-*Figure 5 - Flooding at the outflow of the Ljudski Vrt pond toward Župančičeva Street (Right – intersection with 5. Prekomorska Street; Left – Župančičeva Street toward Potrčeva Road). (source: Neven Vednik, 4 April 2018)*
+_Figure 5 - Flooding at the outflow of the Ljudski Vrt pond toward Župančičeva Street (Right – intersection with 5. Prekomorska Street; Left – Župančičeva Street toward Potrčeva Road). (source: Neven Vednik, 4 April 2018)_
 
 #### Step 1 - Data acquisition and preparation
 
@@ -167,29 +127,29 @@ Hydrological Data – Summary for Step 1
 
 For the Ljudski Vrt case study, hydrological inputs were derived from a combination of local measurements, national datasets, and catchment-based modelling. The contributing catchment (≈0.40 km²) was delineated using LiDAR-based terrain data, while land-use information was used to determine runoff characteristics (CN values).
 
-![](assets/d8-2-slo-podravje-region-draft2_image6.png)
+![](.gitbook/assets/d8-2-slo-podravje-region-draft2_image6.png)
 
-*Figure 6 - 2D and 3D view of contributing catchment of the Ljudski Vrt torrent (Source: ARSO LIDAR, hydrological model).*
+_Figure 6 - 2D and 3D view of contributing catchment of the Ljudski Vrt torrent (Source: ARSO LIDAR, hydrological model)._
 
 Extreme rainfall data were obtained from the nearest ARSO meteorological station (Mestni Vrh), providing intensity–duration–frequency information for events with 10-, 100-, and 500-year return periods.
 
-![](assets/d8-2-slo-podravje-region-draft2_image7.png)
+![](.gitbook/assets/d8-2-slo-podravje-region-draft2_image7.png)
 
-*Figure 7 - Extreme rainfall intensities for the Mestni Vrh rain gauge near Ptuj (Source:* *[<span class="underline">ARSO</span>](https://meteo.arso.gov.si/uploads/probase/www/climate/table/sl/by_variable/return-periods/Mestni%20Vrh%20pri%20Ptuju.pdf)).*
+_Figure 7 - Extreme rainfall intensities for the Mestni Vrh rain gauge near Ptuj (Source:_ [_ARSO_](https://meteo.arso.gov.si/uploads/probase/www/climate/table/sl/by_variable/return-periods/Mestni%20Vrh%20pri%20Ptuju.pdf)_)._
 
 Surface runoff was simulated using the HEC-HMS model with the SCS methodology, producing design hydrographs for each return period. These hydrographs serve as upper boundary conditions for the hydraulic model and represent the primary input for flood-hazard simulations.
 
-![](assets/d8-2-slo-podravje-region-draft2_image8.png)
+![](.gitbook/assets/d8-2-slo-podravje-region-draft2_image8.png)
 
-*Figure 8 - Surface Runoff Simulation results – HEC-HMS*
+_Figure 8 - Surface Runoff Simulation results – HEC-HMS_
 
-##### Terrain and Land-Cover Inputs (LiDAR, Land Use, Roughness) – Summary for Step 1
+**Terrain and Land-Cover Inputs (LiDAR, Land Use, Roughness) – Summary for Step 1**
 
 Using GIS tools prepare terrain from high resolution LiDAR DTM (e.g. mosaic tiles in the area of interest, enforce structures such as buildings). Please note that Lidar datasets have no information on underwater topography (Figure 9), this may be derived from local bathymetric surveys or, in the worst case, estimated.
 
-![](assets/d8-2-slo-podravje-region-draft2_image9.png)
+![](.gitbook/assets/d8-2-slo-podravje-region-draft2_image9.png)
 
-*Figure 9 – example of Lidar DTM from ARSO geoportal compared to raw point cloud map, obstacles such as buildings and trees are filtered from the terrain surface. Underwater topography is not represented (source* *[<span class="underline">CLSS</span>](https://clss.si/)).*
+_Figure 9 – example of Lidar DTM from ARSO geoportal compared to raw point cloud map, obstacles such as buildings and trees are filtered from the terrain surface. Underwater topography is not represented (source_ [_CLSS_](https://clss.si/)_)._
 
 Harmonize land use/cover for roughness and exposure in GIS. Depending on the flood modeling tool you are using, this layer may serve as a basemap to assign surface roughness values as well
 
@@ -197,9 +157,9 @@ In Ljudski Vrt case study Manning roughness coefficients were assigned using pub
 
 For the channel, values between n = 0.035–0.038 were applied, while land-cover-specific roughness values for the 2D hydraulic model were defined as follows: trees and shrubs 0.08, open water 0.035–0.038, forest 0.08, built-up and paved surfaces 0.06, buildings 0.99, and grassland 0.04.
 
-![](assets/d8-2-slo-podravje-region-draft2_image10.png)
+![](.gitbook/assets/d8-2-slo-podravje-region-draft2_image10.png)
 
-*Figure 10 - Land-use map (Source: Ministry of Agriculture, Forestry and Food – Register of Actual Use of Agricultural and Forest Land)*
+_Figure 10 - Land-use map (Source: Ministry of Agriculture, Forestry and Food – Register of Actual Use of Agricultural and Forest Land)_
 
 Gather boundary conditions for upstream inflows (peak flow for assigned return time of interest), tributaries if present and downstream conditions (e.g. energy slope)
 
@@ -209,19 +169,19 @@ Define the hydraulic domain and scheme (1D/2D/coupled) with a stable mesh; assig
 
 Import topography (DTM) and modify it to consider underwater topography, presence of structures such as levees of relevant hydraulic structures (such as weirs or bridges) m please refer to the flood modeling tool manual for details.
 
-![](assets/d8-2-slo-podravje-region-draft2_image11.png)
+![](.gitbook/assets/d8-2-slo-podravje-region-draft2_image11.png)
 
-*Figure 11 – Representation of the 2D hydraulic model domain (existing and proposed conditions) in Ljudski vrt.*
+_Figure 11 – Representation of the 2D hydraulic model domain (existing and proposed conditions) in Ljudski vrt._
 
 If you have reference maps (e.g. Figure 2) or observed stages corresponding to observed flows you may first calibrate your model to reproduce such event, then run design events (e.g., 10, 100, 500-year) to produce maximum water surface, depth, and velocity raster.
 
-##### Note: river modeling 
+**Note: river modeling**
 
 > **Where no detailed modeling of the river is possible** nor of interest (e.g. for lack of river cross sections or presence of stable embankments) an alternative approach is estimating **flood volume outside of the river** (e.g. a fraction of the expected event volume in the river) and simulating a flood domain outside of the river, as in the example of Figure 7
 
-![Immagine che contiene schermata, blu, Parallelo, linea Il contenuto generato dall'IA potrebbe non essere corretto.](assets/d8-2-slo-podravje-region-draft2_image12.png)![](assets/d8-2-slo-podravje-region-draft2_image13.png)
+![Immagine che contiene schermata, blu, Parallelo, linea Il contenuto generato dall'IA potrebbe non essere corretto.](.gitbook/assets/d8-2-slo-podravje-region-draft2_image12.png) ![](.gitbook/assets/d8-2-slo-podravje-region-draft2_image13.png)
 
-*Figure 12 – example of flood maps for a generic lowland area, derived by 2d Modeling of estimated flood volumes outside of the river, courtesy of [SaferPlaces](https://saferplaces.co/rimini-and-climate-change-the-added-value-of-the-sea-park-parco-del-mare/) platform.*
+_Figure 12 – example of flood maps for a generic lowland area, derived by 2d Modeling of estimated flood volumes outside of the river, courtesy of_ [_SaferPlaces_](https://saferplaces.co/rimini-and-climate-change-the-added-value-of-the-sea-park-parco-del-mare/) _platform._
 
 Optionally, derive **climate-adjusted variants** by scaling design flows with CDS indicators consistent with local gauges (see note in the Data sources and tools section)
 
@@ -231,15 +191,15 @@ Post-process water depth raster maps, eventually velocity maps may be loaded int
 
 Overlay hazard with buildings, infrastructure, land use or other relevant exposure layers (e.g. population) to quantifying potential losses and social impacts, including affected populations and critical infrastructure.
 
-In the Ljudski Vrt case study, the hydraulic outputs from the 2D HEC-RAS model were analysed to evaluate flood propagation under the 10-, 100-, and 500-year design hydrographs derived from the HEC-HMS hydrological model. Water-depth rasters were classified into standard hazard categories (\<0.5 m, 0.5–1.5 m, \>1.5 m) to identify areas where overflowing from the pond threatens the Ljudski Vrt Primary School and adjacent residential zones. The simulations confirmed that, under pre-project conditions, floodwaters exceed the pond banks on the southern and eastern sides and propagate toward Župančičeva Street and the school complex. Model validity was checked using observed historical flooding extents (e.g., events of 2018) and local testimonies, showing high consistency between the simulated and observed flood patterns. These analytical layers form the basis for evaluating exposure, potential damage, and for comparing baseline versus mitigation scenarios.
+In the Ljudski Vrt case study, the hydraulic outputs from the 2D HEC-RAS model were analysed to evaluate flood propagation under the 10-, 100-, and 500-year design hydrographs derived from the HEC-HMS hydrological model. Water-depth rasters were classified into standard hazard categories (<0.5 m, 0.5–1.5 m, >1.5 m) to identify areas where overflowing from the pond threatens the Ljudski Vrt Primary School and adjacent residential zones. The simulations confirmed that, under pre-project conditions, floodwaters exceed the pond banks on the southern and eastern sides and propagate toward Župančičeva Street and the school complex. Model validity was checked using observed historical flooding extents (e.g., events of 2018) and local testimonies, showing high consistency between the simulated and observed flood patterns. These analytical layers form the basis for evaluating exposure, potential damage, and for comparing baseline versus mitigation scenarios.
 
-![](assets/d8-2-slo-podravje-region-draft2_image14.png)
+![](.gitbook/assets/d8-2-slo-podravje-region-draft2_image14.png)
 
-*Figure 13 - Flood extent under pre-project conditions for the 100-year discharge scenario.*
+_Figure 13 - Flood extent under pre-project conditions for the 100-year discharge scenario._
 
-![](assets/d8-2-slo-podravje-region-draft2_image15.png)
+![](.gitbook/assets/d8-2-slo-podravje-region-draft2_image15.png)
 
-*Figure 14 - Flood extent under post-project conditions for the 100-year discharge scenario, including residual flooding areas for the 500-year event (black outline).*
+_Figure 14 - Flood extent under post-project conditions for the 100-year discharge scenario, including residual flooding areas for the 500-year event (black outline)._
 
 #### Step 4 - NbS testing for fluvial mitigation
 
@@ -257,21 +217,21 @@ The 2D model was re-run with the updated terrain (retention embankment, overflow
 
 ### Description and context
 
-The Podravje Region experiences increasingly frequent and intense **heatwaves**, with the highest impacts concentrated in urban areas such as Maribor and Ptuj. The [<span class="underline">** Urban Heat Island (UHI)**</span>](https://land.copernicus.eu/en/feature-articles/urban-heat-islands-measured-mapped-and-managed) effect amplifies thermal stress in dense built-up districts, where impervious surfaces and limited vegetation lead to higher air and surface temperatures compared to surrounding rural areas.
+The Podravje Region experiences increasingly frequent and intense **heatwaves**, with the highest impacts concentrated in urban areas such as Maribor and Ptuj. The [\*\* Urban Heat Island (UHI)\*\*](https://land.copernicus.eu/en/feature-articles/urban-heat-islands-measured-mapped-and-managed) effect amplifies thermal stress in dense built-up districts, where impervious surfaces and limited vegetation lead to higher air and surface temperatures compared to surrounding rural areas.
 
 These conditions pose health risks, especially for vulnerable populations (elderly, children, people with pre-existing health conditions), reduce thermal comfort, and exacerbate energy demand for cooling. Climate projections indicate a further increase in the frequency, intensity, and duration of heatwave events in the coming decades.
 
 Historical climate data already show clear warming trends in Slovenia. The comparison of average July temperatures between the e periods 1971–2000 and 1981–2010 reveals a consistent increase across the country, while the deviation map highlights areas with the most pronounced anomalies. These patterns underline the growing relevance of heatwave and UHI assessments in the Podravje Region (Figure 15,Figure 16)
 
-> ![Slika, ki vsebuje besede besedilo, grafični prikaz, vrstica, diagram Vsebina, ustvarjena z umetno inteligenco, morda ni pravilna.](assets/d8-2-slo-podravje-region-draft2_image16.png)
+> <img src=".gitbook/assets/d8-2-slo-podravje-region-draft2_image16.png" alt="Slika, ki vsebuje besede besedilo, grafični prikaz, vrstica, diagram Vsebina, ustvarjena z umetno inteligenco, morda ni pravilna." data-size="original">
 
-*Figure 15 - Deviation of average temperature in Slovenia.*
+_Figure 15 - Deviation of average temperature in Slovenia._
 
-> ![Slika, ki vsebuje besede besedilo, zemljevid, atlas, posnetek zaslona Vsebina, ustvarjena z umetno inteligenco, morda ni pravilna.](assets/d8-2-slo-podravje-region-draft2_image17.png)
-> 
-> ![Slika, ki vsebuje besede besedilo, zemljevid Vsebina, ustvarjena z umetno inteligenco, morda ni pravilna.](assets/d8-2-slo-podravje-region-draft2_image18.png)
+> <img src=".gitbook/assets/d8-2-slo-podravje-region-draft2_image17.png" alt="Slika, ki vsebuje besede besedilo, zemljevid, atlas, posnetek zaslona Vsebina, ustvarjena z umetno inteligenco, morda ni pravilna." data-size="original">
+>
+> <img src=".gitbook/assets/d8-2-slo-podravje-region-draft2_image18.png" alt="Slika, ki vsebuje besede besedilo, zemljevid Vsebina, ustvarjena z umetno inteligenco, morda ni pravilna." data-size="original">
 
-*Figure 16 -Comparison of average temperature in July (left period 1971-2000, right: period 1981-2010)*
+_Figure 16 -Comparison of average temperature in July (left period 1971-2000, right: period 1981-2010)_
 
 Adaptation strategies for the heatwave hazard focus on **Nature-Based Solutions (NbS)** and **Blue-Green Infrastructure (BGI)** to mitigate the UHI effect, including expansion of urban tree canopy, creation of green corridors, installation of green roofs and walls, and integration of water features for evaporative cooling.
 
@@ -281,7 +241,7 @@ Adaptation strategies for the heatwave hazard focus on **Nature-Based Solutions 
 | UHI extent & intensity   | Temperature anomaly vs rural baseline          | °C, km²  | Identify and map urban heat hotspots        |
 | Heatwave characteristics | Duration, frequency, maximum daily temperature | Days, °C | Quantify hazard severity and monitor trends |
 
-*Table 4 – key indicators tracked-UHI Hazard*
+_Table 4 – key indicators tracked-UHI Hazard_
 
 ### Data sources and tools
 
@@ -291,115 +251,40 @@ Assessment of heatwave risk and UHI patterns in Podravje requires a combination 
 
 **Remote sensing data**, such as Landsat and Sentinel-3 imagery, supply Land Surface Temperature (LST) maps to detect and quantify UHI intensity.
 
-**Land use and morphology datasets**, including building footprints and heights (Slovenski INSPIRE, Urban Atlas), are used to analyze the spatial configuration of heat hotspots.  
+**Land use and morphology datasets**, including building footprints and heights (Slovenski INSPIRE, Urban Atlas), are used to analyze the spatial configuration of heat hotspots.\
 For future climate projections, bias-adjusted datasets from the **Copernicus Climate Data Store** offer temperature scenarios aligned with regional climate models.
 
 Following table illustrates example datasets:
 
-<table>
-<tbody>
-<tr class="odd">
-<td><strong>Data type</strong></td>
-<td><strong>Source</strong></td>
-<td><strong>Role in workflow</strong></td>
-<td><strong>Open/EU alternative</strong></td>
-</tr>
-<tr class="even">
-<td>Digital Terrain Model (1 m LiDAR )</td>
-<td><a href="https://gis.arso.gov.si/evode/profile.aspx?id=atlas_voda_Lidar@Arso"><span class="underline">ARSO Geoportal</span></a></td>
-<td>Base terrain morphology for heat modeling</td>
-<td>No open alternative general DTM available at the resolution required for such analysis, explore your national- regional geoportals for lidar datasets</td>
-</tr>
-<tr class="odd">
-<td>Digital Surface Model (DSM</td>
-<td>Derived from original LiDAR LAS files available on the <a href="about:blank"><span class="underline">ARSO Geoportal</span></a></td>
-<td>Required for representing building and vegetation heights in heat modelling.</td>
-<td></td>
-</tr>
-<tr class="even">
-<td>hourly temperature &amp; climate variables</td>
-<td><a href="https://meteo.arso.gov.si/met/sl/app/webmet/#webmet==8Sdwx2bhR2cv0WZ0V2bvEGcw9ydlJWblR3LwVnaz9SYtVmYh9iclFGbt9SaulGdugXbsx3cs9mdl5WahxXYyNGapZXZ8tHZv1WYp5mOnMHbvZXZulWYnwCchJXYtVGdlJnOn0UQQdSf"><span class="underline">ARSO meteorological network</span></a></td>
-<td>Provide Meteo input to heat stress an analysis, see note on the meteorological inputs</td>
-<td><p>Copernicus <a href="https://cds.climate.copernicus.eu/datasets/reanalysis-era5-land?tab=download"><span class="underline">ERA5-Land hourly data from 1950 to present</span></a></p>
-<p><a href="https://cds.climate.copernicus.eu/datasets/sis-heat-and-cold-spells?tab=overview"><span class="underline">Heat waves and cold spells in Europe derived from climate projections</span></a></p></td>
-</tr>
-<tr class="odd">
-<td>Land Surface Temperature (LST)</td>
-<td></td>
-<td>Map UHI presence via Satellite-Based Thermal Imaging</td>
-<td><a href="https://rslab.gr/Landsat_LST.html"><span class="underline">Landsat8</span></a> derived land surface temperature maps</td>
-</tr>
-<tr class="even">
-<td>Land use / land cover</td>
-<td><a href="https://eprostor.gov.si/imps/srv/eng/catalog.search#/metadata/49c8dd3a-e5db-4ed1-8bf1-e1b7def60dd0"><span class="underline">Slovenski INSPIRE,</span></a></td>
-<td>UHI drivers and green areas</td>
-<td><p>Copernicus <a href="https://land.copernicus.eu/en/products/urban-atlas"><span class="underline">Urban Atlas</span></a></p>
-<p><a href="https://land.copernicus.eu/en/products/clc-backbone"><span class="underline">CLCplus Backbone</span></a></p></td>
-</tr>
-<tr class="odd">
-<td>Building Footprints</td>
-<td><a href="https://eprostor.gov.si/imps/srv/eng/catalog.search#/metadata/9a8fd241-9162-407c-94e7-c98e05766881"><span class="underline">Slovenski INSPIRE metapodatkovni sistem</span></a></td>
-<td><p>local topography modification in detailed modeling</p>
-<p>building height shall be estimated</p></td>
-<td><p>OpenStreetMap building layer (<a href="https://osmbuildings.org/"><span class="underline">vector, global)</span></a></p>
-<p>Copernicus <a href="https://land.copernicus.eu/en/products/urban-atlas"><span class="underline">Urban Atlas</span></a> (harmonised land use and land cover maps as well as information on <a href="https://land.copernicus.eu/en/products/urban-atlas?tab=building_height"><span class="underline">building block heights</span></a> and street trees for</p></td>
-</tr>
-<tr class="even">
-<td>Population</td>
-<td>Statistical Office of the Republic of Slovenia <a href="https://www.stat.si/obcine/en/Municip/Index/130"><span class="underline">(SURS). (2025)</span></a>. Municipality of Ptuj – basic data.</td>
-<td>Overlay to heat stress, to detect where UHI exacerbate public health risks</td>
-<td> <a href="https://dx.doi.org/10.5258/SOTON/WP00646"><span class="underline">World pop Hub</span></a></td>
-</tr>
-<tr class="odd">
-<td>Vegetation</td>
-<td>Vegetation height data can be obtained from LiDAR survey datasets provided by Centralni lidar sistem Slovenije <a href="https://clss.si/"><span class="underline">(CLSS)</span></a> or, height can be assigned to vegetation based on DSM-DTM difference</td>
-<td>Map vegetation to estimate vegetation height above ground when no DSM is available</td>
-<td>Copernicus High Resolution Layer <a href="https://land.copernicus.eu/en/products/high-resolution-layer-forests-and-tree-cover"><span class="underline">Tree Cover and Forests</span></a> (raster 10m)</td>
-</tr>
-</tbody>
-</table>
+| **Data type**                          | **Source**                                                                                                                                                                                                                      | **Role in workflow**                                                                               | **Open/EU alternative**                                                                                                                                                                                                                                                                                                                                                                        |
+| -------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Digital Terrain Model (1 m LiDAR )     | [ARSO Geoportal](https://gis.arso.gov.si/evode/profile.aspx?id=atlas_voda_Lidar@Arso)                                                                                                                                           | Base terrain morphology for heat modeling                                                          | No open alternative general DTM available at the resolution required for such analysis, explore your national- regional geoportals for lidar datasets                                                                                                                                                                                                                                          |
+| Digital Surface Model (DSM             | Derived from original LiDAR LAS files available on the [ARSO Geoportal](about:blank)                                                                                                                                            | Required for representing building and vegetation heights in heat modelling.                       |                                                                                                                                                                                                                                                                                                                                                                                                |
+| hourly temperature & climate variables | [ARSO meteorological network](https://meteo.arso.gov.si/met/sl/app/webmet/#webmet==8Sdwx2bhR2cv0WZ0V2bvEGcw9ydlJWblR3LwVnaz9SYtVmYh9iclFGbt9SaulGdugXbsx3cs9mdl5WahxXYyNGapZXZ8tHZv1WYp5mOnMHbvZXZulWYnwCchJXYtVGdlJnOn0UQQdSf) | Provide Meteo input to heat stress an analysis, see note on the meteorological inputs              | <p>Copernicus <a href="https://cds.climate.copernicus.eu/datasets/reanalysis-era5-land?tab=download">ERA5-Land hourly data from 1950 to present</a></p><p><a href="https://cds.climate.copernicus.eu/datasets/sis-heat-and-cold-spells?tab=overview">Heat waves and cold spells in Europe derived from climate projections</a></p>                                                             |
+| Land Surface Temperature (LST)         |                                                                                                                                                                                                                                 | Map UHI presence via Satellite-Based Thermal Imaging                                               | [Landsat8](https://rslab.gr/Landsat_LST.html) derived land surface temperature maps                                                                                                                                                                                                                                                                                                            |
+| Land use / land cover                  | [Slovenski INSPIRE,](https://eprostor.gov.si/imps/srv/eng/catalog.search#/metadata/49c8dd3a-e5db-4ed1-8bf1-e1b7def60dd0)                                                                                                        | UHI drivers and green areas                                                                        | <p>Copernicus <a href="https://land.copernicus.eu/en/products/urban-atlas">Urban Atlas</a></p><p><a href="https://land.copernicus.eu/en/products/clc-backbone">CLCplus Backbone</a></p>                                                                                                                                                                                                        |
+| Building Footprints                    | [Slovenski INSPIRE metapodatkovni sistem](https://eprostor.gov.si/imps/srv/eng/catalog.search#/metadata/9a8fd241-9162-407c-94e7-c98e05766881)                                                                                   | <p>local topography modification in detailed modeling</p><p>building height shall be estimated</p> | <p>OpenStreetMap building layer (<a href="https://osmbuildings.org/">vector, global)</a></p><p>Copernicus <a href="https://land.copernicus.eu/en/products/urban-atlas">Urban Atlas</a> (harmonised land use and land cover maps as well as information on <a href="https://land.copernicus.eu/en/products/urban-atlas?tab=building_height">building block heights</a> and street trees for</p> |
+| Population                             | Statistical Office of the Republic of Slovenia [(SURS). (2025)](https://www.stat.si/obcine/en/Municip/Index/130). Municipality of Ptuj – basic data.                                                                            | Overlay to heat stress, to detect where UHI exacerbate public health risks                         |  [World pop Hub](https://dx.doi.org/10.5258/SOTON/WP00646)                                                                                                                                                                                                                                                                                                                                     |
+| Vegetation                             | Vegetation height data can be obtained from LiDAR survey datasets provided by Centralni lidar sistem Slovenije [(CLSS)](https://clss.si/) or, height can be assigned to vegetation based on DSM-DTM difference                  | Map vegetation to estimate vegetation height above ground when no DSM is available                 | Copernicus High Resolution Layer [Tree Cover and Forests](https://land.copernicus.eu/en/products/high-resolution-layer-forests-and-tree-cover) (raster 10m)                                                                                                                                                                                                                                    |
 
-*Table 5 – used data, an alternative dataset to replicate the assessment outside the study area, when available*
+_Table 5 – used data, an alternative dataset to replicate the assessment outside the study area, when available_
 
-  - ##### meteorological inputs  
-    *Meteorological input requirements and formatting vary depending on the modelling code used. For UHI simulations with UMEP (Table 2), the required variables include air temperature, dew point or relative humidity, surface pressure, wind speed and direction, shortwave radiation (global, diffuse and direct), longwave radiation, precipitation, and cloud cover. UMEP relies on the **EPW format (EnergyPlus Weather)**. EPW files are “typical meteorological dataset with a typical year” and can be downloaded from several sources (e.g. EnergyPlus , EPWmap ) or generated from reanalysis datasets such as **ERA5(-Land)**. Users are encouraged to download the file closest to their location and **adapt it with local meteorological data**, so that the weather inputs reflect the actual conditions of the study area.*
+*   **meteorological inputs**
 
-> *Free tools are available to inspect and modify EPW files, such as [Elements](https://bigladdersoftware.com/projects/elements/). We recommend changing the epw file after reading the official **UMEP documentation and tutorial examples** (Table 2) to adjust the variables, ensuring that the file accurately represents both the local climate data and the modelling requirements.*
+    _Meteorological input requirements and formatting vary depending on the modelling code used. For UHI simulations with UMEP (Table 2), the required variables include air temperature, dew point or relative humidity, surface pressure, wind speed and direction, shortwave radiation (global, diffuse and direct), longwave radiation, precipitation, and cloud cover. UMEP relies on the **EPW format (EnergyPlus Weather)**. EPW files are “typical meteorological dataset with a typical year” and can be downloaded from several sources (e.g. EnergyPlus , EPWmap ) or generated from reanalysis datasets such as **ERA5(-Land)**. Users are encouraged to download the file closest to their location and **adapt it with local meteorological data**, so that the weather inputs reflect the actual conditions of the study area._
+
+> _Free tools are available to inspect and modify EPW files, such as_ [_Elements_](https://bigladdersoftware.com/projects/elements/)_. We recommend changing the epw file after reading the official **UMEP documentation and tutorial examples** (Table 2) to adjust the variables, ensuring that the file accurately represents both the local climate data and the modelling requirements._
 
 The following tools, combining GIS platforms, remote sensing processors, and urban climate modelling software, can be used in the Podravje heatwave workflow to process temperature and land cover data, map UHI patterns, and test the effectiveness of mitigation strategies under current and projected climate scenarios.
 
-<table>
-<tbody>
-<tr class="odd">
-<td><strong>Tool</strong></td>
-<td><strong>Type</strong></td>
-<td><strong>Role</strong></td>
-</tr>
-<tr class="even">
-<td><a href="https://qgis.org/"><span class="underline">QGIS</span></a></td>
-<td>Open</td>
-<td>Spatial analysis and mapping of UHI hotspots; integration of temperature, land cover, vegetation, and demographic data</td>
-</tr>
-<tr class="odd">
-<td><a href="https://www.esri.com/en-us/arcgis/products/arcgis-pro/overview"><span class="underline">ArcGIS Pro</span></a></td>
-<td>Proprietary</td>
-<td>Advanced spatial analysis, 3D visualization, and map production for UHI and heat stress assessments</td>
-</tr>
-<tr class="even">
-<td><a href="https://umep-docs.readthedocs.io/projects/tutorial/en/latest/Tutorials/UWGSpatial.html"><span class="underline">UMEP</span></a> (QGIS plugin)<br />
-<a href="https://umep-docs.readthedocs.io/projects/tutorial/en/latest/Tutorials/TARGETTutorial.html"><span class="underline">Tutorials</span></a> a are available</td>
-<td>Open</td>
-<td>Urban climate modelling, including UHI mapping and scenario analysis using Urban Weather Generator (UWG)</td>
-</tr>
-<tr class="odd">
-<td><a href="https://envi-met.com/"><span class="underline">ENVI-met</span></a></td>
-<td>Proprietary</td>
-<td>3D microclimate modelling to simulate temperature distribution, vegetation effects, and NbS cooling potential</td>
-</tr>
-</tbody>
-</table>
+| **Tool**                                                                                                                                                                                                                                                             | **Type**    | **Role**                                                                                                               |
+| -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ----------- | ---------------------------------------------------------------------------------------------------------------------- |
+| [QGIS](https://qgis.org/)                                                                                                                                                                                                                                            | Open        | Spatial analysis and mapping of UHI hotspots; integration of temperature, land cover, vegetation, and demographic data |
+| [ArcGIS Pro](https://www.esri.com/en-us/arcgis/products/arcgis-pro/overview)                                                                                                                                                                                         | Proprietary | Advanced spatial analysis, 3D visualization, and map production for UHI and heat stress assessments                    |
+| <p><a href="https://umep-docs.readthedocs.io/projects/tutorial/en/latest/Tutorials/UWGSpatial.html">UMEP</a> (QGIS plugin)<br><a href="https://umep-docs.readthedocs.io/projects/tutorial/en/latest/Tutorials/TARGETTutorial.html">Tutorials</a> a are available</p> | Open        | Urban climate modelling, including UHI mapping and scenario analysis using Urban Weather Generator (UWG)               |
+| [ENVI-met](https://envi-met.com/)                                                                                                                                                                                                                                    | Proprietary | 3D microclimate modelling to simulate temperature distribution, vegetation effects, and NbS cooling potential          |
 
-*Table 2 – used tools and role in the UHI workflow, when available a free similar alternative to proprietary solutions is provided.*
+_Table 2 – used tools and role in the UHI workflow, when available a free similar alternative to proprietary solutions is provided._
 
 ### Methodology – Step-by-step
 
@@ -407,15 +292,15 @@ Study Area Overview – Q-Center Ptuj
 
 The study area focuses on the parking area in front of the Q-Center shopping centre in Ptuj, located in a highly urbanised commercial zone with extensive sealed surfaces. The parking area covers approximately 0.22 ha and is currently fully asphalted, with no tree canopy, green infrastructure, or permeable surfaces. As such, it represents a typical example of an urban heat hotspot during summer heatwave conditions.
 
-![](assets/d8-2-slo-podravje-region-draft2_image19.png)
+![](.gitbook/assets/d8-2-slo-podravje-region-draft2_image19.png)
 
-*Figure 17 – Center study area.*
+_Figure 17 – Center study area._
 
 Given the absence of implemented reference projects in Ptuj, the assessment adopts solutions derived from a comparable nearby town, Slovenska Bistrica, where a small-scale green parking area has been constructed in recent years. This project serves as a local, context-specific example of how parking infrastructure can be redesigned to reduce heat stress while maintaining functionality.
 
-![](assets/d8-2-slo-podravje-region-draft2_image20.png)
+![](.gitbook/assets/d8-2-slo-podravje-region-draft2_image20.png)
 
-*Figure 18- Layout of the green parking area used as a reference case study in Slovenska Bistrica.*
+_Figure 18- Layout of the green parking area used as a reference case study in Slovenska Bistrica._
 
 The green parking area in Slovenska Bistrica replaces conventional asphalt with permeable pavement systems, integrates vegetated strips and infiltration zones, and includes tree planting for shading. The key characteristics of the intervention are a reduced share of impervious surfaces, increased evapotranspiration potential, and significant shading of parking spaces during peak summer hours. These elements contribute to lower surface temperatures and improved thermal comfort for users.
 
@@ -425,23 +310,20 @@ For the purposes of this study, the design principles and functional characteris
 
 Obtain historical temperature and humidity series from **ARSO** to define baseline climatic conditions and detect past extreme heat events. Complement these with **land use and land cover** layers from Slovenski INSPIRE or Copernicus Urban Atlas, including vegetation cover, building footprints, and building heights derived from **DSM generated from LiDAR LAS** files. Add **population datasets** (e.g., WorldPop) to assess exposure and identify vulnerable communities. All datasets should be converted into a **GIS-compatible format**.
 
-Retrieve **cloud-free Landsat-derived Land Surface Temperature (LST)** images for peak summer periods (Figure 19). In GIS, classify LST values into indicative temperature ranges (e.g., \< 25 °C, 25–35 °C, \> 45 °C) to produce a first proxy map of UHI zones.
+Retrieve **cloud-free Landsat-derived Land Surface Temperature (LST)** images for peak summer periods (Figure 19). In GIS, classify LST values into indicative temperature ranges (e.g., < 25 °C, 25–35 °C, > 45 °C) to produce a first proxy map of UHI zones.
 
 For microclimate modelling, these layers often require reformatting to match the input structure of the chosen modelling framework (e.g., ENVI-met, UMEP). This includes:
 
-  - Classifying land cover into model-compatible categories
+* Classifying land cover into model-compatible categories
+* Generating continuous DTM and DSM surfaces
+* Attributing building polygons with height and material properties
+* Preparing hourly meteorological series in the correct format
 
-  - Generating continuous DTM and DSM surfaces
+These pre-processing operations can be performed manually in GIS or using dedicated utilities integrated in the modelling framework. For instance, the **UMEP plugin for QGIS** offers functions to extract urban form parameters, generate input grids, and prepare weather files for the Urban Weather Generator, as illustrated in its online [tutorial](https://umep-docs.readthedocs.io/projects/tutorial/en/latest/Tutorials/UWGSpatial.html). ![](.gitbook/assets/d8-2-slo-podravje-region-draft2_image21.png)
 
-  - Attributing building polygons with height and material properties
+![Immagine che contiene mappa, testo Il contenuto generato dall'IA potrebbe non essere corretto.](.gitbook/assets/d8-2-slo-podravje-region-draft2_image22.png)
 
-  - Preparing hourly meteorological series in the correct format
-
-These pre-processing operations can be performed manually in GIS or using dedicated utilities integrated in the modelling framework. For instance, the **UMEP plugin for QGIS** offers functions to extract urban form parameters, generate input grids, and prepare weather files for the Urban Weather Generator, as illustrated in its online [<span class="underline">tutorial</span>](https://umep-docs.readthedocs.io/projects/tutorial/en/latest/Tutorials/UWGSpatial.html). ![](assets/d8-2-slo-podravje-region-draft2_image21.png)
-
-![Immagine che contiene mappa, testo Il contenuto generato dall'IA potrebbe non essere corretto.](assets/d8-2-slo-podravje-region-draft2_image22.png)
-
-*Figure 19 - an example of LST \[°C\] Satellite map from Landsat 8 image for July 2025 loaded and classified in GIS, at the bottom overlay of the map with over 65 population density map from [WorlpopoHUB](https://hub.worldpop.org/).*
+_Figure 19 - an example of LST \[°C] Satellite map from Landsat 8 image for July 2025 loaded and classified in GIS, at the bottom overlay of the map with over 65 population density map from_ [_WorlpopoHUB_](https://hub.worldpop.org/)_._
 
 #### Step 2 – Analysis and mapping
 
@@ -457,19 +339,17 @@ Using the datasets prepared in Step 1 and the analytical overlays from Step 2, d
 
 This process typically involves:
 
-  - Importing pre-processed land cover, vegetation, and morphology grids into the selected modelling framework.
-
-  - Integrating meteorological time series representative of identified heatwave periods.
-
-  - Parameterizing urban form (building heights, materials, vegetation characteristics) to reflect present-day conditions.
+* Importing pre-processed land cover, vegetation, and morphology grids into the selected modelling framework.
+* Integrating meteorological time series representative of identified heatwave periods.
+* Parameterizing urban form (building heights, materials, vegetation characteristics) to reflect present-day conditions.
 
 Where available, satellite-derived LST maps and temperature anomaly layers from Step 2 can be used to cross-check the model outputs, ensuring that simulated baseline conditions (e.g. Figure 18) are consistent with observed spatial patterns of heat stress.
 
 These validated baseline results then serve as a quantitative reference for evaluating the potential effects of Nature-Based Solutions in the following step.
 
-![Immagine che contiene mappa, testo Il contenuto generato dall'IA potrebbe non essere corretto.](assets/d8-2-slo-podravje-region-draft2_image23.png)
+![Immagine che contiene mappa, testo Il contenuto generato dall'IA potrebbe non essere corretto.](.gitbook/assets/d8-2-slo-podravje-region-draft2_image23.png)
 
-*Figure 20 – example of temperature difference in mean ground temperature \[°C\] for an urban area simulated with UMEP.*
+_Figure 20 – example of temperature difference in mean ground temperature \[°C] for an urban area simulated with UMEP._
 
 #### Step 4 – NbS scenario testing
 
@@ -481,14 +361,14 @@ NbS scenario testing was conducted using an evidence-based, conceptual “what-i
 
 The scenario assumes the replacement of the existing fully asphalted parking area with a green parking solution incorporating permeable surfaces, vegetated strips, and tree planting for shading. Based on empirical evidence and published studies, such interventions are expected to reduce surface temperatures, mitigate local heat hotspots, and improve thermal comfort for users at the micro-scale. The assessment focuses on the expected direction and relative magnitude of impacts rather than on absolute temperature values.
 
-  - ##### Limitations and uncertainties
+* **Limitations and uncertainties**
 
 The assessment is based on proxy indicators and conceptual scenario assumptions rather than numerical microclimate modelling. Results therefore represent relative changes and indicative effects. Due to the small spatial scale of the intervention, impacts are expected to be local and do not significantly alter city-scale temperature patterns. Actual performance would depend on **detailed design, vegetation characteristics, and maintenance practices.**
 
-  - ##### Key takeaway
+* **Key takeaway**
 
 This case study demonstrates that even small-scale, targeted Nature-Based Solutions can meaningfully reduce local heat exposure in highly sealed urban environments. While their individual impact on city-wide temperatures is limited, such interventions are highly effective at the micro-scale and, when systematically implemented, form an essential component of long-term urban heatwave adaptation strategies.
 
-#### Bonus section – Tutorial flood dataset 
+#### Bonus section – Tutorial flood dataset
 
-All input data needed to replicate the Slovenia–Podravje flood workflow are provided in [<span class="underline">this dedicated dataset.</span>](https://drive.google.com/file/d/1o-XOpTNsou-EgrWioIEuq_-OwW4gmA62/view?usp=sharing)
+All input data needed to replicate the Slovenia–Podravje flood workflow are provided in [this dedicated dataset.](https://drive.google.com/file/d/1o-XOpTNsou-EgrWioIEuq_-OwW4gmA62/view?usp=sharing)

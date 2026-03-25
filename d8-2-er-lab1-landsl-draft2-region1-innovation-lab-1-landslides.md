@@ -1,16 +1,16 @@
-# Region1 - Innovation Lab 1: Landslides 
+# D8.2 ER-Lab1 Landsl draft2
 
 ## Introduction and Objectives of the Climate Risk Assessment (CRA)
 
 ### Regional context.
 
-### [<span class="underline">Emilia-Romagna</span>](https://en.wikipedia.org/wiki/Emilia-Romagna), Northern Italy, spans the Northern Apennines and the Po Plain. Rainfall-induced shallow landslides concentrate along the Apennines foothills and mountain belts, where flysch and clay formations, steep slopes, road valleys, and forested catchments co-occur. Intense or prolonged rainfall is the primary trigger of shallow landslides, which normally involve soil depths up to 1 or 2 meters; [<span class="underline">the May 2023 extreme rainfall event</span>](https://essd.copernicus.org/articles/17/1055/2025/) is used in this Climate Risk Assessment as the reference for landslides back-analysis and model calibration. Exposure to landslides risk is high for municipal settlements, transport corridors, utilities, and productive forests located on slopes, and service disruptions are likely to occur in foothill municipalities.
+### [Emilia-Romagna](https://en.wikipedia.org/wiki/Emilia-Romagna), Northern Italy, spans the Northern Apennines and the Po Plain. Rainfall-induced shallow landslides concentrate along the Apennines foothills and mountain belts, where flysch and clay formations, steep slopes, road valleys, and forested catchments co-occur. Intense or prolonged rainfall is the primary trigger of shallow landslides, which normally involve soil depths up to 1 or 2 meters; [the May 2023 extreme rainfall event](https://essd.copernicus.org/articles/17/1055/2025/) is used in this Climate Risk Assessment as the reference for landslides back-analysis and model calibration. Exposure to landslides risk is high for municipal settlements, transport corridors, utilities, and productive forests located on slopes, and service disruptions are likely to occur in foothill municipalities.
 
-![](assets/d8-2-er-lab1-landsl-draft2_image1.png)![](assets/d8-2-er-lab1-landsl-draft2_image2.png)
+![](.gitbook/assets/d8-2-er-lab1-landsl-draft2_image1.png) ![](.gitbook/assets/d8-2-er-lab1-landsl-draft2_image2.png)
 
-Figure 1 – example of surface landslides during May 2023 in Emilia Romagna, source [<span class="underline"> ECOScienza magazine -ARPAE</span>](https://www.arpae.it/it/ecoscienza/numeri-ecoscienza/anno-2023/numero-5-anno-2023)
+Figure 1 – example of surface landslides during May 2023 in Emilia Romagna, source [ECOScienza magazine -ARPAE](https://www.arpae.it/it/ecoscienza/numeri-ecoscienza/anno-2023/numero-5-anno-2023)
 
-### This Lab targets regional-to-sub-regional screening to inform adaptation planning and civil protection, relying on ARPAE open meteorological records and regional geodata to enable replication in other contexts using equivalent datasets. 
+### This Lab targets regional-to-sub-regional screening to inform adaptation planning and civil protection, relying on ARPAE open meteorological records and regional geodata to enable replication in other contexts using equivalent datasets.
 
 This Lab activity for landslides risk is carried out by ARPAE, the Regional Agency for Prevention, Environment and Energy of Emilia-Romagna, Italy. ARPAE monitors the state of the environment, carries out surveillance and control activities, and performs analytical tests. In addition to environmental protection activities, it also carries out activities in the field of energy.
 
@@ -20,11 +20,11 @@ The scope of this tutorial is to set up a replicable workflow to screen rainfall
 
 This tutorial describes what is needed to reproduce the assessment, substituting the dataset, setting the parameters, and visualising results.
 
-In this tutorial the landslides triggered by May 2023 extreme rainfall events are back-analyzed in order to provide an example of model calibration. The application of the model to future rainfall scenarios is also described.  
-The landslide risk analysis is possible across natural, semi-natural, and urban settings.  
+In this tutorial the landslides triggered by May 2023 extreme rainfall events are back-analyzed in order to provide an example of model calibration. The application of the model to future rainfall scenarios is also described.\
+The landslide risk analysis is possible across natural, semi-natural, and urban settings.\
 Outputs highlight the more vulnerable slopes and can support adaptation planning and NbS choices by policymakers and planners. At the actual model development, it is suggested to apply the model at sub-basin scale.
 
-  - #### Disclaimer
+* **Disclaimer**
 
 > This tutorial is intended as a general workflow example. It does not replace the official documentation of the modelling tools or GIS software. Users should already be familiar with geospatial data formats, pre-processing techniques, as well as with the specific input/output requirements and run functionalities of the modelling software before attempting to replicate this workflow.
 
@@ -32,21 +32,15 @@ Outputs highlight the more vulnerable slopes and can support adaptation planning
 
 The Climate Risk Assessment in Innovation Lab 1 (Emilia-Romagna) pursues the following objectives:
 
-  - **Evaluate hazard**: assess shallow landslide triggering linked to extreme rainfall events, using the May 2023 in Emilia Romagna event as calibration event when the model is applied in the Romagna territory;
-
-  - **Understand drivers**: explore how land use, soil, and vegetation features influence slope stability and the onset of shallow landslides;
-
-  - **Support NbS design**: test and highlight the role of ecosystem restoration, reforestation, climate-smart forestry, as Nature-Based Solutions against landslides risk;
-
-  - **Enable scenario analysis**: extend the hazard evaluation to future rainfall scenarios to evaluate landslides occurrence under climate change;
-
-  - **Guide planning**: provide information for policymakers and civil protection, identifying the most vulnerable areas and informing land use and adaptation planning;
-
-  - **Ensure transferability**: present a workflow applicable across natural, semi-natural, and urban contexts, adaptable for replication in other regions with equivalent datasets.
+* **Evaluate hazard**: assess shallow landslide triggering linked to extreme rainfall events, using the May 2023 in Emilia Romagna event as calibration event when the model is applied in the Romagna territory;
+* **Understand drivers**: explore how land use, soil, and vegetation features influence slope stability and the onset of shallow landslides;
+* **Support NbS design**: test and highlight the role of ecosystem restoration, reforestation, climate-smart forestry, as Nature-Based Solutions against landslides risk;
+* **Enable scenario analysis**: extend the hazard evaluation to future rainfall scenarios to evaluate landslides occurrence under climate change;
+* **Guide planning**: provide information for policymakers and civil protection, identifying the most vulnerable areas and informing land use and adaptation planning;
+* **Ensure transferability**: present a workflow applicable across natural, semi-natural, and urban contexts, adaptable for replication in other regions with equivalent datasets.
 
 ### Intended users.
 
-  
 The Climate Risk Assessment workflow on rainfall-induced shallow landslides is designed for **institutions and practitioners engaged in regional risk management and adaptation planning**. Civil protection agencies can benefit from outputs to support emergency preparedness, early warning, and post-event response.
 
 The tutorial is also relevant to forestry and land managers, as well as environmental agencies such as ARPAE, who can apply the results to guide sustainable land management, ecosystem restoration, and climate-smart forestry. Policymakers and planners use the results to identify priority areas for Nature-Based Solutions and to direct investments towards measures that reduce landslide vulnerability.
@@ -72,7 +66,7 @@ Model outputs are produced as raster maps of selected variables, and as hourly s
 
 Table 1 – key indicators tracked-Flood Hazard
 
-![](assets/d8-2-er-lab1-landsl-draft2_image3.png)
+![](.gitbook/assets/d8-2-er-lab1-landsl-draft2_image3.png)
 
 Figure 2– example of a CRITERIA-3D map, representing the volumetric water content at a depth of 22 cm, 16th May 2023 at 2am.
 
@@ -80,67 +74,23 @@ Figure 2– example of a CRITERIA-3D map, representing the volumetric water cont
 
 The Climate Risk Assessment for rainfall-induced shallow landslides in Emilia-Romagna is based on a structured set of datasets, provided by **ARPAE.** In this CRA open data from the **Emilia-Romagna Region** were used; the data can be found in the open-source CRITERIA-3D distribution. These inputs provide consistency with regional monitoring systems and replicability is guaranteed.
 
-<table>
-<tbody>
-<tr class="odd">
-<td><strong>Data type</strong></td>
-<td><strong>Source / repository</strong></td>
-<td><strong>Role in workflow</strong></td>
-<td><strong>Open/EU alternative</strong></td>
-</tr>
-<tr class="even">
-<td>Meteorological series</td>
-<td><a href="https://dati.arpae.it/dataset/erg5-interpolazione-su-griglia-di-dati-meteo"><strong><span class="underline">ARPAE Open Data</span></strong></a> (hourly air temperature, precipitation, humidity, radiation, wind)</td>
-<td>Simulation of the period of interest and initialization of hydrological model</td>
-<td>Copernicus <a href="https://cds.climate.copernicus.eu/datasets/reanalysis-era5-land?tab=download"><span class="underline">ERA5-Land hourly data from 1950 to present</span></a></td>
-</tr>
-<tr class="odd">
-<td>Digital Elevation Model (DEM)[1]</td>
-<td>Emilia-Romagna Geoportal (<a href="https://geoportale.regione.emilia-romagna.it/servizi/servizi-ogc/wcs"><span class="underline">open- WCS service</span></a>)</td>
-<td>Definition of computational mesh and slope geometry</td>
-<td>Copernicus DEM - Global and European Digital Elevation Model <a href="https://dataspace.copernicus.eu/explore-data/data-collections/copernicus-contributing-missions/collections-description/COP-DEM"><span class="underline">(open – raster 30m, 10m for selected users)</span></a></td>
-</tr>
-<tr class="even">
-<td>Land use raster[2] map</td>
-<td><a href="https://geoportale.regione.emilia-romagna.it/approfondimenti/database-uso-del-suolo"><strong><span class="underline">Emilia-Romagna Region</span></strong></a> (land use vector coverage)</td>
-<td>Land cover classes</td>
-<td><a href="https://land.copernicus.eu/en/products/corine-land-cover/clc2018"><span class="underline">CORINE Land Cover 2018 (vector/raster 100 m), Europe, 6-yearly</span></a></td>
-</tr>
-<tr class="odd">
-<td>Soil raster map</td>
-<td>Emilia-Romagna regional soil map (<a href="https://datacatalog.regione.emilia-romagna.it/catalogCTA/dataset/r_emiro_2016-01-28t184735"><span class="underline">open , shapefile)</span></a></td>
-<td>Soil types over the DEM extension</td>
-<td><a href="https://esdac.jrc.ec.europa.eu/content/european-soil-database-v20-vector-and-attribute-data"><span class="underline">European Soil Database v2.0 (vector and attribute data)</span></a></td>
-</tr>
-<tr class="even">
-<td>Crop database</td>
-<td><a href="https://github.com/ARPA-SIMC/CRITERIA3D"><strong><span class="underline">CRITERIA-3D GitHub distribution</span></strong></a> (SQLite .db with default crop parameters)</td>
-<td>Vegetation parameters</td>
-<td>Literature data of similar crop in similar environments</td>
-</tr>
-<tr class="odd">
-<td>Soil database</td>
-<td><a href="https://github.com/ARPA-SIMC/CRITERIA3D"><strong><span class="underline">CRITERIA-3D GitHub distribution</span></strong></a> (SQLite .db, customizable, Emilia-Romagna pedological data)</td>
-<td>Hydrological and geotechnical soil properties of the<br />
-different soil layers</td>
-<td>Literature data of similar soils</td>
-</tr>
-<tr class="even">
-<td>Landslide inventory</td>
-<td><strong><span class="underline"><a href="https://geoportale.regione.emilia-romagna.it/catalogo/dati-cartografici/informazioni-geoscientifiche/zone-a-rischio-naturale/layer-55">Emilia-Romagna region 2023 landslides</a></span></strong> (shapefile)</td>
-<td>It is not an input; it is used in this CRA to check the accuracy of the simulation</td>
-<td>Landslides inventories</td>
-</tr>
-</tbody>
-</table>
+| **Data type**                     | **Source / repository**                                                                                                                                                                        | **Role in workflow**                                                                 | **Open/EU alternative**                                                                                                                                                                                                                    |
+| --------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------ | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
+| Meteorological series             | [**ARPAE Open Data**](https://dati.arpae.it/dataset/erg5-interpolazione-su-griglia-di-dati-meteo) (hourly air temperature, precipitation, humidity, radiation, wind)                           | Simulation of the period of interest and initialization of hydrological model        | Copernicus [ERA5-Land hourly data from 1950 to present](https://cds.climate.copernicus.eu/datasets/reanalysis-era5-land?tab=download)                                                                                                      |
+| Digital Elevation Model (DEM)\[1] | Emilia-Romagna Geoportal ([open- WCS service](https://geoportale.regione.emilia-romagna.it/servizi/servizi-ogc/wcs))                                                                           | Definition of computational mesh and slope geometry                                  | Copernicus DEM - Global and European Digital Elevation Model [(open – raster 30m, 10m for selected users)](https://dataspace.copernicus.eu/explore-data/data-collections/copernicus-contributing-missions/collections-description/COP-DEM) |
+| Land use raster\[2] map           | [**Emilia-Romagna Region**](https://geoportale.regione.emilia-romagna.it/approfondimenti/database-uso-del-suolo) (land use vector coverage)                                                    | Land cover classes                                                                   | [CORINE Land Cover 2018 (vector/raster 100 m), Europe, 6-yearly](https://land.copernicus.eu/en/products/corine-land-cover/clc2018)                                                                                                         |
+| Soil raster map                   | Emilia-Romagna regional soil map ([open , shapefile)](https://datacatalog.regione.emilia-romagna.it/catalogCTA/dataset/r_emiro_2016-01-28t184735)                                              | Soil types over the DEM extension                                                    | [European Soil Database v2.0 (vector and attribute data)](https://esdac.jrc.ec.europa.eu/content/european-soil-database-v20-vector-and-attribute-data)                                                                                     |
+| Crop database                     | [**CRITERIA-3D GitHub distribution**](https://github.com/ARPA-SIMC/CRITERIA3D) (SQLite .db with default crop parameters)                                                                       | Vegetation parameters                                                                | Literature data of similar crop in similar environments                                                                                                                                                                                    |
+| Soil database                     | [**CRITERIA-3D GitHub distribution**](https://github.com/ARPA-SIMC/CRITERIA3D) (SQLite .db, customizable, Emilia-Romagna pedological data)                                                     | <p>Hydrological and geotechnical soil properties of the<br>different soil layers</p> | Literature data of similar soils                                                                                                                                                                                                           |
+| Landslide inventory               | [**Emilia-Romagna region 2023 landslides**](https://geoportale.regione.emilia-romagna.it/catalogo/dati-cartografici/informazioni-geoscientifiche/zone-a-rischio-naturale/layer-55) (shapefile) | It is not an input; it is used in this CRA to check the accuracy of the simulation   | Landslides inventories                                                                                                                                                                                                                     |
 
 Table 2 – used data, an alternative dataset to replicate the assessment outside the study area. Instructions about how to prepare input dataset can be found in the [CRITERIA-3D user’s manual](https://github.com/ARPA-SIMC/CRITERIA3D/blob/master/DOC/CRITERIA3D_user_manual.pdf). Knowledge about how to use GIS environments or similar systems is required.
 
-  - ##### Climate change effects 
+* **Climate change effects**
 
-> *Bias-corrected climate-projection datasets may be incorporated, with particular focus on hydrogeological modelling.*
-> 
-> *For example [<span class="underline">Copernicus Temperature and precipitation climate impact indicators from 1970 to 2100 derived from European climate projections</span>](https://cds.climate.copernicus.eu/datasets/sis-hydrology-meteorology-derived-projections?tab=overview); [<span class="underline">Climate and energy indicators for Europe from 2005 to 2100 derived from climate projections</span>](about:blank).*
+> _Bias-corrected climate-projection datasets may be incorporated, with particular focus on hydrogeological modelling._
+>
+> _For example_ [_Copernicus Temperature and precipitation climate impact indicators from 1970 to 2100 derived from European climate projections_](https://cds.climate.copernicus.eu/datasets/sis-hydrology-meteorology-derived-projections?tab=overview)_;_ [_Climate and energy indicators for Europe from 2005 to 2100 derived from climate projections_](about:blank)_._
 
 The Climate Risk Assessment workflow for shallow landslides in Emilia-Romagna is implemented using the **CRITERIA-3D** model as the core simulation tool. CRITERIA-3D is an open-source agro-hydrological and slope stability model that computes soil water fluxes in three dimensions and derives the Factor of Safety (FoS) under different hydrological and vegetation conditions. It allows back-analysis of past events (such as the May 2023 rainfall episode) and forward simulations under climate change scenarios.
 
@@ -148,11 +98,11 @@ For post-processing and visualization, outputs from CRITERIA-3D (SQLite database
 
 This step is useful to translate model outputs into maps and indicators for adaptation planning.
 
-|                                                                                       |             |                                                                                                               |
-| ------------------------------------------------------------------------------------- | ----------- | ------------------------------------------------------------------------------------------------------------- |
-| **Tool**                                                                              | **Type**    | **Role**                                                                                                      |
-| [<span class="underline">QGIS</span>](https://qgis.org/)                              | Open-source | Spatial analysis, graphical elaboration, and hazard–exposure overlay                                          |
-| [<span class="underline">CRITERIA-3D</span>](https://github.com/ARPA-SIMC/CRITERIA3D) | Open-source | Simulation of hydrological processes, soil water balance, and slope stability (Factor of Safety, hazard maps) |
+|                                                        |             |                                                                                                               |
+| ------------------------------------------------------ | ----------- | ------------------------------------------------------------------------------------------------------------- |
+| **Tool**                                               | **Type**    | **Role**                                                                                                      |
+| [QGIS](https://qgis.org/)                              | Open-source | Spatial analysis, graphical elaboration, and hazard–exposure overlay                                          |
+| [CRITERIA-3D](https://github.com/ARPA-SIMC/CRITERIA3D) | Open-source | Simulation of hydrological processes, soil water balance, and slope stability (Factor of Safety, hazard maps) |
 
 Table 3– used tools and role in the Landslide Hazard workflow: only open-source tools have been used in this tutorial
 
@@ -160,7 +110,7 @@ Table 3– used tools and role in the Landslide Hazard workflow: only open-sourc
 
 Before entering the four steps of the Climate Risk Assessment, it is useful to visualize the general structure of the workflow. The scheme below (Figure 3) illustrates a general workflow of a CRITERIA-3D model application when data related to occurred landslide are available.
 
-![Immagine che contiene testo, diagramma, schermata Il contenuto generato dall'IA potrebbe non essere corretto.](assets/d8-2-er-lab1-landsl-draft2_image4.png)
+![Immagine che contiene testo, diagramma, schermata Il contenuto generato dall'IA potrebbe non essere corretto.](.gitbook/assets/d8-2-er-lab1-landsl-draft2_image4.png)
 
 Figure 3 - Schematic representation of the model application workflow with parameters calibration using real landslides
 
@@ -176,9 +126,9 @@ The first phase of the workflow concerns the collection and f**ormatting of the 
 
 All inputs are **referenced in a project file (.ini)** that connects maps and databases, ensuring consistency for model runs.
 
-Visual support from the [<span class="underline">CRITERIA-3D manual</span>](https://github.com/ARPA-SIMC/CRITERIA3D/tree/master/DOC) — such as the project template file and examples of soil and land use maps — can help practitioners understand how their data should be structured before launching simulations.
+Visual support from the [CRITERIA-3D manual](https://github.com/ARPA-SIMC/CRITERIA3D/tree/master/DOC) — such as the project template file and examples of soil and land use maps — can help practitioners understand how their data should be structured before launching simulations.
 
-![](assets/d8-2-er-lab1-landsl-draft2_image5.png)
+![](.gitbook/assets/d8-2-er-lab1-landsl-draft2_image5.png)
 
 Figure 4 – an example of land use definition in Google Earth environment. The definition of land cover can be done manually in any desired way, notwithstanding that the input for CRITERIA-3D must be a. flt raster map with the pixel values corresponding to the code of the desired land use in the database.
 
@@ -190,15 +140,15 @@ As already discussed, the simulation should include **an initialization period o
 
 The model can then be executed **to produce time series in selected points and maps of the Factor of Safety, soil hydrological variables.** These results can be saved at chosen depths and time steps and exported for the next step of analysis in other software. The execution can be performed on local servers, with the possibility to rerun simulations under alternative rainfall scenarios - even using future meteorological series - to explore possible hazard conditions.
 
-Figure examples from the [<span class="underline">CRITERIA-3D user’s manual</span>](https://github.com/ARPA-SIMC/CRITERIA3D/blob/master/DOC/CRITERIA3D_user_manual.pdf) show how databases and maps for the simulation are structured, as well as the visualization of maps within the software environment. These graphical references help clarify the logic of the model run.
+Figure examples from the [CRITERIA-3D user’s manual](https://github.com/ARPA-SIMC/CRITERIA3D/blob/master/DOC/CRITERIA3D_user_manual.pdf) show how databases and maps for the simulation are structured, as well as the visualization of maps within the software environment. These graphical references help clarify the logic of the model run.
 
-![](assets/d8-2-er-lab1-landsl-draft2_image6.png)
+![](.gitbook/assets/d8-2-er-lab1-landsl-draft2_image6.png)
 
 Figure 5 – an example of an opened project in the CRITERIA-3D environment. The selected menu in the figure allows users to prepare the simulation run.
 
 The time series outputs, if output points are defined within a CRITERIA-3D project, are stored in a SQLite database, while the maps of any desired moment are exportable as raster maps (.flt) that can be exported into GIS environments for further spatial analysis. Users can also save intermediate model states to resume or compare different simulation periods.
 
-![](assets/d8-2-er-lab1-landsl-draft2_image7.png)
+![](.gitbook/assets/d8-2-er-lab1-landsl-draft2_image7.png)
 
 Figure 6 – an example of an output map related to water matric potential, at a depth of 50 cm and the menu for saving the output in raster format.
 
@@ -210,7 +160,7 @@ A first level of results interpretation is the **comparison between modelled uns
 
 Beyond validation, this analysis step can lead to highlighting the conditions under which slopes become more vulnerable. In fact, by studying variations of Factor of Safety in relation to rainfall intensity and soil saturation, practitioners can identify thresholds that signal the onset of instability. When outputs are overlaid with land use and infrastructure data in a GIS environment, the hazard results can be directly linked to exposed elements such as settlements, roads, or managed forests, thus supporting quantitative risk assessments.
 
-![](assets/d8-2-er-lab1-landsl-draft2_image8.png)
+![](.gitbook/assets/d8-2-er-lab1-landsl-draft2_image8.png)
 
 Figure 7 – an example of a CRITERIA-3D output map post-processed in GIS environment, where the instability areas detected by CRITERIA-3D (in red) were overlaid with landslide scars (polygons in blue, green and orange) of the May 2023 events
 
@@ -228,7 +178,7 @@ In practical terms, Step 4 closes the workflow by connecting scientific modellin
 
 #### Bonus section: small tutorial dataset
 
-In this [<span class="underline">zip archive</span>](https://drive.google.com/file/d/1AxIHWjzYtL8Dz49HkRCfAlfTc6UBDIsn/view?usp=sharing) , users can find the required data for reproducing a local case study through CRITERIA-3D.
+In this [zip archive](https://drive.google.com/file/d/1AxIHWjzYtL8Dz49HkRCfAlfTc6UBDIsn/view?usp=sharing) , users can find the required data for reproducing a local case study through CRITERIA-3D.
 
 The different files need to remain placed in the default folders DATA, MAPS, SETTINGS, SOIL which names cannot be changed. If folders name is modified, the CRITERIA-3D model will not be able to find them in your computer.
 
@@ -246,8 +196,7 @@ The three abovementioned cases represent three different Nature Based Solution (
 
 Users can find the link to CRITERIA-3D software and the user manual in Table 3.
 
-The model is open source\!
+The model is open source!
 
-1.  In the CRITERIA-3D model the DEM can have any spatial resolution. A good agreement should be found between the accuracy and the computational speediness required.
-
-2.  CRITERIA-3D accepts raster maps as input. The shapefile format usually available as open data online must be converted in a raster with. flt extension.
+1. In the CRITERIA-3D model the DEM can have any spatial resolution. A good agreement should be found between the accuracy and the computational speediness required.
+2. CRITERIA-3D accepts raster maps as input. The shapefile format usually available as open data online must be converted in a raster with. flt extension.

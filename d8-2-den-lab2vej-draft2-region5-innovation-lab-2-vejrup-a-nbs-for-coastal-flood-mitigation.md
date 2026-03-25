@@ -1,16 +1,16 @@
-# Region5 - Innovation Lab 2- Vejrup Å: NbS for coastal flood mitigation
+# D8.2 DEN-Lab2Vej draft2
 
 ## Introduction and Objectives of the Climate Risk Assessment
 
 ### Regional context.
 
-The [<span class="underline">Vejrup Å catchment</span>](https://www.sdu.dk/en/forskning/arcadia/about-arcadia/arcadia-in-funen/lab2), located in eastern Funen within [<span class="underline">Odense</span>](https://english.odense.dk/) and Municipality (with smaller parts in [<span class="underline">Kerteminde</span>](https://en.wikipedia.org/wiki/Kerteminde_Municipality) and [<span class="underline">Faaborg-Midtfyn</span>](https://www.fmk.dk/)), is mainly exposed **to coastal flooding from Odense Fjord**.
+The [Vejrup Å catchment](https://www.sdu.dk/en/forskning/arcadia/about-arcadia/arcadia-in-funen/lab2), located in eastern Funen within [Odense](https://english.odense.dk/) and Municipality (with smaller parts in [Kerteminde](https://en.wikipedia.org/wiki/Kerteminde_Municipality) and [Faaborg-Midtfyn](https://www.fmk.dk/)), is mainly exposed **to coastal flooding from Odense Fjord**.
 
 The area north of Kerteminde road is undergoing major land-use transitions: agricultural land is being converted into commercial developments, while low-lying coastal zones are designated for wetland and salt marsh restoration.
 
-Municipal climate adaptation strategies, as set out in the **[<span class="underline">Odense Climate Adaptation Plan</span>](https://www.odense.dk/byens-udvikling/klima/klimatilpasning/klimatilpasningsplan)** (Figure 1), foresee the withdrawal of coastal protection up to the Kerteminde road. This retreat strategy is promoted within the framework of the [**<span class="underline">Ministry for the green transition</span>**](https://mgtp.dk/groent-danmark/english-a-greener-denmark) and is intended to create space for restored wetlands and salt marshes. These measures are expected to mitigate coastal flooding, reduce nutrient runoff to the fjord, and support biodiversity.
+Municipal climate adaptation strategies, as set out in the [**Odense Climate Adaptation Plan**](https://www.odense.dk/byens-udvikling/klima/klimatilpasning/klimatilpasningsplan) (Figure 1), foresee the withdrawal of coastal protection up to the Kerteminde road. This retreat strategy is promoted within the framework of the [**Ministry for the green transition**](https://mgtp.dk/groent-danmark/english-a-greener-denmark) and is intended to create space for restored wetlands and salt marshes. These measures are expected to mitigate coastal flooding, reduce nutrient runoff to the fjord, and support biodiversity.
 
-![A map with text and a map with red dots AI-generated content may be incorrect.](assets/d8-2-den-lab2vej-draft2_image1.png)
+![A map with text and a map with red dots AI-generated content may be incorrect.](.gitbook/assets/d8-2-den-lab2vej-draft2_image1.png)
 
 Figure 1 - Climate risk assessment map from Odense Municipality climate adaptation plan 2024.
 
@@ -22,7 +22,7 @@ This tutorial describes a replicable Climate Risk Assessment (CRA) workflow for 
 
 The approach supports local adaptation planning by testing both nature-based and traditional solutions identified in the catchment, such as wetland restoration, salt marsh creation, and coastal protection structures. These interventions are assessed for their capacity to reduce inundation extent and depth while enabling sustainable land-use transitions. Designed for transferability, the tutorial combines national datasets with open European sources, allowing replication in other coastal lowlands facing similar risks.
 
-  - #### Disclaimer
+* **Disclaimer**
 
 > This tutorial is intended as a general workflow example and does not replace software-specific documentation (e.g., GIS, hydrological, or coastal modelling tools user/technical manuals). Users should already be familiar with the relevant geospatial data formats, data pre-processing techniques, and modelling concepts applicable to flood hazard assessment, as well as with the specific input/output requirements and run functionalities of the modelling software before attempting to replicate this workflow.
 
@@ -30,23 +30,19 @@ The approach supports local adaptation planning by testing both nature-based and
 
 The CRA for the Vejrup Å catchment aims to:
 
-  - Identify areas exposed to **coastal flooding** from sea level rise and storm surges under different return periods and climate projections.
-
-  - Map inundation zones using high-resolution topography and coastal flood simulations to assess the extent and depth of flooding.
-
-  - Highlights were **wetland restoration** and **salt marsh creation**, together with coastal protection structures, can reduce flood risk.
-
-  - Support **municipal planning** by linking flood hazard maps with land-use strategies and by indicating zones suitable for business development or nature restoration.
-
-  - Provide a spatial basis for future assessments of **economic damage**, moving from hazard mapping toward damage-based evaluation. *In this tutorial, this component is addressed only at a qualitative level through overlay of land-use with flood maps.*
+* Identify areas exposed to **coastal flooding** from sea level rise and storm surges under different return periods and climate projections.
+* Map inundation zones using high-resolution topography and coastal flood simulations to assess the extent and depth of flooding.
+* Highlights were **wetland restoration** and **salt marsh creation**, together with coastal protection structures, can reduce flood risk.
+* Support **municipal planning** by linking flood hazard maps with land-use strategies and by indicating zones suitable for business development or nature restoration.
+* Provide a spatial basis for future assessments of **economic damage**, moving from hazard mapping toward damage-based evaluation. _In this tutorial, this component is addressed only at a qualitative level through overlay of land-use with flood maps._
 
 ### Intended users.
 
-The CRA results are primarily addressed to **municipal planners and officers** in Odense, Kerteminde, and Faaborg-Midtfyn, who are responsible for integrating flood risk into land-use and climate adaptation strategies. They are also relevant for regional decision-makers engaged in frameworks such as *the*, where spatial strategies for adaptation are evaluated.
+The CRA results are primarily addressed to **municipal planners and officers** in Odense, Kerteminde, and Faaborg-Midtfyn, who are responsible for integrating flood risk into land-use and climate adaptation strategies. They are also relevant for regional decision-makers engaged in frameworks such as _the_, where spatial strategies for adaptation are evaluated.
 
 Stakeholders involved in the ongoing **land-use transition**—such as the conversion of agricultural land into wetlands, salt marshes, or commercial districts—can use the outputs to guide interventions and assess their feasibility. In addition, **civil protection services** and **infrastructure managers** benefit from **hazard maps** that identify vulnerable assets and support the prioritisation of protective measures.
 
-## Flood Hazard – coastal. 
+## Flood Hazard – coastal.
 
 ### Description and context
 
@@ -54,9 +50,9 @@ The Vejrup Å catchment is mainly exposed to coastal flooding from Odense Fjord,
 
 Coastal flood events threaten agricultural land, planned commercial districts, and critical infrastructure, with risks expected to increase under projected climate scenarios (IPCC RCP 8.5).
 
-To address these challenges, local strategies promoted through [**<span class="underline">The ministry of the green transition</span>**](https://mgtp.dk/groent-danmark/english-a-greener-denmark) envisage the withdrawal of coastal protection to Kerteminde road and the use of nature-based solutions—such as wetland and salt marsh creation—combined with structural defences where necessary ([<span class="underline">Odense fjord coastal council 2024</span>](https://odensefjordsamarbejdet.dk/wp-content/uploads/2024/09/Analyser-og-anbefalinger-Kystvandraadet-for-Odense-Fjord.pdf), Figure 2). The overall aim is to “make room for nature facing the fjord,” reducing flood risk while supporting biodiversity, nutrient retention, and CO₂ reduction.
+To address these challenges, local strategies promoted through [**The ministry of the green transition**](https://mgtp.dk/groent-danmark/english-a-greener-denmark) envisage the withdrawal of coastal protection to Kerteminde road and the use of nature-based solutions—such as wetland and salt marsh creation—combined with structural defences where necessary ([Odense fjord coastal council 2024](https://odensefjordsamarbejdet.dk/wp-content/uploads/2024/09/Analyser-og-anbefalinger-Kystvandraadet-for-Odense-Fjord.pdf), Figure 2). The overall aim is to “make room for nature facing the fjord,” reducing flood risk while supporting biodiversity, nutrient retention, and CO₂ reduction.
 
-![Immagine che contiene mappa, testo, atlante Il contenuto generato dall'IA potrebbe non essere corretto.](assets/d8-2-den-lab2vej-draft2_image2.png)
+![Immagine che contiene mappa, testo, atlante Il contenuto generato dall'IA potrebbe non essere corretto.](.gitbook/assets/d8-2-den-lab2vej-draft2_image2.png)
 
 Figure 2 - Wetland restoration maps for wetland scenario 1\* and 2\*\*. Note that the two layers are overlapping, and wetland scenario 2 is slightly smaller than wetland scenario 1.
 
@@ -78,57 +74,21 @@ Table 1 – key indicators tracked-Flood Hazard
 
 Flood risk assessment in the Vejrup Å catchment is based on high-resolution topography, storm surge scenarios, hydrological forcing, and land-use datasets provided by national authorities. These datasets allow the simulation of coastal and inland flooding under current and projected conditions. Where local datasets are not available, equivalent open European sources can be used to ensure transferability of the workflow to other regions.
 
-<table>
-<tbody>
-<tr class="odd">
-<td><strong>Data type</strong></td>
-<td><strong>Source (national)</strong></td>
-<td><strong>Role in workflow</strong></td>
-<td><strong>Open/EU alternative</strong></td>
-</tr>
-<tr class="even">
-<td>LiDAR-based Digital Terrain model (0,4 m grid)</td>
-<td><a href="https://dataforsyningen.dk/data/930"><span class="underline">GeoDanmark</span></a></td>
-<td>Elevation base for flood modelling; identifies depressions and flow paths</td>
-<td>Copernicus DEM - Global and European Digital Elevation Model <a href="https://dataspace.copernicus.eu/explore-data/data-collections/copernicus-contributing-missions/collections-description/COP-DEM"><span class="underline">(open – raster 30m, 10m for selected users)</span></a></td>
-</tr>
-<tr class="odd">
-<td>Storm surge and sea level rise (Table 3).</td>
-<td>Local/national studies, IPCC RCP scenarios (variable return periods 5, 10, 20, 50, 100 and climate projections)</td>
-<td>Defines marine flooding scenarios under current and climate change</td>
-<td>Copernicus Climate Dat store <a href="https://cds.climate.copernicus.eu/datasets/sis-ecde-climate-indicators?tab=overview"><span class="underline">Climate indicators for Europe from 1940 to 2100 derived from reanalysis and climate projections</span></a><br />
-<br />
-<a href="https://cds.climate.copernicus.eu/datasets/sis-water-level-change-indicators-cmip6?tab=overview"><span class="underline">Global sea level change indicators from 1950 to 2050 derived from reanalysis and high resolution CMIP6 climate projections</span></a></td>
-</tr>
-<tr class="even">
-<td>Hydrological adaptation structures</td>
-<td><a href="https://arealdata.miljoeportal.dk/datasets/urn:dmp:ds:kystbeskyttelsesanlaeg"><span class="underline">ArealDataDanmark</span></a></td>
-<td>Representation of dikes, pumping stations, and barriers in models</td>
-<td>None (site-specific)</td>
-</tr>
-<tr class="odd">
-<td>Building footprints</td>
-<td><a href="https://dataforsyningen.dk/data/2677"><span class="underline">GeoDanmark</span></a></td>
-<td>Exposure analysis; identification of at-risk assets</td>
-<td>OpenStreetMap building layer (<a href="https://osmbuildings.org/"><span class="underline">vector, global)</span></a></td>
-</tr>
-<tr class="even">
-<td>Land use / land cover</td>
-<td><a href="https://dataforsyningen.dk/data/996"><span class="underline">GeoDanmark</span></a></td>
-<td>Classification of flood-prone areas by land-use category for exposure and Damage assessment</td>
-<td><p>Copernicus <a href="https://land.copernicus.eu/en/products/urban-atlas"><span class="underline">Urban Atlas</span></a></p>
-<p><a href="https://land.copernicus.eu/en/products/clc-backbone"><span class="underline">CLCplus Backbone</span></a></p></td>
-</tr>
-</tbody>
-</table>
+| **Data type**                                  | **Source (national)**                                                                                           | **Role in workflow**                                                                        | **Open/EU alternative**                                                                                                                                                                                                                                                                                                                                                                                                                                                               |
+| ---------------------------------------------- | --------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| LiDAR-based Digital Terrain model (0,4 m grid) | [GeoDanmark](https://dataforsyningen.dk/data/930)                                                               | Elevation base for flood modelling; identifies depressions and flow paths                   | Copernicus DEM - Global and European Digital Elevation Model [(open – raster 30m, 10m for selected users)](https://dataspace.copernicus.eu/explore-data/data-collections/copernicus-contributing-missions/collections-description/COP-DEM)                                                                                                                                                                                                                                            |
+| Storm surge and sea level rise (Table 3).      | Local/national studies, IPCC RCP scenarios (variable return periods 5, 10, 20, 50, 100 and climate projections) | Defines marine flooding scenarios under current and climate change                          | <p>Copernicus Climate Dat store <a href="https://cds.climate.copernicus.eu/datasets/sis-ecde-climate-indicators?tab=overview">Climate indicators for Europe from 1940 to 2100 derived from reanalysis and climate projections</a><br><br><a href="https://cds.climate.copernicus.eu/datasets/sis-water-level-change-indicators-cmip6?tab=overview">Global sea level change indicators from 1950 to 2050 derived from reanalysis and high resolution CMIP6 climate projections</a></p> |
+| Hydrological adaptation structures             | [ArealDataDanmark](https://arealdata.miljoeportal.dk/datasets/urn:dmp:ds:kystbeskyttelsesanlaeg)                | Representation of dikes, pumping stations, and barriers in models                           | None (site-specific)                                                                                                                                                                                                                                                                                                                                                                                                                                                                  |
+| Building footprints                            | [GeoDanmark](https://dataforsyningen.dk/data/2677)                                                              | Exposure analysis; identification of at-risk assets                                         | OpenStreetMap building layer ([vector, global)](https://osmbuildings.org/)                                                                                                                                                                                                                                                                                                                                                                                                            |
+| Land use / land cover                          | [GeoDanmark](https://dataforsyningen.dk/data/996)                                                               | Classification of flood-prone areas by land-use category for exposure and Damage assessment | <p>Copernicus <a href="https://land.copernicus.eu/en/products/urban-atlas">Urban Atlas</a></p><p><a href="https://land.copernicus.eu/en/products/clc-backbone">CLCplus Backbone</a></p>                                                                                                                                                                                                                                                                                               |
 
 Table 2 – used data, an alternative dataset to replicate the assessment outside the study area, when available
 
-  - ##### Storme surge and Climate change effects 
+* **Storme surge and Climate change effects**
 
-> *The storm surge scenarios are selected following the IPCC 8.5 climate prognosis for a return period of 5, 10, 20, 50 and 100 years in 2022 and 2100. The sea level rise (in cm) is estimated for each scenario in the following table:*
-> 
-> ![Immagine che contiene testo, schermata, numero, Carattere Il contenuto generato dall'IA potrebbe non essere corretto.](assets/d8-2-den-lab2vej-draft2_image3.png)
+> _The storm surge scenarios are selected following the IPCC 8.5 climate prognosis for a return period of 5, 10, 20, 50 and 100 years in 2022 and 2100. The sea level rise (in cm) is estimated for each scenario in the following table:_
+>
+> <img src=".gitbook/assets/d8-2-den-lab2vej-draft2_image3.png" alt="Immagine che contiene testo, schermata, numero, Carattere Il contenuto generato dall&#x27;IA potrebbe non essere corretto." data-size="original">
 
 Table 3 - Overview of storm surge data applied for risk assessment.
 
@@ -138,35 +98,12 @@ For the simulation of coastal flooding from storm surge and sea level rise, both
 
 The choice of tool depends on data availability, licensing, and the level of detail required, but in all cases the outputs include flood extent and depth maps that support municipal adaptation planning and evaluation of mitigation measures.
 
-<table>
-<tbody>
-<tr class="odd">
-<td><h3 id="tool"><strong>Tool</strong></h3></td>
-<td><h3 id="type"><strong>Type</strong></h3></td>
-<td><h3 id="role"><strong>Role</strong></h3></td>
-</tr>
-<tr class="even">
-<td><h3 id="qgis"><a href="https://qgis.org/"><span class="underline">QGIS</span></a> </h3></td>
-<td><h3 id="open">Open</h3></td>
-<td><h3 id="core-environment-for-gis-analysis-map-production-overlay-of-hazard-and-exposure-layers">Core environment for GIS analysis, map production, overlay of hazard and exposure layers</h3></td>
-</tr>
-<tr class="odd">
-<td><a href="https://scalgo.com/"><span class="underline">Scalgo Live</span></a></td>
-<td><h3 id="proprietary">Proprietary</h3></td>
-<td><h3 id="simulate-surface-water-dynamics-and-map-flood-prone-areas-across-the-catchment">Simulate surface water dynamics and map flood-prone areas across the catchment</h3></td>
-</tr>
-<tr class="even">
-<td><a href="https://saferplaces.co/"><span class="underline">SaferPlaces</span></a></td>
-<td><h3 id="proprietary-1">Proprietary</h3></td>
-<td><h3 id="simulate-surface-water-dynamics-and-map-flood-prone-areas-across-the-catchment-include-damage-model">Simulate surface water dynamics and map flood-prone areas across the catchment, include damage model</h3></td>
-</tr>
-<tr class="odd">
-<td><h3 id="anuga"><a href="https://anuga.anu.edu.au/?utm_source=chatgpt.com"><span class="underline">ANUGA</span></a></h3></td>
-<td><h3 id="open-1">Open</h3></td>
-<td><h3 id="open-source-hydrodynamic-model-for-simulating-coastal-inundation-storm-surge-tsunami-wave-run-up.">Open-source hydrodynamic model for simulating coastal inundation (storm surge, tsunami, wave run-up). </h3></td>
-</tr>
-</tbody>
-</table>
+| <h4 id="tool"><strong>Tool</strong></h4>                                                 | <h4 id="type"><strong>Type</strong></h4> | <h4 id="role"><strong>Role</strong></h4>                                                                                                                                                                               |
+| ---------------------------------------------------------------------------------------- | ---------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| <h4 id="qgis"><a href="https://qgis.org/">QGIS</a></h4>                                  | <h4 id="open">Open</h4>                  | <h4 id="core-environment-for-gis-analysis-map-production-overlay-of-hazard-and-exposure-layers">Core environment for GIS analysis, map production, overlay of hazard and exposure layers</h4>                          |
+| [Scalgo Live](https://scalgo.com/)                                                       | <h4 id="proprietary">Proprietary</h4>    | <h4 id="simulate-surface-water-dynamics-and-map-flood-prone-areas-across-the-catchment">Simulate surface water dynamics and map flood-prone areas across the catchment</h4>                                            |
+| [SaferPlaces](https://saferplaces.co/)                                                   | <h4 id="proprietary-1">Proprietary</h4>  | <h4 id="simulate-surface-water-dynamics-and-map-flood-prone-areas-across-the-catchment-include-damage-model">Simulate surface water dynamics and map flood-prone areas across the catchment, include damage model</h4> |
+| <h4 id="anuga"><a href="https://anuga.anu.edu.au/?utm_source=chatgpt.com">ANUGA</a></h4> | <h4 id="open-1">Open</h4>                | <h4 id="open-source-hydrodynamic-model-for-simulating-coastal-inundation-storm-surge-tsunami-wave-run-up">Open-source hydrodynamic model for simulating coastal inundation (storm surge, tsunami, wave run-up).</h4>   |
 
 Table 4 – used tools and role in the Coastal Flood Hazard workflow, when available a free similar alternative to proprietary solutions is provided.
 
@@ -176,15 +113,15 @@ Table 4 – used tools and role in the Coastal Flood Hazard workflow, when avail
 
 High-resolution LiDAR-based DEM (0.4 m, Figure 3) from national geoportal forms the base for flood simulations. Coastal protection features (dikes, pumping stations) and building footprints from the same source may be added to refine topography and catch actual status.
 
-  - ##### Note on DEM resolution.
+* **Note on DEM resolution.**
 
 > When using very high-resolution LiDAR DEMs (e.g. 0.4 m), the data can become too heavy for hydraulic modelling. A practical solution is to down sample to 1–2 m resolution, which is still reasonable for flood modelling. This can be done through mosaicking and resampling in GIS software (e.g. QGIS) or by using command-line tools such as GDAL. For example:
-> 
+>
 > gdalwarp --config GDAL\_NUM\_THREADS ALL\_CPUS -r bilinear -tr 1,2 1,2 -t\_srs EPSG:25832 -co COMPRESS=LZW -co BIGTIFF=YES -co PREDICTOR=2 c:/folder1/\*.tif c:/folder1/mosaic.tif
-> 
-> For further reference, see the GDAL [*<span class="underline">gdalwarp documentation</span>*](https://gdal.org/en/stable/programs/gdalwarp.html).
+>
+> For further reference, see the GDAL [_gdalwarp documentation_](https://gdal.org/en/stable/programs/gdalwarp.html).
 
-![Immagine che contiene pendio, neve, bianco e nero Il contenuto generato dall'IA potrebbe non essere corretto.](assets/d8-2-den-lab2vej-draft2_image4.png) ![Immagine che contiene Aerofotogrammetria, mappa, aereo, Vista aerea Il contenuto generato dall'IA potrebbe non essere corretto.](assets/d8-2-den-lab2vej-draft2_image5.png)
+![Immagine che contiene pendio, neve, bianco e nero Il contenuto generato dall'IA potrebbe non essere corretto.](.gitbook/assets/d8-2-den-lab2vej-draft2_image4.png) ![Immagine che contiene Aerofotogrammetria, mappa, aereo, Vista aerea Il contenuto generato dall'IA potrebbe non essere corretto.](.gitbook/assets/d8-2-den-lab2vej-draft2_image5.png)
 
 Figure 3– example of Lidar DTM along the coast from GeoDanmark geoportal (down sampled @ 1,2 m ) compared to satellite map, obstacles such as buildings and trees are filtered from the terrain surface. Underwater topography is not represented.
 
@@ -204,19 +141,19 @@ The coastal flood model is configured using the prepared DEM, storm surge levels
 
 Building footprints, land-use layers, and coastal protection structures are integrated in the simulation to ensure that exposure and defences are correctly represented.
 
-Model outputs typically include raster-vector classified flood maps by depth range (e.g. \<25 cm, 25–50 cm, 50–100 cm, \>100 cm) and by return period (Figure 4, Figure 5) showing inundation extent and water depth:
+Model outputs typically include raster-vector classified flood maps by depth range (e.g. <25 cm, 25–50 cm, 50–100 cm, >100 cm) and by return period (Figure 4, Figure 5) showing inundation extent and water depth:
 
 These maps allow a first evaluation of coastal flood hazard, and they form the basis for the subsequent overlay with land use and planning data in step 3.
 
-![A screenshot of a map AI-generated content may be incorrect.](assets/d8-2-den-lab2vej-draft2_image6.png)
+![A screenshot of a map AI-generated content may be incorrect.](.gitbook/assets/d8-2-den-lab2vej-draft2_image6.png)
 
 Figure 4 – example of large, flooded area with 10 cm marine water by a 100-year storm surge in 2100 in Odense Fjord catchment area.
 
-![Immagine che contiene Aerofotogrammetria, Vista aerea, mappa, aereo Il contenuto generato dall'IA potrebbe non essere corretto.](assets/d8-2-den-lab2vej-draft2_image7.png)![](assets/d8-2-den-lab2vej-draft2_image8.png)
+![Immagine che contiene Aerofotogrammetria, Vista aerea, mappa, aereo Il contenuto generato dall'IA potrebbe non essere corretto.](.gitbook/assets/d8-2-den-lab2vej-draft2_image7.png) ![](.gitbook/assets/d8-2-den-lab2vej-draft2_image8.png)
 
-*Figure* *5 – example of detailed costal flood inundation model for actual (T100, 1,72 m a.s.l. ) and projected (T100 2100, 2,52 m a.s.l. ) surge conditions ,(courtesy of [SaferPlaces](https://saferplaces.co/rimini-and-climate-change-the-added-value-of-the-sea-park-parco-del-mare/) platform).*
+_Figure_ _5 – example of detailed costal flood inundation model for actual (T100, 1,72 m a.s.l. ) and projected (T100 2100, 2,52 m a.s.l. ) surge conditions ,(courtesy of_ [_SaferPlaces_](https://saferplaces.co/rimini-and-climate-change-the-added-value-of-the-sea-park-parco-del-mare/) _platform)._
 
-![Immagine che contiene testo, schermata, diagramma, linea Il contenuto generato dall'IA potrebbe non essere corretto.](assets/d8-2-den-lab2vej-draft2_image9.png)
+![Immagine che contiene testo, schermata, diagramma, linea Il contenuto generato dall'IA potrebbe non essere corretto.](.gitbook/assets/d8-2-den-lab2vej-draft2_image9.png)
 
 Figure 6 - Workflow to obtain flood risk map using one of the flood models listed in Table 2
 
@@ -224,20 +161,20 @@ Figure 6 - Workflow to obtain flood risk map using one of the flood models liste
 
 Flood extent and depth maps generated in Step 2 are imported into GIS for post-processing and interpretation. The results are overlaid with land-use layers, municipal planning zones, and building footprints to identify which categories of land and infrastructure are most affected under different storm surge scenarios.
 
-The classification of flood depth ranges (e.g. \<25 cm, 25–50 cm, 50–100 cm, \>100 cm) supports the identification of vulnerability hotspots. By intersecting hazard outputs with agriculture, commercial areas, residential zones, and planned restoration sites, it is possible to estimate which surfaces and assets are exposed and also generate simple spatial statistics as the key indicators mentioned in Table 1
+The classification of flood depth ranges (e.g. <25 cm, 25–50 cm, 50–100 cm, >100 cm) supports the identification of vulnerability hotspots. By intersecting hazard outputs with agriculture, commercial areas, residential zones, and planned restoration sites, it is possible to estimate which surfaces and assets are exposed and also generate simple spatial statistics as the key indicators mentioned in Table 1
 
-![Immagine che contiene testo, schermata, grafica, Policromia Il contenuto generato dall'IA potrebbe non essere corretto.](assets/d8-2-den-lab2vej-draft2_image10.png)
+![Immagine che contiene testo, schermata, grafica, Policromia Il contenuto generato dall'IA potrebbe non essere corretto.](.gitbook/assets/d8-2-den-lab2vej-draft2_image10.png)
 
 Figure 7– example of overlay of basic land use-cover map with flood areas in climate change scenarios in GIs environment.
 
 Although a full damage model is not implemented in this tutorial, the analysis provides a **qualitative assessment of potential flood damage**, based on the overlap between flood maps and land-use categories. This forms the basis for future extensions where depth–damage curves could translate hazard into economic loss estimates.
 
-  - ##### Note: damage assessment.
+* **Note: damage assessment.**
 
-> *Note all modelling suites can be complemented with damage estimation modules. These typically require intersecting flood hazard outputs (e.g. water depth rasters) with asset value layers and applying water depth–damage curves. This can be performed, when not embedded in the flood assessment tool, separately within the GIS environment or via external models.*
-> 
-> *For a more advanced implementation of this methodology, including regionalized vulnerability functions, see for example:*
-> 
-> ***Cost-benefit analysis of coastal flood defence measures in the North Adriatic Sea  
-> **Amadio, M., Essenfelder, A.H., Bagli, S., …Mysiak, J., Roberts, S.  
-> Natural Hazards and Earth System Sciences, 2022, 22(1), pp. 265–286, [<span class="underline">https://doi.org/10.5194/nhess-22-265-2022</span>](https://doi.org/10.5194/nhess-22-265-2022)*
+> _Note all modelling suites can be complemented with damage estimation modules. These typically require intersecting flood hazard outputs (e.g. water depth rasters) with asset value layers and applying water depth–damage curves. This can be performed, when not embedded in the flood assessment tool, separately within the GIS environment or via external models._
+>
+> _For a more advanced implementation of this methodology, including regionalized vulnerability functions, see for example:_
+>
+> \*\*\*Cost-benefit analysis of coastal flood defence measures in the North Adriatic Sea\
+> \*_Amadio, M., Essenfelder, A.H., Bagli, S., …Mysiak, J., Roberts, S._\
+> &#xNAN;_&#x4E;atural Hazards and Earth System Sciences, 2022, 22(1), pp. 265–286,_ [_https://doi.org/10.5194/nhess-22-265-2022_](https://doi.org/10.5194/nhess-22-265-2022)

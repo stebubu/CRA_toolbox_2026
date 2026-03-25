@@ -1,10 +1,10 @@
-# Region3 - Innovation Lab Amstetten: Urban heat stress 
+# D8.2 AUT-Lab3 Heatstress draft2
 
 ## Introduction and Objectives of the Climate Risk Assessment
 
 ### Regional context.
 
-The Innovation Lab 3 is located in [<span class="underline">Lower Austria</span>](https://en.wikipedia.org/wiki/Lower_Austria), with a focus on the urban area of [**<span class="underline">Amstetten</span>**](https://en.wikipedia.org/wiki/Amstetten,_Lower_Austria). The region combines medium-sized urban centres, densely built residential zones, and surrounding rural areas. Rising temperatures, limited vegetation in central districts, and a high proportion of sealed surfaces contribute to an intensification of **urban heat stress**.
+The Innovation Lab 3 is located in [Lower Austria](https://en.wikipedia.org/wiki/Lower_Austria), with a focus on the urban area of [**Amstetten**](https://en.wikipedia.org/wiki/Amstetten,_Lower_Austria). The region combines medium-sized urban centres, densely built residential zones, and surrounding rural areas. Rising temperatures, limited vegetation in central districts, and a high proportion of sealed surfaces contribute to an intensification of **urban heat stress**.
 
 This hazard is further amplified by the **urban heat island effect**, where built-up zones record significantly higher air and surface temperatures compared to adjacent rural surroundings. Vulnerable groups—such as the elderly, children, and people with pre-existing health conditions—are particularly at risk.
 
@@ -16,11 +16,11 @@ Nature-Based Solutions (NbS) such as **expansion of tree canopy, creation of pub
 
 The Climate Risk Assessment in this therefore focuses on testing the effectiveness of these NbS to reduce thermal stress and to provide evidence for integration into **urban planning and adaptation strategies**.
 
-![Immagine che contiene mappa, testo Il contenuto generato dall'IA potrebbe non essere corretto.](assets/d8-2-aut-lab3-heatstress-draft2_image2.png)
+![Immagine che contiene mappa, testo Il contenuto generato dall'IA potrebbe non essere corretto.](.gitbook/assets/d8-2-aut-lab3-heatstress-draft2_image2.png)
 
-*Figure 1 - physical map of Lower Austria. Source: https://maps-austria.com/lower-austria-map* (top)*, location of city of Amstetten (bottom)*
+_Figure 1 - physical map of Lower Austria. Source: https://maps-austria.com/lower-austria-map_ (top)_, location of city of Amstetten (bottom)_
 
-*Figure 2 – example of Example of NbS in urban areas following the sponge-city principle. Â© P. Hirner, NiG.*
+_Figure 2 – example of Example of NbS in urban areas following the sponge-city principle. Â© P. Hirner, NiG._
 
 ### Scope of the tutorial.
 
@@ -32,36 +32,29 @@ The workflow is designed to be **transferable to other regions**, even outside A
 
 The aim is to support **urban planning, public health strategies, and climate adaptation policies**, providing evidence-based insights for municipalities and regional authorities. The outputs allow for **prioritisation of greening measures**, **evaluation of vulnerable districts**, and **long-term integration of NbS** into adaptation strategies.
 
-  - #### Disclaimer
+* **Disclaimer**
 
-> *This tutorial is intended as a general workflow example and does not replace software-specific documentation (e.g., GIS, heatwave modelling tools user/technical manuals). Users should already be familiar with the relevant geospatial data formats, data pre-processing techniques, and modelling concepts, as well as with the specific input/output requirements and run functionalities of the modelling software before attempting to replicate this workflow.*
+> _This tutorial is intended as a general workflow example and does not replace software-specific documentation (e.g., GIS, heatwave modelling tools user/technical manuals). Users should already be familiar with the relevant geospatial data formats, data pre-processing techniques, and modelling concepts, as well as with the specific input/output requirements and run functionalities of the modelling software before attempting to replicate this workflow._
 
 ### CRA objectives.
 
 The Climate Risk Assessment (CRA) in Amstetten aims to:
 
-  - **Identify and quantify high-risk heat exposure zones**, especially in urban areas with limited vegetation and high sealing.
-
-  - **Evaluate the effectiveness of NbS interventions** (tree canopy management, public green spaces, green roofs) in reducing thermal stress.
-
-  - **Provide technical evidence (spatial risk assessment) to be integrated into urban planning processes**, enabling proactive and spatially differentiated decision-making.
-
-  - **Provide evidence base for investment in green infrastructure**, public awareness, and long-term climate resilience.
-
-  - **Acknowledge limitations** related to microclimatic variability, climate projection uncertainties, and NbS performance under extreme heat scenarios.
+* **Identify and quantify high-risk heat exposure zones**, especially in urban areas with limited vegetation and high sealing.
+* **Evaluate the effectiveness of NbS interventions** (tree canopy management, public green spaces, green roofs) in reducing thermal stress.
+* **Provide technical evidence (spatial risk assessment) to be integrated into urban planning processes**, enabling proactive and spatially differentiated decision-making.
+* **Provide evidence base for investment in green infrastructure**, public awareness, and long-term climate resilience.
+* **Acknowledge limitations** related to microclimatic variability, climate projection uncertainties, and NbS performance under extreme heat scenarios.
 
 ### Intended users.
 
-  
 The CRA in Lab 3 is designed for stakeholders involved in **urban planning, environmental health, and climate adaptation policy**.
 
 The intended users include:
 
-  - **City administrations and municipal planning departments** – to integrate heat risk maps and NbS scenarios into local development frameworks.
-
-  - **Public health authorities** – to identify vulnerable groups and prepare targeted protection measures during heatwaves.
-
-  - **Municipal environmental departments and regional authorities** – to prioritise NbS interventions and guide climate adaptation strategies.
+* **City administrations and municipal planning departments** – to integrate heat risk maps and NbS scenarios into local development frameworks.
+* **Public health authorities** – to identify vulnerable groups and prepare targeted protection measures during heatwaves.
+* **Municipal environmental departments and regional authorities** – to prioritise NbS interventions and guide climate adaptation strategies.
 
 By providing spatially explicit evidence, the CRA enables these actors to **prioritize interventions, develop adaptation strategies, and embed NbS** into decision-making processes for stronger long-term urban resilience.
 
@@ -75,11 +68,9 @@ This condition threatens **public health, comfort, and liveability**, especially
 
 To address these challenges, the CRA supports both the identification and quantification of high-risk heat exposure zones and provides an evidence base for evaluating the effectiveness of **Nature-Based Solutions (NbS)**, including:
 
-  - management and expansion of urban **tree canopy**,
-
-  - creation of **public green spaces**,
-
-  - deployment of **green roofs**.
+* management and expansion of urban **tree canopy**,
+* creation of **public green spaces**,
+* deployment of **green roofs**.
 
 The assessment, thus, focuses on quantifying the **cooling potential** of these NbS interventions and on identifying areas of **highest vulnerability** within Amstetten.
 
@@ -89,7 +80,7 @@ The assessment, thus, focuses on quantifying the **cooling potential** of these 
 | Heatwave characteristics | Number of heat-days and tropical-nights | Days per season | Quantify hazard severity and temporal evolution  |
 | UHI extent & intensity   | Maps of near surface air temperature    | °C, km²         | Delineate urban heat island extent and intensity |
 
-*Table 1 – key indicators tracked-Urban heat stress Hazard.*
+_Table 1 – key indicators tracked-Urban heat stress Hazard._
 
 ### Data sources and tools
 
@@ -97,76 +88,32 @@ The Climate Risk Assessment (CRA) in Lab 3 combines datasets on **climate hazard
 
 In relation to **topography**, urban climate models benefit from **high-resolution terrain and surface data** to represent accurately both ground morphology and above-ground structures such as buildings and vegetation. While **LiDAR-based products** are preferable, at present a **national DTM at 10 × 10 m resolution** has been identified (Figure 3) as the available baseline source for Amstetten, to be complemented where possible by higher-resolution datasets.
 
-<table>
-<tbody>
-<tr class="odd">
-<td><strong>Data type</strong></td>
-<td><strong>Source</strong></td>
-<td><strong>Role in workflow</strong></td>
-<td><strong>Open/EU alternative</strong></td>
-</tr>
-<tr class="even">
-<td>Climate projections (precipitation, temperature)</td>
-<td><a href="https://data.hub.geosphere.at/group/oks15"><strong><span class="underline">ÖKS15</span></strong> <span class="underline"> </span></a> (Austrian scenarios, 1 km),</td>
-<td>Input for modelling future urban heat exposure under different climate scenarios</td>
-<td><p>Copernicus <a href="https://cds.climate.copernicus.eu/datasets/projections-cordex-domains-single-levels?tab=overview"><strong><span class="underline">EURO-CORDEX</span></strong> <span class="underline"> </span></a> (12.5 km /0.11°)</p>
-<p><a href="https://cds.climate.copernicus.eu/datasets/reanalysis-era5-land?tab=overview"><span class="underline">ERA5-Land hourly data from 1950 to present</span></a> (current)</p></td>
-</tr>
-<tr class="odd">
-<td>Topography</td>
-<td><p><a href="http://www.data.gv.at/datasets/b5de6975-417b-4320-afdb-eb2a9e2a1dbf?locale=en"><strong><span class="underline">National DEM Austria</span></strong> <span class="underline"> </span></a> (10 m available resource),</p>
-<p><a href="https://data.bev.gv.at/geonetwork/srv/eng/catalog.search#/metadata/5ce253fc-b7c5-4362-97af-6556c18a45d9"><span class="underline">National high resolution DTM (1m)</span></a></p></td>
-<td><p>Base terrain morphology for heat modelling</p>
-<p><span class="underline">Lidar datasets</span> are generally preferrable for high res, applications.</p></td>
-<td>No open alternative general DTM available at the resolution required for such analysis, explore your national- regional geoportals for <span class="underline">Lidar datasets</span></td>
-</tr>
-<tr class="even">
-<td>Building geometries with height</td>
-<td><p><a href="https://data.bev.gv.at/geonetwork/srv/ger/catalog.search#/metadata/3b27c53b-c176-4d05-bde5-abe7fa3dfc0e"><span class="underline">National Digital Surface Model (DSM)</span></a>,</p>
-<p><a href="https://data.bev.gv.at/geonetwork/srv/ger/catalog.search#/search?query_string=%7B%22cl_topic.key%22:%20%7B%22planningCadastre%22:%20true%7D%7D"><span class="underline">Austrian Cadastre</span></a></p></td>
-<td>Representation of urban form in heat models (building footprints, heights)</td>
-<td><p>OpenStreetMap building layer (<a href="https://osmbuildings.org/"><span class="underline">vector, global)</span></a></p>
-<p>Copernicus <a href="https://land.copernicus.eu/en/products/urban-atlas"><span class="underline">Urban Atlas</span></a> (harmonised land use and land cover maps as well as information</p></td>
-</tr>
-<tr class="odd">
-<td>Land cover / surface sealing</td>
-<td><a href="https://data.bev.gv.at/geonetwork/srv/ger/catalog.search#/metadata/28cbc68e-f0ce-4bf5-87c4-3957370bad75"><span class="underline">National high resolution land cover dataset</span></a></td>
-<td>Input for surface characteristics in urban climate simulations</td>
-<td><p>Copernicus <a href="https://land.copernicus.eu/en/products/urban-atlas"><span class="underline">Urban Atlas</span></a></p>
-<p><a href="https://land.copernicus.eu/en/products/clc-backbone"><span class="underline">CLCplus Backbone</span></a></p></td>
-</tr>
-<tr class="even">
-<td>Urban tree inventory</td>
-<td>Local dataset/ City of Amstetten</td>
-<td>Input for NbS scenarios (tree canopy, crown diameter, height)</td>
-<td>Copernicus High Resolution Layer <a href="https://land.copernicus.eu/en/products/high-resolution-layer-forests-and-tree-cover"><span class="underline">Tree Cover and Forests</span></a> (raster 10m)</td>
-</tr>
-<tr class="odd">
-<td>Socio-economic and demographic data</td>
-<td><p><a href="https://www.statistik.at/"><span class="underline">Statistik Austria,</span></a></p>
-<p><a href="https://wegcshiny.uni-graz.at/alm/DISCC-AT/pop_proj/"><span class="underline">DISCC-AT platform</span></a></p></td>
-<td>Exposure and vulnerability assessment (population density, age structure, eventually income)</td>
-<td><a href="https://dx.doi.org/10.5258/SOTON/WP00646"><span class="underline">World pop Hub</span></a> (raster 100m)</td>
-</tr>
-</tbody>
-</table>
+| **Data type**                                    | **Source**                                                                                                                                                                                                                                                                                                                                              | **Role in workflow**                                                                                                         | **Open/EU alternative**                                                                                                                                                                                                                                                                                                              |
+| ------------------------------------------------ | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
+| Climate projections (precipitation, temperature) | [**ÖKS15** ](https://data.hub.geosphere.at/group/oks15)(Austrian scenarios, 1 km),                                                                                                                                                                                                                                                                      | Input for modelling future urban heat exposure under different climate scenarios                                             | <p>Copernicus <a href="https://cds.climate.copernicus.eu/datasets/projections-cordex-domains-single-levels?tab=overview"><strong>EURO-CORDEX</strong> </a>(12.5 km /0.11°)</p><p><a href="https://cds.climate.copernicus.eu/datasets/reanalysis-era5-land?tab=overview">ERA5-Land hourly data from 1950 to present</a> (current)</p> |
+| Topography                                       | <p><a href="http://www.data.gv.at/datasets/b5de6975-417b-4320-afdb-eb2a9e2a1dbf?locale=en"><strong>National DEM Austria</strong> </a>(10 m available resource),</p><p><a href="https://data.bev.gv.at/geonetwork/srv/eng/catalog.search#/metadata/5ce253fc-b7c5-4362-97af-6556c18a45d9">National high resolution DTM (1m)</a></p>                       | <p>Base terrain morphology for heat modelling</p><p>Lidar datasets are generally preferrable for high res, applications.</p> | No open alternative general DTM available at the resolution required for such analysis, explore your national- regional geoportals for Lidar datasets                                                                                                                                                                                |
+| Building geometries with height                  | <p><a href="https://data.bev.gv.at/geonetwork/srv/ger/catalog.search#/metadata/3b27c53b-c176-4d05-bde5-abe7fa3dfc0e">National Digital Surface Model (DSM)</a>,</p><p><a href="https://data.bev.gv.at/geonetwork/srv/ger/catalog.search#/search?query_string=%7B%22cl_topic.key%22:%20%7B%22planningCadastre%22:%20true%7D%7D">Austrian Cadastre</a></p> | Representation of urban form in heat models (building footprints, heights)                                                   | <p>OpenStreetMap building layer (<a href="https://osmbuildings.org/">vector, global)</a></p><p>Copernicus <a href="https://land.copernicus.eu/en/products/urban-atlas">Urban Atlas</a> (harmonised land use and land cover maps as well as information</p>                                                                           |
+| Land cover / surface sealing                     | [National high resolution land cover dataset](https://data.bev.gv.at/geonetwork/srv/ger/catalog.search#/metadata/28cbc68e-f0ce-4bf5-87c4-3957370bad75)                                                                                                                                                                                                  | Input for surface characteristics in urban climate simulations                                                               | <p>Copernicus <a href="https://land.copernicus.eu/en/products/urban-atlas">Urban Atlas</a></p><p><a href="https://land.copernicus.eu/en/products/clc-backbone">CLCplus Backbone</a></p>                                                                                                                                              |
+| Urban tree inventory                             | Local dataset/ City of Amstetten                                                                                                                                                                                                                                                                                                                        | Input for NbS scenarios (tree canopy, crown diameter, height)                                                                | Copernicus High Resolution Layer [Tree Cover and Forests](https://land.copernicus.eu/en/products/high-resolution-layer-forests-and-tree-cover) (raster 10m)                                                                                                                                                                          |
+| Socio-economic and demographic data              | <p><a href="https://www.statistik.at/">Statistik Austria,</a></p><p><a href="https://wegcshiny.uni-graz.at/alm/DISCC-AT/pop_proj/">DISCC-AT platform</a></p>                                                                                                                                                                                            | Exposure and vulnerability assessment (population density, age structure, eventually income)                                 | [World pop Hub](https://dx.doi.org/10.5258/SOTON/WP00646) (raster 100m)                                                                                                                                                                                                                                                              |
 
-*Table 2 – used data, an alternative dataset to replicate the assessment outside the study area, when available*
+_Table 2 – used data, an alternative dataset to replicate the assessment outside the study area, when available_
 
-  - ##### Note: high resolution Topography
+* **Note: high resolution Topography**
 
-> *Urban climate modelling at this scale generally benefits from high-resolution topographic data, typically derived from LiDAR surveys. Such datasets allow not only an accurate description of urban topography but also the extraction of critical (information, such as building heights from digital surface models (DSM), which can then be assigned to building footprints and other model element (Figure 4).*
+> _Urban climate modelling at this scale generally benefits from high-resolution topographic data, typically derived from LiDAR surveys. Such datasets allow not only an accurate description of urban topography but also the extraction of critical (information, such as building heights from digital surface models (DSM), which can then be assigned to building footprints and other model element (Figure 4)._
 
-![Immagine che contiene testo, mappa Il contenuto generato dall'IA potrebbe non essere corretto.](assets/d8-2-aut-lab3-heatstress-draft2_image4.png)
+![Immagine che contiene testo, mappa Il contenuto generato dall'IA potrebbe non essere corretto.](.gitbook/assets/d8-2-aut-lab3-heatstress-draft2_image4.png)
 
-*Figure 3 - Administrative boundaries of the city of Amstetten overlaid on the available national DTM at 10 × 10 m resolution. This terrain model provides the base layer for urban climate simulations.*
+_Figure 3 - Administrative boundaries of the city of Amstetten overlaid on the available national DTM at 10 × 10 m resolution. This terrain model provides the base layer for urban climate simulations._
 
-![](assets/d8-2-aut-lab3-heatstress-draft2_image5.png)![](assets/d8-2-aut-lab3-heatstress-draft2_image6.png)
+![](.gitbook/assets/d8-2-aut-lab3-heatstress-draft2_image5.png) ![](.gitbook/assets/d8-2-aut-lab3-heatstress-draft2_image6.png)
 
-*Figure 4 - The DTM is a filtered terrain model without obstacles such as trees or buildings. On the right, building footprints are overlaid to highlight missing above-ground elements, which need to be integrated from complementary datasets (e.g. DSM or building inventories). areas, farmer demographics (age, gender), livestock, labour, and production methods. While coarser in scale, these can serve as vulnerability layers when regional data are unavailable.*
+_Figure 4 - The DTM is a filtered terrain model without obstacles such as trees or buildings. On the right, building footprints are overlaid to highlight missing above-ground elements, which need to be integrated from complementary datasets (e.g. DSM or building inventories). areas, farmer demographics (age, gender), livestock, labour, and production methods. While coarser in scale, these can serve as vulnerability layers when regional data are unavailable._
 
-  - ##### meteorological inputs  
-    *Meteorological input requirements, and formatting, vary depending on the modelling code used. the required additional variables usually include air temperature, dew point or relative humidity, surface pressure, wind speed and direction, shortwave radiation (global, diffuse and direct), depending on your Modeling suite , please see Step 1 - Data acquisition and preparation for further advice* 
+*   **meteorological inputs**
+
+    _Meteorological input requirements, and formatting, vary depending on the modelling code used. the required additional variables usually include air temperature, dew point or relative humidity, surface pressure, wind speed and direction, shortwave radiation (global, diffuse and direct), depending on your Modeling suite , please see Step 1 - Data acquisition and preparation for further advice_
 
 The Lab uses the **MUKLIMO\_3 urban climate model** to simulate microclimatic conditions (air temperature, surface temperature, wind, radiation) at building level. It is applied to Amstetten for baseline and NbS scenarios (tree canopy, green spaces, green roofs).
 
@@ -174,47 +121,27 @@ The Lab uses the **MUKLIMO\_3 urban climate model** to simulate microclimatic co
 
 Another open alternative has been provided to foster replicability.
 
-<table>
-<tbody>
-<tr class="odd">
-<td><strong>Tool</strong></td>
-<td><strong>Type</strong></td>
-<td><strong>Role</strong></td>
-</tr>
-<tr class="even">
-<td><a href="https://dwdbib.dwd.de/retrosammlung/content/titleinfo/46464"><span class="underline">MUKLIMO_3</span></a></td>
-<td><a href="https://www.dwd.de/EN/ourservices/palm4u_en/palm4u_en.html"><span class="underline">Urban climate model</span></a></td>
-<td>Simulation of urban microclimate (air/surface temperature, wind, radiation); NbS scenario testing</td>
-</tr>
-<tr class="odd">
-<td><a href="https://umep-docs.readthedocs.io/projects/tutorial/en/latest/Tutorials/UWGSpatial.html"><span class="underline">UMEP</span></a> (QGIS plugin)<br />
-<a href="https://umep-docs.readthedocs.io/projects/tutorial/en/latest/Tutorials/TARGETTutorial.html"><span class="underline">Tutorials</span></a> a are available</td>
-<td>Open</td>
-<td>Urban climate modelling, including UHI mapping and scenario analysis; NbS scenario testing</td>
-</tr>
-<tr class="even">
-<td><a href="https://qgis.org/"><span class="underline">QGIS</span></a></td>
-<td>Open-source GIS</td>
-<td>Spatial data preparation, integration of geospatial layers, mapping and visualisation</td>
-</tr>
-</tbody>
-</table>
+| **Tool**                                                                                                                                                                                                                                                             | **Type**                                                                          | **Role**                                                                                          |
+| -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------- |
+| [MUKLIMO\_3](https://dwdbib.dwd.de/retrosammlung/content/titleinfo/46464)                                                                                                                                                                                            | [Urban climate model](https://www.dwd.de/EN/ourservices/palm4u_en/palm4u_en.html) | Simulation of urban microclimate (air/surface temperature, wind, radiation); NbS scenario testing |
+| <p><a href="https://umep-docs.readthedocs.io/projects/tutorial/en/latest/Tutorials/UWGSpatial.html">UMEP</a> (QGIS plugin)<br><a href="https://umep-docs.readthedocs.io/projects/tutorial/en/latest/Tutorials/TARGETTutorial.html">Tutorials</a> a are available</p> | Open                                                                              | Urban climate modelling, including UHI mapping and scenario analysis; NbS scenario testing        |
+| [QGIS](https://qgis.org/)                                                                                                                                                                                                                                            | Open-source GIS                                                                   | Spatial data preparation, integration of geospatial layers, mapping and visualisation             |
 
-*Table 3 – used tools and role in the Erosion Hazard workflow, all tools are free to use.*
+_Table 3 – used tools and role in the Erosion Hazard workflow, all tools are free to use._
 
-  - ##### Note on replicability of the CRA and tools.
+* **Note on replicability of the CRA and tools.**
 
-> *MUKLIMO\_3 is the core model for high-resolution urban climate simulations, but it runs only on Linux/Unix systems and typically requires HPC environments. To improve replicability on Windows systems, the open-source UMEP plugin for QGIS has been included as an alternative tool for UHI mapping and NbS scenario analysis.*
+> _MUKLIMO\_3 is the core model for high-resolution urban climate simulations, but it runs only on Linux/Unix systems and typically requires HPC environments. To improve replicability on Windows systems, the open-source UMEP plugin for QGIS has been included as an alternative tool for UHI mapping and NbS scenario analysis._
 
 ### Methodology
 
-  - ##### Note temporary workflow.
+* **Note temporary workflow.**
 
-> *The urban climate simulations in Lab 3 are intended to be run with the MUKLIMO\_3 model. Due to the high computational cost and complexity, simulations are executed on high-performance computing (HPC) systems. Each run—whether baseline or NbS scenario—is resource-intensive, and results are treated as static datasets for downstream risk analysis.*
-> 
-> *At the current stage, the detailed execution workflow for MUKLIMO\_3 in Amstetten is still under development, and comprehensive documentation on data preparation, model setup, and post-processing will be released in the course of Lab 3.*
-> 
-> *For tutorial purposes, an alternative workflow based on UMEP (QGIS plugin) is presented. This workflow uses the same data types required by MUKLIMO\_3, ensuring consistency in data acquisition and preparation while enabling replicability on standard desktop environments (Windows/Linux).*
+> _The urban climate simulations in Lab 3 are intended to be run with the MUKLIMO\_3 model. Due to the high computational cost and complexity, simulations are executed on high-performance computing (HPC) systems. Each run—whether baseline or NbS scenario—is resource-intensive, and results are treated as static datasets for downstream risk analysis._
+>
+> _At the current stage, the detailed execution workflow for MUKLIMO\_3 in Amstetten is still under development, and comprehensive documentation on data preparation, model setup, and post-processing will be released in the course of Lab 3._
+>
+> _For tutorial purposes, an alternative workflow based on UMEP (QGIS plugin) is presented. This workflow uses the same data types required by MUKLIMO\_3, ensuring consistency in data acquisition and preparation while enabling replicability on standard desktop environments (Windows/Linux)._
 
 #### Step 1 - Data acquisition and preparation
 
@@ -222,32 +149,33 @@ The first stage of the workflow consists of collecting and preparing the spatial
 
 The climate component is provided by temperature and precipitation series from regional projections such as **ÖKS15** and **EURO-CORDEX**. These must be converted into formats compatible with the modelling suite, typically **EPW weather files**, which are the standard required by UMEP for urban climate simulations. This file tells the model how to reproduce present and future conditions consistently with other CRA activities in Lab 3.
 
-  - ##### Meteorological inputs  
-    *Meteorological input requirements and formatting vary depending on the modelling code used. For UHI simulations with UMEP (Table 3), the required variables include air temperature, dew point or relative humidity, surface pressure, wind speed and direction, shortwave radiation (global, diffuse and direct), longwave radiation, precipitation, and cloud cover. UMEP relies on the **EPW format (EnergyPlus Weather)**. EPW files are “typical meteorological dataset with a typical year” and can be downloaded from several sources (e.g. EnergyPlus, EPWmap ) or generated from reanalysis datasets such as **ERA5(-Land)**. Users are encouraged to download the file closest to their location and **adapt it with local meteorological data**, so that the weather inputs reflect the actual conditions of the study area.*
+*   **Meteorological inputs**
 
-> *Free tools are available to inspect and modify EPW files, such as [Elements](https://bigladdersoftware.com/projects/elements/). We recommend changing the epw file after reading the official **UMEP documentation and tutorial examples** (Table 3) to adjust the variables, ensuring that the file accurately represents both the local climate data and the modelling requirements (Figure 5)*
+    _Meteorological input requirements and formatting vary depending on the modelling code used. For UHI simulations with UMEP (Table 3), the required variables include air temperature, dew point or relative humidity, surface pressure, wind speed and direction, shortwave radiation (global, diffuse and direct), longwave radiation, precipitation, and cloud cover. UMEP relies on the **EPW format (EnergyPlus Weather)**. EPW files are “typical meteorological dataset with a typical year” and can be downloaded from several sources (e.g. EnergyPlus, EPWmap ) or generated from reanalysis datasets such as **ERA5(-Land)**. Users are encouraged to download the file closest to their location and **adapt it with local meteorological data**, so that the weather inputs reflect the actual conditions of the study area._
 
-![](assets/d8-2-aut-lab3-heatstress-draft2_image7.png)
+> _Free tools are available to inspect and modify EPW files, such as_ [_Elements_](https://bigladdersoftware.com/projects/elements/)_. We recommend changing the epw file after reading the official **UMEP documentation and tutorial examples** (Table 3) to adjust the variables, ensuring that the file accurately represents both the local climate data and the modelling requirements (Figure 5)_
 
-![Immagine che contiene testo, schermata, mappa, diagramma Il contenuto generato dall'IA potrebbe non essere corretto.](assets/d8-2-aut-lab3-heatstress-draft2_image8.png)
+![](.gitbook/assets/d8-2-aut-lab3-heatstress-draft2_image7.png)
 
-*Figure 5 – example of EPW files as “typical meteorological dataset with a typical year” download nearby Amstetten and open for modification.*
+![Immagine che contiene testo, schermata, mappa, diagramma Il contenuto generato dall'IA potrebbe non essere corretto.](.gitbook/assets/d8-2-aut-lab3-heatstress-draft2_image8.png)
 
-The **topographic base** is currently represented by the national DTM at 10 × 10 m, which provides continuous coverage for Amstetten. For local climate modelling, higher-resolution **LiDAR-derived DSMs and DTMs** are preferable, as they capture the detailed morphology of the city and allow the derivation of building heights. (*Figure 4*).
+_Figure 5 – example of EPW files as “typical meteorological dataset with a typical year” download nearby Amstetten and open for modification._
+
+The **topographic base** is currently represented by the national DTM at 10 × 10 m, which provides continuous coverage for Amstetten. For local climate modelling, higher-resolution **LiDAR-derived DSMs and DTMs** are preferable, as they capture the detailed morphology of the city and allow the derivation of building heights. (_Figure 4_).
 
 For microclimate modelling in UMEP, the main spatial datasets – building geometries, land cover and surface sealing, and the urban tree inventory – must be reformatted into the input structure expected by the plugin. Building footprints are attributed with height information and aligned with the terrain model. Land cover layers are reclassified to distinguish impervious and vegetated surfaces, while tree datasets, whether from local inventories or proxies such as Copernicus HRL Tree Cover, are prepared as grids describing canopy cover and crown size. All layers are projected into a common coordinate system, clipped to the Amstetten study area, and harmonized in resolution.
 
 An example of this data preparation, with building polygons on the left and the reclassified land cover raster on the right, is shown in Figure X based on the UMEP tutorial dataset.
 
-![](assets/d8-2-aut-lab3-heatstress-draft2_image9.png)
+![](.gitbook/assets/d8-2-aut-lab3-heatstress-draft2_image9.png)
 
-*Figure 6 - On the left, the vector file with building footprint polygons classified by building type. On the right, the raster land cover layer reclassified into impervious and vegetated surfaces according to the UMEP tutorial. The example is derived from a sample city dataset provided in the official UMEP documentation.*
+_Figure 6 - On the left, the vector file with building footprint polygons classified by building type. On the right, the raster land cover layer reclassified into impervious and vegetated surfaces according to the UMEP tutorial. The example is derived from a sample city dataset provided in the official UMEP documentation._
 
 Finally, **socio-economic data** such as population density, age distribution or income levels are included as spatial layers to be combined later with hazard indicators. These datasets are not directly ingested by climate modelling but are prepared in parallel to support subsequent risk analysis.
 
 At the end of this step, all datasets are harmonized, clipped to the study area, and converted into the formats required by the climate modelling suite. This ensures that the following analysis steps can be performed consistently, with reliable representation of urban form, surface properties, vegetation, and local climate conditions.
 
-#### 
+####
 
 #### Step 2 – Analysis and mapping
 
@@ -267,11 +195,9 @@ Using the datasets prepared in Step 1 and the analytical overlays from Step 2, d
 
 This process typically involves:
 
-  - Importing pre-processed land cover, vegetation, and morphology grids into the selected modelling framework.
-
-  - Integrating meteorological time series representative of identified heatwave periods.
-
-  - Parameterizing urban form (building heights, materials, vegetation characteristics) to reflect present-day conditions.
+* Importing pre-processed land cover, vegetation, and morphology grids into the selected modelling framework.
+* Integrating meteorological time series representative of identified heatwave periods.
+* Parameterizing urban form (building heights, materials, vegetation characteristics) to reflect present-day conditions.
 
 Where available, satellite-derived LST maps and temperature anomaly layers from Step 2 can be used to cross-check the model outputs, ensuring that simulated baseline conditions (e.g. Figure 8) are consistent with observed spatial patterns of heat stress.
 
@@ -281,15 +207,15 @@ The baseline **represents the current urban climate conditions** in Amstetten du
 
 This initial model run provides a reference picture of the prevailing situation, highlighting the areas most exposed to high thermal loads due to building density, land cover composition, or lack of vegetation. The outputs take the form of spatial maps and time series of temperature and radiation, which can be analysed to identify hotspots and areas of relative resilience.
 
-![Immagine che contiene testo, linea, Diagramma, Carattere Il contenuto generato dall'IA potrebbe non essere corretto.](assets/d8-2-aut-lab3-heatstress-draft2_image10.jpg)
+![Immagine che contiene testo, linea, Diagramma, Carattere Il contenuto generato dall'IA potrebbe non essere corretto.](.gitbook/assets/d8-2-aut-lab3-heatstress-draft2_image10.jpg)
 
-*Figure 7 – example of Above: Wind speed and global radiation from epw-file. Below: Air temperature from ground station data compared with those simulated in the grid of the model including the station (source* \[1\]*)*
+_Figure 7 – example of Above: Wind speed and global radiation from epw-file. Below: Air temperature from ground station data compared with those simulated in the grid of the model including the station (source_ \[1]_)_
 
 The baseline maps can also be combined w**ith socio-economic datasets, such as population density or income levels,** to identify vulnerable groups and evaluate the potential social and economic impacts of heat stress. This integrated view allows the baseline to serve not only as a technical benchmark for subsequent scenario analysis, but also as a decision-support layer for urban planners and public authorities.
 
-![Immagine che contiene mappa, testo Il contenuto generato dall'IA potrebbe non essere corretto.](assets/d8-2-aut-lab3-heatstress-draft2_image11.png)
+![Immagine che contiene mappa, testo Il contenuto generato dall'IA potrebbe non essere corretto.](.gitbook/assets/d8-2-aut-lab3-heatstress-draft2_image11.png)
 
-*Figure 8 – example of temperature difference in mean ground temperature \[°C\] for an urban area simulated with UMEP.*
+_Figure 8 – example of temperature difference in mean ground temperature \[°C] for an urban area simulated with UMEP._
 
 #### Step 4 – NbS scenario testing
 
@@ -303,4 +229,4 @@ These results can be again overlaid with socio-economic and demographic layers t
 
 By comparing NbS scenarios against the baseline, the analysis provides a robust basis for evaluating the potential of green interventions to reduce heat stress and to inform local adaptation planning.
 
-1.  [<span class="underline">https://umep-docs.readthedocs.io/projects/tutorial/en/latest/Tutorials/UWGSpatial.html\#executing-the-model</span>](https://umep-docs.readthedocs.io/projects/tutorial/en/latest/Tutorials/UWGSpatial.html#executing-the-model)
+1. [https://umep-docs.readthedocs.io/projects/tutorial/en/latest/Tutorials/UWGSpatial.html#executing-the-model](https://umep-docs.readthedocs.io/projects/tutorial/en/latest/Tutorials/UWGSpatial.html#executing-the-model)
