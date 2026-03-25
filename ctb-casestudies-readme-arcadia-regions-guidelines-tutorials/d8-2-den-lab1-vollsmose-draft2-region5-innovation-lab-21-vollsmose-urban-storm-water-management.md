@@ -1,4 +1,4 @@
-# D8.2 DEN-Lab1 Vollsmose draft2
+# Region5 - Innovation Lab 1- Vollsmose
 
 ## Introduction and Objectives of the Climate Risk Assessment
 
@@ -111,9 +111,9 @@ Rainfall time series are used to define design storm events for the mapping simu
 
 All datasets are then converted into GIS-compatible formats and spatially aligned. Terrain and land cover layers are prepared for input into flood mapping tools.
 
-![Immagine che contiene neve, mappa, inverno, natura Il contenuto generato dall'IA potrebbe non essere corretto.](.gitbook/assets/d8-2-den-lab1-vollsmose-draft2_image1.png) ![](.gitbook/assets/d8-2-den-lab1-vollsmose-draft2_image2.png)
+![Immagine che contiene neve, mappa, inverno, natura Il contenuto generato dall'IA potrebbe non essere corretto.](../.gitbook/assets/d8-2-den-lab1-vollsmose-draft2_image1.png) ![](../.gitbook/assets/d8-2-den-lab1-vollsmose-draft2_image2.png)
 
-![](.gitbook/assets/d8-2-den-lab1-vollsmose-draft2_image3.png)
+![](../.gitbook/assets/d8-2-den-lab1-vollsmose-draft2_image3.png)
 
 Figure 1 – example of Lidar DTM along the coast from GeoDanmark geoportal (down sampled @ 1,2 m, left) compared to satellite map (right) Obstacles such as buildings and trees are filtered from the terrain surface. Building overlay over original DTMs possible either by GIS raster operations or by embedded functionalities in cloud based platforms (lower image, courtesy of [SaferPlaces](https://saferplaces.co/rimini-and-climate-change-the-added-value-of-the-sea-park-parco-del-mare/) platform).
 
@@ -121,9 +121,9 @@ Figure 1 – example of Lidar DTM along the coast from GeoDanmark geoportal (dow
 
 In the surface runoff workflow, the pre-processed terrain and rainfall datasets are imported into dedicated mapping platforms to simulate how stormwater accumulates and spreads across the urban area during intense precipitation events. The core representation is based on the LiDAR-derived terrain, which defines depressions and flow paths, while design storms provide the forcing input. The model produces estimates of ponding areas, water depths, and storage zones, plus preferential flow direction downstream, offering an initial picture of pluvial flood exposure.
 
-Different levels of complexity can be applied depending on the platform. Some systems rely on simplified, zero-dimensional approaches where rainfall is converted into accumulated volumes within depressions without representing the dynamic propagation of flow. These methods are efficient for screening and for highlighting potential hot spots of flooding at the end of an event. More sophisticated approaches allow advanced dynamic modelling, where rainfall is applied continuously over the domain and surface routing is represented in time and space, capturing the dynamics of the rainfall flood event. This provides a more realistic simulation of flood wave propagation, flow velocities, and temporary storage, but requires greater computational effort and more detailed parameterisation. _In the following figures, we illustrate this difference for a small test area: the left image shows results from a static zero-dimensional model simulating a 100 mm rainfall event lasting two hours, while the right image shows the envelope of maximum water depth over six hours produced by a two-dimensional dynamic model._![](.gitbook/assets/d8-2-den-lab1-vollsmose-draft2_image4.png)![](.gitbook/assets/d8-2-den-lab1-vollsmose-draft2_image5.png)
+Different levels of complexity can be applied depending on the platform. Some systems rely on simplified, zero-dimensional approaches where rainfall is converted into accumulated volumes within depressions without representing the dynamic propagation of flow. These methods are efficient for screening and for highlighting potential hot spots of flooding at the end of an event. More sophisticated approaches allow advanced dynamic modelling, where rainfall is applied continuously over the domain and surface routing is represented in time and space, capturing the dynamics of the rainfall flood event. This provides a more realistic simulation of flood wave propagation, flow velocities, and temporary storage, but requires greater computational effort and more detailed parameterisation. _In the following figures, we illustrate this difference for a small test area: the left image shows results from a static zero-dimensional model simulating a 100 mm rainfall event lasting two hours, while the right image shows the envelope of maximum water depth over six hours produced by a two-dimensional dynamic model._![](../.gitbook/assets/d8-2-den-lab1-vollsmose-draft2_image4.png)![](../.gitbook/assets/d8-2-den-lab1-vollsmose-draft2_image5.png)
 
-![](.gitbook/assets/d8-2-den-lab1-vollsmose-draft2_image6.png)
+![](../.gitbook/assets/d8-2-den-lab1-vollsmose-draft2_image6.png)
 
 Figure 2 - Water depth maps from a static zero-dimensional model (left), simulating a 100 mm rainfall event lasting two hours, and from a two-dimensional dynamic model (right), showing the envelope of maximum water depth over six hours for the same rainfall event. The lower image shows the simplified topographic calculation of runoff accumulation watersheds and downstream linkages among them (courtesy of [SaferPlaces](https://saferplaces.co/rimini-and-climate-change-the-added-value-of-the-sea-park-parco-del-mare/) platform).
 
@@ -141,7 +141,7 @@ The outputs of the surface runoff simulations consist of water depth and flood e
 
 In the example below, a flood depth map has been combined with a land cover layer. By applying simple zonal statistics, two key indicators can be derived: the fraction of each land use polygon affected by inundation, and the stormwater volume stored within each polygon. Such indicators provide direct evidence for ranking areas according to their vulnerability, and they support the siting of mitigation measures. This type of analysis aligns with the objectives of Lab1, where stormwater management and NbS integration are central to the Vollsmose renewal strategy.
 
-![](.gitbook/assets/d8-2-den-lab1-vollsmose-draft2_image7.png)
+![](../.gitbook/assets/d8-2-den-lab1-vollsmose-draft2_image7.png)
 
 Figure 3 – Example of GIS overlay analysis combining flood water depth maps with land cover polygons. Zonal statistics allow the calculation of key indicators such as the fraction of each land use unit affected by inundation and the corresponding stormwater volume stored. These outputs support the ranking of vulnerable areas and the siting of Nature-Based Solutions in the Vollsmose district.
 
@@ -149,7 +149,7 @@ In addition to basic overlays with land cover, more advanced analyses can be per
 
 While simplified, this approach illustrates how hazard maps can be translated into impact assessments, offering a proxy for the value of exposed assets and supporting the prioritization of protection and mitigation measures within the renewal project (Figure 4
 
-![](.gitbook/assets/d8-2-den-lab1-vollsmose-draft2_image8.png)
+![](../.gitbook/assets/d8-2-den-lab1-vollsmose-draft2_image8.png)
 
 Figure 4- Example of impact assessment using flood depth maps combined with building footprints and depth–damage curves (lower right). This overlay provides a proxy estimate of potential losses for different asset categories (e.g. residential, commercial, industrial), supporting the prioritization of mitigation measures, (courtesy of [SaferPlaces](https://saferplaces.co/rimini-and-climate-change-the-added-value-of-the-sea-park-parco-del-mare/) platform).
 
@@ -229,7 +229,7 @@ The first step in network-based stormwater modelling is to assemble the datasets
 
 Inflow allocation is derived from delineating sub catchments and connecting them to specific nodes of the network. This step ensures consistency with the runoff mapping performed earlier: surface runoff volumes generated on terrain and land cover maps are routed to the correct entry points of the drainage system.
 
-![](.gitbook/assets/d8-2-den-lab1-vollsmose-draft2_image9.png)
+![](../.gitbook/assets/d8-2-den-lab1-vollsmose-draft2_image9.png)
 
 Figure 5- Physical objects used to model a drainage system, source [**SWMM 5.2 User Manual**](https://www.epa.gov/system/files/documents/2022-04/swmm-users-manual-version-5.2.pdf)
 
@@ -241,7 +241,7 @@ Rainfall time series represent the main forcing for the hydraulic simulations. F
 
 Given the relatively small scale of most urban drainage studies (single neighbourhoods or sub-catchments), it is generally sufficient to rely on one or a few nearby meteorological stations. For example In Denmark, the Danish Meteorological Institute (DMI) provides access to [**Meteorological Observation Data**](https://opendatadocs.dmi.govcloud.dk/en/Data/Meteorological_Observation_Data) and **Climate Data** that have undergone quality control.
 
-![Immagine che contiene erba, aria aperta, cielo, campo Il contenuto generato dall'IA potrebbe non essere corretto.](.gitbook/assets/d8-2-den-lab1-vollsmose-draft2_image10.jpg)
+![Immagine che contiene erba, aria aperta, cielo, campo Il contenuto generato dall'IA potrebbe non essere corretto.](../.gitbook/assets/d8-2-den-lab1-vollsmose-draft2_image10.jpg)
 
 Figure 6 - Image of synop station from DMI Meteorological Observation Data system, source DMI Open Data.
 
@@ -251,7 +251,7 @@ For water quality assessment, pollutant input parameters shall be prepared. Thes
 
 As a reference, Denmark provides open access to environmental monitoring data through the [**Kemidata portal**](https://kemidata.miljoeportal.dk/), which compiles information on chemical and ecological status of surface waters. Such datasets can serve as benchmarks for calibrating or validating simulated pollutant concentrations and for assessing whether stormwater treatment measures help meet water quality objectives. The following figure illustrates an example of surface water monitoring data available from Kemidata, which can be integrated into the analysis as an external point of comparison.
 
-![Immagine che contiene testo, schermata, mappa Il contenuto generato dall'IA potrebbe non essere corretto.](.gitbook/assets/d8-2-den-lab1-vollsmose-draft2_image11.png)
+![Immagine che contiene testo, schermata, mappa Il contenuto generato dall'IA potrebbe non essere corretto.](../.gitbook/assets/d8-2-den-lab1-vollsmose-draft2_image11.png)
 
 Figure 7 - Example of surface water monitoring data available from the Danish Kemidata portal.
 
@@ -269,7 +269,7 @@ The model setup requires careful parameterization of catchment properties, conve
 
 The following figures illustrate the conceptual modelling of an urban drainage network, including sub catchments, hydraulic conduits (pipes), and key junctions. For selected nodes or links, both hydraulic inflows and water quality parameters (e.g. Total Suspended Solids – TSS) can be simulated under different design or land-use scenarios. These visualisations, adapted from the SWMM manual, show how network models can assess stormwater volumes and pollutant loads, supporting the comparison between conventional infrastructure and Nature-based Solutions (NbS) in reducing peak flows and improving water quality.
 
-![](.gitbook/assets/d8-2-den-lab1-vollsmose-draft2_image12.png) ![](.gitbook/assets/d8-2-den-lab1-vollsmose-draft2_image13.png) ![](.gitbook/assets/d8-2-den-lab1-vollsmose-draft2_image14.png)
+![](../.gitbook/assets/d8-2-den-lab1-vollsmose-draft2_image12.png) ![](../.gitbook/assets/d8-2-den-lab1-vollsmose-draft2_image13.png) ![](../.gitbook/assets/d8-2-den-lab1-vollsmose-draft2_image14.png)
 
 Figure 8 – Example outputs from urban drainage simulation tools (adapted from [**SWMM 5.2 User Manual**](https://www.epa.gov/system/files/documents/2022-04/swmm-users-manual-version-5.2.pdf)**)**
 
@@ -289,7 +289,7 @@ _For example, results may show that a critical junction in the sewer system expe
 >
 > _The figure below illustrates such an application: sewer nodes are coloured according to the maximum overflow volume computed during the simulation, providing a spatially explicit overview of critical locations in the drainage system._
 
-![](.gitbook/assets/d8-2-den-lab1-vollsmose-draft2_image15.png)
+![](../.gitbook/assets/d8-2-den-lab1-vollsmose-draft2_image15.png)
 
 Figure 9 – example of m maximum overflow volumes \[m3] per sewer node under a design storm scenario, visualised as point features in a GIS environment. Node size and colour scale reflect the simulated overflow volume (m³), highlighting critical areas of surcharge that may guide the prioritisation of NbS interventions and network upgrades.
 

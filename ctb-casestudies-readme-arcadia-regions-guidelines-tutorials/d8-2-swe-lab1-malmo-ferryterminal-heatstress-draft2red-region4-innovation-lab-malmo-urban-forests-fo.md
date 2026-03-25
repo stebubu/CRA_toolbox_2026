@@ -1,4 +1,4 @@
-# D8.2 SWE Lab1 Malmo Ferryterminal HeatStress Draft2Red
+# Region4 - Innovation Lab Malmö
 
 ## Introduction and Objectives of the Climate Risk Assessment
 
@@ -6,11 +6,11 @@ Malmö is a coastal city in southern Sweden, and the third-largest urban area. I
 
 The Malmö CRA baseline focuses on Nyhamnen, and the former ferry terminal area is an extensively paved district, highly exposed to heat stress and in the scope for redevelopment. The area sits in an industrial harbour environment dominated by large, paved surfaces (roads, parking areas, port infrastructure) and a few low-rise buildings, with very limited green space. As a result, it is prone to extreme surface heating on sunny days which makes it a growing health issue as the climate change makes it hotter in the summer.
 
-![En bild som visar karta, text, kartbok AI-genererat innehåll kan vara felaktigt.](.gitbook/assets/d8-2-swe-lab1-malmo-ferryterminal-heatstress-draft2red_image1.png)
+![En bild som visar karta, text, kartbok AI-genererat innehåll kan vara felaktigt.](../.gitbook/assets/d8-2-swe-lab1-malmo-ferryterminal-heatstress-draft2red_image1.png)
 
 _Figure 1 - Map of Malmö, Ferry terminal in the red rectangle._
 
-![](.gitbook/assets/d8-2-swe-lab1-malmo-ferryterminal-heatstress-draft2red_image2.png)
+![](../.gitbook/assets/d8-2-swe-lab1-malmo-ferryterminal-heatstress-draft2red_image2.png)
 
 _Figure 2 - Location of the labs in skåne, Sweden._
 
@@ -18,7 +18,7 @@ Co-Innovation Lab 1 builds on Malmö’s long-term commitment to using Nature-ba
 
 An urban forest has been planted at the Ferry Terminal in September 2025 as a Nature based Solution to mitigate heat stress and improve microclimatic conditions at the site and the analysis compares conditions before and after its implementation. This CRA establishes a baseline for urban heat exposure in the Ferry Terminal area by comparing a fully paved before NbS apron scenario with the current situation see Figure 3.
 
-![En bild som visar utomhus, moln, himmel, mark AI-genererat innehåll kan vara felaktigt.](.gitbook/assets/d8-2-swe-lab1-malmo-ferryterminal-heatstress-draft2red_image4.png) ![](.gitbook/assets/d8-2-swe-lab1-malmo-ferryterminal-heatstress-draft2red_image5.png)
+![En bild som visar utomhus, moln, himmel, mark AI-genererat innehåll kan vara felaktigt.](../.gitbook/assets/d8-2-swe-lab1-malmo-ferryterminal-heatstress-draft2red_image4.png) ![](../.gitbook/assets/d8-2-swe-lab1-malmo-ferryterminal-heatstress-draft2red_image5.png)
 
 _Figure 3 - Ferry terminal, Co-Innovation Lab 1 in Malmö Figure 4 - Ferry terminal, Co-Innovation Lab 1 in Malmö_
 
@@ -79,7 +79,7 @@ _Table 2 – used tools and role in the Erosion Hazard workflow, all tools are f
 
 Study grid: A regular 10 × 10 m grid (613 cells) was created in QGIS to cover the Ferry Terminal area. All analysis is carried out at grid-cell level.
 
-![En bild som visar karta, text, skärmbild AI-genererat innehåll kan vara felaktigt.](.gitbook/assets/d8-2-swe-lab1-malmo-ferryterminal-heatstress-draft2red_image6.png)
+![En bild som visar karta, text, skärmbild AI-genererat innehåll kan vara felaktigt.](../.gitbook/assets/d8-2-swe-lab1-malmo-ferryterminal-heatstress-draft2red_image6.png)
 
 _Figure 5 - Ferry Terminal area with 2024 orthophoto and the 10 × 10 m analysis grid (Malmö internal GIS database)._
 
@@ -95,11 +95,11 @@ Land cover was digitised and classified into paved, buildings, evergreen trees, 
 **Urban forest polygons and climate data**\
 The NbS design for the urban forest (Figure 6 and Figure 7) was imported as polygons and overlaid with the grid to identify which cells are affected by the intervention. A Copenhagen EPW file (DNK\_Copenhagen.061800\_IWEC.epw) was added as reference climate data for the region but is not used in the heat index calculations.
 
-![En bild som visar Flygfotografi, text, karta, flygbaserad AI-genererat innehåll kan vara felaktigt.](.gitbook/assets/d8-2-swe-lab1-malmo-ferryterminal-heatstress-draft2red_image7.png)
+![En bild som visar Flygfotografi, text, karta, flygbaserad AI-genererat innehåll kan vara felaktigt.](../.gitbook/assets/d8-2-swe-lab1-malmo-ferryterminal-heatstress-draft2red_image7.png)
 
 _Figure 6 - Plan view of the Ferry Terminal area, with the urban forest highlighted in yellow._
 
-![En bild som visar karta, text AI-genererat innehåll kan vara felaktigt.](.gitbook/assets/d8-2-swe-lab1-malmo-ferryterminal-heatstress-draft2red_image8.png)
+![En bild som visar karta, text AI-genererat innehåll kan vara felaktigt.](../.gitbook/assets/d8-2-swe-lab1-malmo-ferryterminal-heatstress-draft2red_image8.png)
 
 _Figure 7 - Detailed photo of the urban forest at the Ferry Terminal._
 
@@ -134,7 +134,7 @@ Two fields were created in the grid: heat\_before – heat index for each cell i
 
 **Before urban forest plantation (Nbs)**
 
-![En bild som visar diagram, karta, skärmbild, Plan AI-genererat innehåll kan vara felaktigt.](.gitbook/assets/d8-2-swe-lab1-malmo-ferryterminal-heatstress-draft2red_image9.png)
+![En bild som visar diagram, karta, skärmbild, Plan AI-genererat innehåll kan vara felaktigt.](../.gitbook/assets/d8-2-swe-lab1-malmo-ferryterminal-heatstress-draft2red_image9.png)
 
 _Figure 8 - Land cover map of the Malmö Ferry Terminal area._
 
@@ -142,11 +142,11 @@ Figure 8 shows classifies surfaces into 5 types (deciduous and bare soil is not 
 
 **After Nbs**
 
-![](.gitbook/assets/d8-2-swe-lab1-malmo-ferryterminal-heatstress-draft2red_image10.png)
+![](../.gitbook/assets/d8-2-swe-lab1-malmo-ferryterminal-heatstress-draft2red_image10.png)
 
 _Figure 9 - Land cover in the study area after implementation of the urban forest (current state, 2025)._
 
-![En bild som visar karta, skärmbild, text AI-genererat innehåll kan vara felaktigt.](.gitbook/assets/d8-2-swe-lab1-malmo-ferryterminal-heatstress-draft2red_image11.png)
+![En bild som visar karta, skärmbild, text AI-genererat innehåll kan vara felaktigt.](../.gitbook/assets/d8-2-swe-lab1-malmo-ferryterminal-heatstress-draft2red_image11.png)
 
 _Figure 10 - Building height distribution in the Ferry Terminal area._
 
@@ -176,11 +176,11 @@ The three heat index classes represent relative surface and near surface tempera
 
 _Table 4 - Temperature Reference used: DNK\_Copenhagen.061800\_IWEC._
 
-![](.gitbook/assets/d8-2-swe-lab1-malmo-ferryterminal-heatstress-draft2red_image12.png)
+![](../.gitbook/assets/d8-2-swe-lab1-malmo-ferryterminal-heatstress-draft2red_image12.png)
 
 _Figure 11 - Ferry terminal – Heat exposure index before NbS implementation._
 
-![](.gitbook/assets/d8-2-swe-lab1-malmo-ferryterminal-heatstress-draft2red_image13.png)
+![](../.gitbook/assets/d8-2-swe-lab1-malmo-ferryterminal-heatstress-draft2red_image13.png)
 
 _Figure 12 - Ferry terminal – Heat exposure index after NbS implementation._
 

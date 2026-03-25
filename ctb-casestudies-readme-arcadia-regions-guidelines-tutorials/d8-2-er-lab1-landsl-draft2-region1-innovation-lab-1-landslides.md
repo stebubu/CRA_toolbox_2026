@@ -1,4 +1,4 @@
-# D8.2 ER-Lab1 Landsl draft2
+# Region1 - Innovation Lab 1
 
 ## Introduction and Objectives of the Climate Risk Assessment (CRA)
 
@@ -6,7 +6,7 @@
 
 ### [Emilia-Romagna](https://en.wikipedia.org/wiki/Emilia-Romagna), Northern Italy, spans the Northern Apennines and the Po Plain. Rainfall-induced shallow landslides concentrate along the Apennines foothills and mountain belts, where flysch and clay formations, steep slopes, road valleys, and forested catchments co-occur. Intense or prolonged rainfall is the primary trigger of shallow landslides, which normally involve soil depths up to 1 or 2 meters; [the May 2023 extreme rainfall event](https://essd.copernicus.org/articles/17/1055/2025/) is used in this Climate Risk Assessment as the reference for landslides back-analysis and model calibration. Exposure to landslides risk is high for municipal settlements, transport corridors, utilities, and productive forests located on slopes, and service disruptions are likely to occur in foothill municipalities.
 
-![](.gitbook/assets/d8-2-er-lab1-landsl-draft2_image1.png) ![](.gitbook/assets/d8-2-er-lab1-landsl-draft2_image2.png)
+![](../.gitbook/assets/d8-2-er-lab1-landsl-draft2_image1.png) ![](../.gitbook/assets/d8-2-er-lab1-landsl-draft2_image2.png)
 
 Figure 1 – example of surface landslides during May 2023 in Emilia Romagna, source [ECOScienza magazine -ARPAE](https://www.arpae.it/it/ecoscienza/numeri-ecoscienza/anno-2023/numero-5-anno-2023)
 
@@ -66,7 +66,7 @@ Model outputs are produced as raster maps of selected variables, and as hourly s
 
 Table 1 – key indicators tracked-Flood Hazard
 
-![](.gitbook/assets/d8-2-er-lab1-landsl-draft2_image3.png)
+![](../.gitbook/assets/d8-2-er-lab1-landsl-draft2_image3.png)
 
 Figure 2– example of a CRITERIA-3D map, representing the volumetric water content at a depth of 22 cm, 16th May 2023 at 2am.
 
@@ -110,7 +110,7 @@ Table 3– used tools and role in the Landslide Hazard workflow: only open-sourc
 
 Before entering the four steps of the Climate Risk Assessment, it is useful to visualize the general structure of the workflow. The scheme below (Figure 3) illustrates a general workflow of a CRITERIA-3D model application when data related to occurred landslide are available.
 
-![Immagine che contiene testo, diagramma, schermata Il contenuto generato dall'IA potrebbe non essere corretto.](.gitbook/assets/d8-2-er-lab1-landsl-draft2_image4.png)
+![Immagine che contiene testo, diagramma, schermata Il contenuto generato dall'IA potrebbe non essere corretto.](../.gitbook/assets/d8-2-er-lab1-landsl-draft2_image4.png)
 
 Figure 3 - Schematic representation of the model application workflow with parameters calibration using real landslides
 
@@ -128,7 +128,7 @@ All inputs are **referenced in a project file (.ini)** that connects maps and da
 
 Visual support from the [CRITERIA-3D manual](https://github.com/ARPA-SIMC/CRITERIA3D/tree/master/DOC) — such as the project template file and examples of soil and land use maps — can help practitioners understand how their data should be structured before launching simulations.
 
-![](.gitbook/assets/d8-2-er-lab1-landsl-draft2_image5.png)
+![](../.gitbook/assets/d8-2-er-lab1-landsl-draft2_image5.png)
 
 Figure 4 – an example of land use definition in Google Earth environment. The definition of land cover can be done manually in any desired way, notwithstanding that the input for CRITERIA-3D must be a. flt raster map with the pixel values corresponding to the code of the desired land use in the database.
 
@@ -142,13 +142,13 @@ The model can then be executed **to produce time series in selected points and m
 
 Figure examples from the [CRITERIA-3D user’s manual](https://github.com/ARPA-SIMC/CRITERIA3D/blob/master/DOC/CRITERIA3D_user_manual.pdf) show how databases and maps for the simulation are structured, as well as the visualization of maps within the software environment. These graphical references help clarify the logic of the model run.
 
-![](.gitbook/assets/d8-2-er-lab1-landsl-draft2_image6.png)
+![](../.gitbook/assets/d8-2-er-lab1-landsl-draft2_image6.png)
 
 Figure 5 – an example of an opened project in the CRITERIA-3D environment. The selected menu in the figure allows users to prepare the simulation run.
 
 The time series outputs, if output points are defined within a CRITERIA-3D project, are stored in a SQLite database, while the maps of any desired moment are exportable as raster maps (.flt) that can be exported into GIS environments for further spatial analysis. Users can also save intermediate model states to resume or compare different simulation periods.
 
-![](.gitbook/assets/d8-2-er-lab1-landsl-draft2_image7.png)
+![](../.gitbook/assets/d8-2-er-lab1-landsl-draft2_image7.png)
 
 Figure 6 – an example of an output map related to water matric potential, at a depth of 50 cm and the menu for saving the output in raster format.
 
@@ -160,7 +160,7 @@ A first level of results interpretation is the **comparison between modelled uns
 
 Beyond validation, this analysis step can lead to highlighting the conditions under which slopes become more vulnerable. In fact, by studying variations of Factor of Safety in relation to rainfall intensity and soil saturation, practitioners can identify thresholds that signal the onset of instability. When outputs are overlaid with land use and infrastructure data in a GIS environment, the hazard results can be directly linked to exposed elements such as settlements, roads, or managed forests, thus supporting quantitative risk assessments.
 
-![](.gitbook/assets/d8-2-er-lab1-landsl-draft2_image8.png)
+![](../.gitbook/assets/d8-2-er-lab1-landsl-draft2_image8.png)
 
 Figure 7 – an example of a CRITERIA-3D output map post-processed in GIS environment, where the instability areas detected by CRITERIA-3D (in red) were overlaid with landslide scars (polygons in blue, green and orange) of the May 2023 events
 

@@ -1,4 +1,4 @@
-# D8.2 SWE-Lab2Hel BGi draft2
+# Region4 - Innovation Lab 2-Helsingborg
 
 ## Introduction and Objectives of the Climate Risk Assessment
 
@@ -6,7 +6,7 @@
 
 [Helsingborg Municipality](https://en.wikipedia.org/wiki/Helsingborg_Municipality), located in the Skåne region of southern Sweden, includes urban, peri-urban, and agricultural landscapes shaped by a network of small streams, culverts, and historical wetlands. The municipality and its upstream catchments face increasing risks from pluvial flooding, high flows, and extreme rainfall events, driven by changing climate patterns. Urban expansion and infrastructure have fragmented ecological corridors, reducing connectivity between key ecological value cores such as wetlands, swamp forests, and deciduous forests. At the same time, protected areas, including Natura 2000 sites, and existing ecological assets provide opportunities for targeted Blue-Green Infrastructure ([BGI](https://www.sciencedirect.com/science/article/abs/pii/S0040162520313548)) interventions. These can mitigate flood risks, restore hydrological continuity, and strengthen ecological resilience at the catchment scale.
 
-![](.gitbook/assets/d8-2-swe-lab2hel-bgi-draft2_image1.png)
+![](../.gitbook/assets/d8-2-swe-lab2hel-bgi-draft2_image1.png)
 
 _Figure 1 - Location of the Helsingborg municipalitiy s in Skåne._
 
@@ -18,7 +18,7 @@ This tutorial presents a replicable Climate Risk Assessment (CRA) workflow for i
 
 > This tutorial is intended as a general workflow example and does not replace software-specific documentation (e.g., GIS, hydrological, hydraulic tools user/technical manuals). Users should already be familiar with the relevant geospatial data formats, data pre-processing techniques, and modelling concepts applicable to their hazard of interest (e.g., flood mapping.), as well as with the specific input/output requirements and run functionalities of the modelling software before attempting to replicate this workflow
 
-![](.gitbook/assets/d8-2-swe-lab2hel-bgi-draft2_image3.jpg)
+![](../.gitbook/assets/d8-2-swe-lab2hel-bgi-draft2_image3.jpg)
 
 _Figure 2 - Illustration of two-stage ditches in Helsingborg and vegetation in a ditch (top) , and Blue-green corridors in the agricultural landscape in Helsingborg municipality (bottom)_
 
@@ -82,9 +82,9 @@ _Table 2 – used data, an alternative dataset to replicate the assessment outsi
 >
 > _A practical example of this approach has been implemented_ [_here_](https://www.euspa.europa.eu/newsroom-events/success-stories/copernicus-hydropower-flood-assessments) _for a hydropower site in Switzerland, where Copernicus climate projections, coupled with limited gauging station statistics for basic downscaling, were used to estimate future 100-year flood discharges and run simplified hydraulic simulations to assess potential downstream impacts. The methodology explores how to use Copernicus datasets to create a preliminary “climate-adjusted” flood map._
 
-![](.gitbook/assets/d8-2-swe-lab2hel-bgi-draft2_image9.png)
+![](../.gitbook/assets/d8-2-swe-lab2hel-bgi-draft2_image9.png)
 
-![Immagine che contiene Aerofotogrammetria, Vista aerea, mappa, aereo Il contenuto generato dall'IA potrebbe non essere corretto.](.gitbook/assets/d8-2-swe-lab2hel-bgi-draft2_image10.png)
+![Immagine che contiene Aerofotogrammetria, Vista aerea, mappa, aereo Il contenuto generato dall'IA potrebbe non essere corretto.](../.gitbook/assets/d8-2-swe-lab2hel-bgi-draft2_image10.png)
 
 _Figure 3 – example of Lidar DTM, one of the main driver of flood risk assessment, for Helsingborg area compared to satellite map; obstacles such as buildings and trees are filtered from the DTM surface._
 
@@ -120,7 +120,7 @@ The **contributing catchment boundaries** provide a reference framework for stru
 
 > _It should be noted, however, that adopting the full contributing catchment as model domain may result in an **excessively large computational extent.** In such cases, it is advisable to first perform a hydrological assessment of peak discharges / flood waves in the modelled river, so that the hydraulic risk model can be restricted to the areas actually affected by flooding and targeted for Nature-Based Solutions. This approach avoids unnecessarily large DEM inputs and reduces computational load without compromising the relevance of the analysis._
 
-![Immagine che contiene mappa, testo, atlante Il contenuto generato dall'IA potrebbe non essere corretto.](.gitbook/assets/d8-2-swe-lab2hel-bgi-draft2_image11.jpg)
+![Immagine che contiene mappa, testo, atlante Il contenuto generato dall'IA potrebbe non essere corretto.](../.gitbook/assets/d8-2-swe-lab2hel-bgi-draft2_image11.jpg)
 
 _Figure 4 - example map showing value cores and connectivity map obtained via GIS overlaying of key layers._
 
@@ -132,15 +132,15 @@ These analyses are directly applicable in simplified, zero-dimensional (0D) mode
 
 Example of depression delineating using terrain morphology analysis in reported in (Figure 3)
 
-![](.gitbook/assets/d8-2-swe-lab2hel-bgi-draft2_image12.png)
+![](../.gitbook/assets/d8-2-swe-lab2hel-bgi-draft2_image12.png)
 
 _Figure 5 – example of depression detection via raster-based analysis of DTM (courtesy of_ [_SaferPlaces_](https://saferplaces.co/)_)_
 
 The initial morphological analysis already provides valuable insight into potential intervention areas. By extracting flow directions and delineating depressions or temporary storage zones from the DEM, it is possible to generate maps of flow paths and inundation-prone areas. When these outputs are overlaid in the GIS environment, they offer a first spatial indication of where Blue-Green Infrastructure could be located to maximise retention capacity and align with natural hydrological processes (Figure 6).
 
-![Immagine che contiene testo, mappa, atlante, schermata Il contenuto generato dall'IA potrebbe non essere corretto.](.gitbook/assets/d8-2-swe-lab2hel-bgi-draft2_image13.png)
+![Immagine che contiene testo, mappa, atlante, schermata Il contenuto generato dall'IA potrebbe non essere corretto.](../.gitbook/assets/d8-2-swe-lab2hel-bgi-draft2_image13.png)
 
-![Immagine che contiene mappa, testo, atlante Il contenuto generato dall'IA potrebbe non essere corretto.](.gitbook/assets/d8-2-swe-lab2hel-bgi-draft2_image14.jpg)
+![Immagine che contiene mappa, testo, atlante Il contenuto generato dall'IA potrebbe non essere corretto.](../.gitbook/assets/d8-2-swe-lab2hel-bgi-draft2_image14.jpg)
 
 _Figure 6- example of Flow paths and flood zones detection via Flood Modeling tools, overlayed in GIS environment to base maps._
 
@@ -148,9 +148,9 @@ Next, flood hazard layers representing extent and water depth for target return 
 
 If hydraulic simulation is carried out, the choice of modelling approach should reflect both the availability of topographic information and the computational resources at hand. In some cases, a very simple scheme—such as the zero-dimensional (0D) approach introduced earlier, based on storage areas and flood routing—may be sufficient. Where higher detail is possible, the analysis can instead rely on more refined methods, such as a two-dimensional inundation model of the river channel and adjacent flood-prone areas.
 
-![](.gitbook/assets/d8-2-swe-lab2hel-bgi-draft2_image15.png)
+![](../.gitbook/assets/d8-2-swe-lab2hel-bgi-draft2_image15.png)
 
-![Immagine che contiene mappa, testo Il contenuto generato dall'IA potrebbe non essere corretto.](.gitbook/assets/d8-2-swe-lab2hel-bgi-draft2_image16.png)
+![Immagine che contiene mappa, testo Il contenuto generato dall'IA potrebbe non essere corretto.](../.gitbook/assets/d8-2-swe-lab2hel-bgi-draft2_image16.png)
 
 _Figure 7 - Example of 2D flood model of a flood volume upstream of an urban area (courtesy of_ [_SaferPlaces_](https://saferplaces.co/)_)_
 

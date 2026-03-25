@@ -1,4 +1,4 @@
-# D8.2 ER-Lab3 FIAs draft2
+# Region 1 - Innovation Lab 3:
 
 ## Introduction and Objectives of the Climate Risk Assessment
 
@@ -6,15 +6,15 @@
 
 The Innovation Lab 3 is located in the upper Bidente–Ronco basin, in the municipalities of [Galeata](https://maps.app.goo.gl/1z1h3h64Sf2cemWr7)–[Santa Sofia](https://maps.app.goo.gl/AaxfgSnbjj6mExaB7) (Forlì–Cesena Province, Emilia-Romagna, Italy). This area represents a mixed forest–agricultural landscape in the Apennine foothills, characterized by steep slopes, permeable soils, and high rainfall variability.
 
-|                                                                                                                                                                                 |                                                                                                                                                                             |
-| ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| ![Immagine che contiene aria aperta, nuvola, cielo, paesaggio Il contenuto generato dall'IA potrebbe non essere corretto.](.gitbook/assets/d8-2-er-lab3-fias-draft2_image1.jpg) | ![Immagine che contiene aria aperta, nuvola, erba, natura Il contenuto generato dall'IA potrebbe non essere corretto.](.gitbook/assets/d8-2-er-lab3-fias-draft2_image2.jpg) |
+|                                                                                                                                                                                    |                                                                                                                                                                                |
+| ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
+| ![Immagine che contiene aria aperta, nuvola, cielo, paesaggio Il contenuto generato dall'IA potrebbe non essere corretto.](../.gitbook/assets/d8-2-er-lab3-fias-draft2_image1.jpg) | ![Immagine che contiene aria aperta, nuvola, erba, natura Il contenuto generato dall'IA potrebbe non essere corretto.](../.gitbook/assets/d8-2-er-lab3-fias-draft2_image2.jpg) |
 
 _Figure 1 - Figure of the study area: Castellaro Nursery_
 
 **Heavy precipitation events** often generate flash runoffs and landslides, while prolonged summer dry spells cause water scarcity and stress for crops and ecosystems. These combined hazards directly affect water availability, soil stability, and agricultural productivity. Within this setting, **Forested Infiltration Areas (FIAs)** are tested as a Nature-Based Solution to enhance infiltration, reduce runoff peaks, improve water quality, and support sustainable irrigation demand in forest nurseries and surrounding agricultural lands.
 
-![Immagine che contiene albero, Arte bambini, cartone animato, illustrazione Il contenuto generato dall'IA potrebbe non essere corretto.](.gitbook/assets/d8-2-er-lab3-fias-draft2_image3.png)
+![Immagine che contiene albero, Arte bambini, cartone animato, illustrazione Il contenuto generato dall'IA potrebbe non essere corretto.](../.gitbook/assets/d8-2-er-lab3-fias-draft2_image3.png)
 
 _Figure 2 - Schematic example of the FIAs used in this Lab, source CER._
 
@@ -24,7 +24,7 @@ As conceptually recalled in Figure 2, NbS operate within a virtuous cycle in whi
 
 At the same time, the environmental advantages produced by NbS contribute to strengthening the socio-economic resilience of the territory, by reducing exposure to climate-related risks and supporting more effective planning and decision-making processes. Within this framework, NbS are not regarded as isolated measures, but as structural components of medium- to long-term adaptation strategies, capable of activating positive feedback mechanisms between environmental conditions, resource management, and territorial governance.
 
-![Immagine che contiene testo, schermata, albero, Pubblicità online Il contenuto generato dall'IA potrebbe non essere corretto.](.gitbook/assets/d8-2-er-lab3-fias-draft2_image4.png)
+![Immagine che contiene testo, schermata, albero, Pubblicità online Il contenuto generato dall'IA potrebbe non essere corretto.](../.gitbook/assets/d8-2-er-lab3-fias-draft2_image4.png)
 
 _Figure 3 - Conceptual representation of the virtuous cycle of Nature-Based Solutions (NbS), illustrating how ecosystem-based interventions enhance hydrological regulation, environmental quality, and socio-economic resilience through positive feedback mechanisms._
 
@@ -36,7 +36,7 @@ From a hydrogeological perspective, the site plays a key role in local water reg
 
 These conditions make the Castellaro site particularly suitable for the implementation and testing of Forested Infiltration Areas (FIAs) as a Nature-Based Solution. The objective is to restore and enhance natural infiltration and water retention processes, mitigate runoff and erosion on steep slopes, and support both quantitative and qualitative aspects of the local water cycle. In this context, the site provides a representative case study for evaluating NbS performance in forested headwater areas and for linking site-scale processes with downstream water management and irrigation needs, within the spatial framework referenced in Figure 4.
 
-![Immagine che contiene mappa, testo, schermata Il contenuto generato dall'IA potrebbe non essere corretto.](.gitbook/assets/d8-2-er-lab3-fias-draft2_image5.png)
+![Immagine che contiene mappa, testo, schermata Il contenuto generato dall'IA potrebbe non essere corretto.](../.gitbook/assets/d8-2-er-lab3-fias-draft2_image5.png)
 
 _Figure 4 - Location of the Castellaro Copilot site within the regional forest nursery_
 
@@ -93,7 +93,7 @@ _Table 1 – key indicators tracked- Catchment-Scale Hazard: Runoff, Erosion & W
 
 The Figure 5 shows the study basin with the sub-basin highlighted in red where the SWAT+ model will be applied. It should be noted that the basin represented is the one obtained from the first simulations and is therefore not final. Moreover, the small size of the identified basin requires further evaluations to determine whether or not to confirm this preliminary result.
 
-![Immagine che contiene mappa, testo, schermata Il contenuto generato dall'IA potrebbe non essere corretto.](.gitbook/assets/d8-2-er-lab3-fias-draft2_image6.png)
+![Immagine che contiene mappa, testo, schermata Il contenuto generato dall'IA potrebbe non essere corretto.](../.gitbook/assets/d8-2-er-lab3-fias-draft2_image6.png)
 
 _Figure 5– Example of the study area and the sub-basin in red where SWAT+ will be applied._
 
@@ -164,7 +164,7 @@ The baseline run must yield decision-ready outputs for the key indicators tracke
 
 Baseline processing, in brief: perform **DEM-based topographic processing** to delineate watershed, sub-basins, and channels; then **assign attributes** by intersecting land use, soils, and slope to create **HRUs**; finally **run the daily water-balance and water-quality simulation** so outputs can be mapped and analyzed at **HRU/LSU/channel** level, including sediment.
 
-![Immagine che contiene mappa, testo, schermata Il contenuto generato dall'IA potrebbe non essere corretto.](.gitbook/assets/d8-2-er-lab3-fias-draft2_image11.png)
+![Immagine che contiene mappa, testo, schermata Il contenuto generato dall'IA potrebbe non essere corretto.](../.gitbook/assets/d8-2-er-lab3-fias-draft2_image11.png)
 
 _Figure 7 – example of topographic processing delineates the watershed, sub-basins, and channels from the DEM. After reading grids and intersecting land use, soils, and slope, potential HRUs are created as polygons, enabling HRU-level mapping and analysis, source_ [_QSWAT+ manual_](https://1905549715-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2FgsvY4UbwriwcK1CI5lan%2Fuploads%2FgHq0X4ezLSWlotZ8Llyv%2FQSWATPlus%20Manual_v3.0.pdf?alt=media\&token=dcaf77fa-a670-4a62-86d6-4451d593e69b)_. The images represent an illustrative example and are not related to our case study, as the modeling is still in progress and consistent results are not yet available._
 
@@ -181,11 +181,11 @@ Relate spatial signals to soils, land use, slope, and drainage, then record wher
 Use two standard outputs (Figure 8, Figure 9): **a static HRU map** and an outlet flow time series. The HRU map is generated as a static shapefile with aggregated metrics ready for GIS analysis; the outlet series is plotted with **SWATGraph options** and can be compared with recorded values, for example a gauged hydrograph.\
 If a gauge exists at basin closure, compare simulated and observed discharge and **iteratively refine the baseline setup before proceeding to Step 4,** also quality parameters may be compared in output Vs observed values.
 
-![Immagine che contiene testo, schermata, Diagramma, linea Il contenuto generato dall'IA potrebbe non essere corretto.](.gitbook/assets/d8-2-er-lab3-fias-draft2_image12.png)
+![Immagine che contiene testo, schermata, Diagramma, linea Il contenuto generato dall'IA potrebbe non essere corretto.](../.gitbook/assets/d8-2-er-lab3-fias-draft2_image12.png)
 
 _Figure 8 - Top: Static HRU results Bottom: Outlet discharge time series. The static view exports HRU polygons with model metrics for GIS analysis; the time series plots simulated flow at basin closure and supports calibration against observed hydrographs, source_ [_QSWAT+ manual_](https://1905549715-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2FgsvY4UbwriwcK1CI5lan%2Fuploads%2FgHq0X4ezLSWlotZ8Llyv%2FQSWATPlus%20Manual_v3.0.pdf?alt=media\&token=dcaf77fa-a670-4a62-86d6-4451d593e69b)
 
-![Immagine che contiene testo, schermata, diagramma, mappa Il contenuto generato dall'IA potrebbe non essere corretto.](.gitbook/assets/d8-2-er-lab3-fias-draft2_image13.gif)
+![Immagine che contiene testo, schermata, diagramma, mappa Il contenuto generato dall'IA potrebbe non essere corretto.](../.gitbook/assets/d8-2-er-lab3-fias-draft2_image13.gif)
 
 _Figure 9 - EXPLANATORY Example: with the sample data provided, above, in the basin, the outflow is simulated as the result of runoff, drainage, and infiltration. The colour represents the monthly risk index (with green-blue indicating the highest flow rates)._
 
@@ -199,7 +199,7 @@ Eventually introduce **Climate Change effect in weather forcings** to test more 
 
 To provide an explanatory example, the output with the outflow and flooded area can be used to analyze NBS implementation for wetlands and lamination basins (in blue):
 
-![Immagine che contiene schermata, mappa, testo Il contenuto generato dall'IA potrebbe non essere corretto.](.gitbook/assets/d8-2-er-lab3-fias-draft2_image14.png)
+![Immagine che contiene schermata, mappa, testo Il contenuto generato dall'IA potrebbe non essere corretto.](../.gitbook/assets/d8-2-er-lab3-fias-draft2_image14.png)
 
 _Figure 10 - explanatory example, the output with the outflow and flooded area can be used to analyze NBS implementation for wetlands and lamination basins (in blue)_
 
@@ -298,7 +298,7 @@ the following diagram is (from the IRRINET English manual) schematizes of the so
 
 > _Use of alternative tools such as AquaCrop requires strict adherence to its input formats: the project file must reference climate files (e.g. ETo, temperature, rain) plus calendar, crop, irrigation/field management, soil profile, groundwater, initial/off-season and field-data files; consult the AquaCrop manual and match its file structures before any run._
 
-![Immagine che contiene testo, diagramma, schermata, Piano Il contenuto generato dall'IA potrebbe non essere corretto.](.gitbook/assets/d8-2-er-lab3-fias-draft2_image15.png)
+![Immagine che contiene testo, diagramma, schermata, Piano Il contenuto generato dall'IA potrebbe non essere corretto.](../.gitbook/assets/d8-2-er-lab3-fias-draft2_image15.png)
 
 _Figure 11 – fluxes of input-output in the water balance model implemented in IRRIFRAME, aimed at crop irrigation management at a field scale, courtesy of_ [_CER_](https://www.irriframe.it/irriframe/Content/IrriFrame_Documentation_english_version.pdf)
 
@@ -308,7 +308,7 @@ The model advances a daily soil–plant water balance: it reads **ETo**, **preci
 
 Open alternative: **AquaCrop** applies the same balance and provides daily ET, **Kc (Tr)**, and **net irrigation requirement (Inet)** from which ETc and event depth can be derived.
 
-![1: Flowchart of the AquaCrop model. Dotted arrows indicate processes... | Download Scientific Diagram](.gitbook/assets/d8-2-er-lab3-fias-draft2_image16.png)
+![1: Flowchart of the AquaCrop model. Dotted arrows indicate processes... | Download Scientific Diagram](../.gitbook/assets/d8-2-er-lab3-fias-draft2_image16.png)
 
 _Figure 12 - Source: Van Gaelen, H. (2012). The effect of field management on yield and water productivity \[Master’s thesis, Katholieke Universiteit Leuven]. ResearchGate. https://www.researchgate.net/publication/262952745\_The\_effect\_of\_field\_management\_on\_yield\_and\_water\_productivity_
 
@@ -316,7 +316,7 @@ _Figure 12 - Source: Van Gaelen, H. (2012). The effect of field management on yi
 
 Use the graphical outputs to derive two decision variables: ETc (crop water need) and the irrigation advice (next date and event depth).
 
-![Immagine che contiene testo, linea, Diagramma, Carattere Il contenuto generato dall'IA potrebbe non essere corretto.](.gitbook/assets/d8-2-er-lab3-fias-draft2_image17.png)
+![Immagine che contiene testo, linea, Diagramma, Carattere Il contenuto generato dall'IA potrebbe non essere corretto.](../.gitbook/assets/d8-2-er-lab3-fias-draft2_image17.png)
 
 _Figure 13 - graphical outputs example of two decision variables: ETc (crop water need) and the irrigation advice (next date and event depth)._
 

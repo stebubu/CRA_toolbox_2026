@@ -1,4 +1,4 @@
-# D8.2 AUT-Lab3 Heatstress draft2
+# Region3 - Innovation Lab Amstetten:
 
 ## Introduction and Objectives of the Climate Risk Assessment
 
@@ -16,7 +16,7 @@ Nature-Based Solutions (NbS) such as **expansion of tree canopy, creation of pub
 
 The Climate Risk Assessment in this therefore focuses on testing the effectiveness of these NbS to reduce thermal stress and to provide evidence for integration into **urban planning and adaptation strategies**.
 
-![Immagine che contiene mappa, testo Il contenuto generato dall'IA potrebbe non essere corretto.](.gitbook/assets/d8-2-aut-lab3-heatstress-draft2_image2.png)
+![Immagine che contiene mappa, testo Il contenuto generato dall'IA potrebbe non essere corretto.](../.gitbook/assets/d8-2-aut-lab3-heatstress-draft2_image2.png)
 
 _Figure 1 - physical map of Lower Austria. Source: https://maps-austria.com/lower-austria-map_ (top)_, location of city of Amstetten (bottom)_
 
@@ -103,11 +103,11 @@ _Table 2 – used data, an alternative dataset to replicate the assessment outsi
 
 > _Urban climate modelling at this scale generally benefits from high-resolution topographic data, typically derived from LiDAR surveys. Such datasets allow not only an accurate description of urban topography but also the extraction of critical (information, such as building heights from digital surface models (DSM), which can then be assigned to building footprints and other model element (Figure 4)._
 
-![Immagine che contiene testo, mappa Il contenuto generato dall'IA potrebbe non essere corretto.](.gitbook/assets/d8-2-aut-lab3-heatstress-draft2_image4.png)
+![Immagine che contiene testo, mappa Il contenuto generato dall'IA potrebbe non essere corretto.](../.gitbook/assets/d8-2-aut-lab3-heatstress-draft2_image4.png)
 
 _Figure 3 - Administrative boundaries of the city of Amstetten overlaid on the available national DTM at 10 × 10 m resolution. This terrain model provides the base layer for urban climate simulations._
 
-![](.gitbook/assets/d8-2-aut-lab3-heatstress-draft2_image5.png) ![](.gitbook/assets/d8-2-aut-lab3-heatstress-draft2_image6.png)
+![](../.gitbook/assets/d8-2-aut-lab3-heatstress-draft2_image5.png) ![](../.gitbook/assets/d8-2-aut-lab3-heatstress-draft2_image6.png)
 
 _Figure 4 - The DTM is a filtered terrain model without obstacles such as trees or buildings. On the right, building footprints are overlaid to highlight missing above-ground elements, which need to be integrated from complementary datasets (e.g. DSM or building inventories). areas, farmer demographics (age, gender), livestock, labour, and production methods. While coarser in scale, these can serve as vulnerability layers when regional data are unavailable._
 
@@ -155,9 +155,9 @@ The climate component is provided by temperature and precipitation series from r
 
 > _Free tools are available to inspect and modify EPW files, such as_ [_Elements_](https://bigladdersoftware.com/projects/elements/)_. We recommend changing the epw file after reading the official **UMEP documentation and tutorial examples** (Table 3) to adjust the variables, ensuring that the file accurately represents both the local climate data and the modelling requirements (Figure 5)_
 
-![](.gitbook/assets/d8-2-aut-lab3-heatstress-draft2_image7.png)
+![](../.gitbook/assets/d8-2-aut-lab3-heatstress-draft2_image7.png)
 
-![Immagine che contiene testo, schermata, mappa, diagramma Il contenuto generato dall'IA potrebbe non essere corretto.](.gitbook/assets/d8-2-aut-lab3-heatstress-draft2_image8.png)
+![Immagine che contiene testo, schermata, mappa, diagramma Il contenuto generato dall'IA potrebbe non essere corretto.](../.gitbook/assets/d8-2-aut-lab3-heatstress-draft2_image8.png)
 
 _Figure 5 – example of EPW files as “typical meteorological dataset with a typical year” download nearby Amstetten and open for modification._
 
@@ -167,7 +167,7 @@ For microclimate modelling in UMEP, the main spatial datasets – building geome
 
 An example of this data preparation, with building polygons on the left and the reclassified land cover raster on the right, is shown in Figure X based on the UMEP tutorial dataset.
 
-![](.gitbook/assets/d8-2-aut-lab3-heatstress-draft2_image9.png)
+![](../.gitbook/assets/d8-2-aut-lab3-heatstress-draft2_image9.png)
 
 _Figure 6 - On the left, the vector file with building footprint polygons classified by building type. On the right, the raster land cover layer reclassified into impervious and vegetated surfaces according to the UMEP tutorial. The example is derived from a sample city dataset provided in the official UMEP documentation._
 
@@ -207,13 +207,13 @@ The baseline **represents the current urban climate conditions** in Amstetten du
 
 This initial model run provides a reference picture of the prevailing situation, highlighting the areas most exposed to high thermal loads due to building density, land cover composition, or lack of vegetation. The outputs take the form of spatial maps and time series of temperature and radiation, which can be analysed to identify hotspots and areas of relative resilience.
 
-![Immagine che contiene testo, linea, Diagramma, Carattere Il contenuto generato dall'IA potrebbe non essere corretto.](.gitbook/assets/d8-2-aut-lab3-heatstress-draft2_image10.jpg)
+![Immagine che contiene testo, linea, Diagramma, Carattere Il contenuto generato dall'IA potrebbe non essere corretto.](../.gitbook/assets/d8-2-aut-lab3-heatstress-draft2_image10.jpg)
 
 _Figure 7 – example of Above: Wind speed and global radiation from epw-file. Below: Air temperature from ground station data compared with those simulated in the grid of the model including the station (source_ \[1]_)_
 
 The baseline maps can also be combined w**ith socio-economic datasets, such as population density or income levels,** to identify vulnerable groups and evaluate the potential social and economic impacts of heat stress. This integrated view allows the baseline to serve not only as a technical benchmark for subsequent scenario analysis, but also as a decision-support layer for urban planners and public authorities.
 
-![Immagine che contiene mappa, testo Il contenuto generato dall'IA potrebbe non essere corretto.](.gitbook/assets/d8-2-aut-lab3-heatstress-draft2_image11.png)
+![Immagine che contiene mappa, testo Il contenuto generato dall'IA potrebbe non essere corretto.](../.gitbook/assets/d8-2-aut-lab3-heatstress-draft2_image11.png)
 
 _Figure 8 – example of temperature difference in mean ground temperature \[°C] for an urban area simulated with UMEP._
 

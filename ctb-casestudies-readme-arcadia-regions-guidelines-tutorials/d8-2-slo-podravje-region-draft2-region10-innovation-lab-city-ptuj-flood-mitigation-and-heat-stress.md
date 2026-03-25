@@ -1,4 +1,4 @@
-# D8.2 SLO-Podravje Region draft2
+# Region10 - Innovation Lab City Ptuj
 
 ## Introduction and Objectives of the Climate Risk Assessment
 
@@ -6,7 +6,7 @@
 
 The [Podravje Region](https://en.wikipedia.org/wiki/Podravje_Statistical_Region), located in northeastern Slovenia, covers a diverse mix of urban, rural, and riverine landscapes, with key urban centres such as [Maribor](https://en.wikipedia.org/wiki/Maribor) (the country’s second largest city) and Ptuj (one of Slovenia’s oldest towns). The region is dominated by the [Drava River](https://en.wikipedia.org/wiki/Drava) basin and its tributaries, with fertile agricultural lowlands and a dense network of settlements. This geographic setting, coupled with changing climatic patterns, exposes the area to multiple climate-related hazards. Riverine and pluvial flooding and urban heatwaves are identified as priority risks in this tutorial. Drought and biodiversity loss also affect the region but are not addressed in detail in this first release.
 
-![](.gitbook/assets/d8-2-slo-podravje-region-draft2_image1.png)
+![](../.gitbook/assets/d8-2-slo-podravje-region-draft2_image1.png)
 
 _Figure 1: Slovenia - Podravje Region (Atlas voda – DRSV; GURS; GEOZS; SAZU; ARSO, 2025)_
 
@@ -56,11 +56,11 @@ Climate projections indicate an increased frequency of extreme precipitation, wh
 
 _Table 1 – key indicators tracked-Flood Hazard_
 
-![Slika, ki vsebuje besede zemljevid, besedilo, atlas Vsebina, ustvarjena z umetno inteligenco, morda ni pravilna.](.gitbook/assets/d8-2-slo-podravje-region-draft2_image2.png)
+![Slika, ki vsebuje besede zemljevid, besedilo, atlas Vsebina, ustvarjena z umetno inteligenco, morda ni pravilna.](../.gitbook/assets/d8-2-slo-podravje-region-draft2_image2.png)
 
 _Figure 2 – example of flood risk map for Flood map Slovenia – river Drava in its downstream in Slovenia._
 
-![](.gitbook/assets/d8-2-slo-podravje-region-draft2_image3.png)
+![](../.gitbook/assets/d8-2-slo-podravje-region-draft2_image3.png)
 
 _Figure 3 – example of flood risk map for Flood map Slovenia – river Drava in its downstream in Slovenia (Atlas voda – DRSV; GURS; GEOZS; SAZU; ARSO, 2025). Data sources and tools_
 
@@ -109,13 +109,13 @@ _Table 3 – used tools and role in the Flood Hazard workflow, when available a 
 
 **Study Area Overview – Ptuj, Ljudski Vrt Park**
 
-The modelling example focuses on the Ljudski Vrt urban park in Ptuj, where a small catchment of approximately 0.40 km² drains into an artificial pond fed by a steep, forested hillside stream.![](.gitbook/assets/d8-2-slo-podravje-region-draft2_image4.png)
+The modelling example focuses on the Ljudski Vrt urban park in Ptuj, where a small catchment of approximately 0.40 km² drains into an artificial pond fed by a steep, forested hillside stream.![](../.gitbook/assets/d8-2-slo-podravje-region-draft2_image4.png)
 
 _Figure 4 - Study area (source: VGP Drava, d.o.o.; GURS DOF)_
 
 Due to high runoff velocities and limited downstream conveyance capacity (1.12–1.26 m³/s), intense rainfall events frequently caused rapid water-level rise and overflow toward the Ljudski Vrt Primary School and Župančičeva Street. Historical flooding, combined with reduced pond storage caused by sediment accumulation, made the area a representative case for demonstrating flood-mitigation modelling. The implemented solution—a dry retention basin with controlled overflow and drainage—serves as the baseline scenario for illustrating the flood-hazard assessment workflow.
 
-![](.gitbook/assets/d8-2-slo-podravje-region-draft2_image5.png)
+![](../.gitbook/assets/d8-2-slo-podravje-region-draft2_image5.png)
 
 _Figure 5 - Flooding at the outflow of the Ljudski Vrt pond toward Župančičeva Street (Right – intersection with 5. Prekomorska Street; Left – Župančičeva Street toward Potrčeva Road). (source: Neven Vednik, 4 April 2018)_
 
@@ -127,19 +127,19 @@ Hydrological Data – Summary for Step 1
 
 For the Ljudski Vrt case study, hydrological inputs were derived from a combination of local measurements, national datasets, and catchment-based modelling. The contributing catchment (≈0.40 km²) was delineated using LiDAR-based terrain data, while land-use information was used to determine runoff characteristics (CN values).
 
-![](.gitbook/assets/d8-2-slo-podravje-region-draft2_image6.png)
+![](../.gitbook/assets/d8-2-slo-podravje-region-draft2_image6.png)
 
 _Figure 6 - 2D and 3D view of contributing catchment of the Ljudski Vrt torrent (Source: ARSO LIDAR, hydrological model)._
 
 Extreme rainfall data were obtained from the nearest ARSO meteorological station (Mestni Vrh), providing intensity–duration–frequency information for events with 10-, 100-, and 500-year return periods.
 
-![](.gitbook/assets/d8-2-slo-podravje-region-draft2_image7.png)
+![](../.gitbook/assets/d8-2-slo-podravje-region-draft2_image7.png)
 
 _Figure 7 - Extreme rainfall intensities for the Mestni Vrh rain gauge near Ptuj (Source:_ [_ARSO_](https://meteo.arso.gov.si/uploads/probase/www/climate/table/sl/by_variable/return-periods/Mestni%20Vrh%20pri%20Ptuju.pdf)_)._
 
 Surface runoff was simulated using the HEC-HMS model with the SCS methodology, producing design hydrographs for each return period. These hydrographs serve as upper boundary conditions for the hydraulic model and represent the primary input for flood-hazard simulations.
 
-![](.gitbook/assets/d8-2-slo-podravje-region-draft2_image8.png)
+![](../.gitbook/assets/d8-2-slo-podravje-region-draft2_image8.png)
 
 _Figure 8 - Surface Runoff Simulation results – HEC-HMS_
 
@@ -147,7 +147,7 @@ _Figure 8 - Surface Runoff Simulation results – HEC-HMS_
 
 Using GIS tools prepare terrain from high resolution LiDAR DTM (e.g. mosaic tiles in the area of interest, enforce structures such as buildings). Please note that Lidar datasets have no information on underwater topography (Figure 9), this may be derived from local bathymetric surveys or, in the worst case, estimated.
 
-![](.gitbook/assets/d8-2-slo-podravje-region-draft2_image9.png)
+![](../.gitbook/assets/d8-2-slo-podravje-region-draft2_image9.png)
 
 _Figure 9 – example of Lidar DTM from ARSO geoportal compared to raw point cloud map, obstacles such as buildings and trees are filtered from the terrain surface. Underwater topography is not represented (source_ [_CLSS_](https://clss.si/)_)._
 
@@ -157,7 +157,7 @@ In Ljudski Vrt case study Manning roughness coefficients were assigned using pub
 
 For the channel, values between n = 0.035–0.038 were applied, while land-cover-specific roughness values for the 2D hydraulic model were defined as follows: trees and shrubs 0.08, open water 0.035–0.038, forest 0.08, built-up and paved surfaces 0.06, buildings 0.99, and grassland 0.04.
 
-![](.gitbook/assets/d8-2-slo-podravje-region-draft2_image10.png)
+![](../.gitbook/assets/d8-2-slo-podravje-region-draft2_image10.png)
 
 _Figure 10 - Land-use map (Source: Ministry of Agriculture, Forestry and Food – Register of Actual Use of Agricultural and Forest Land)_
 
@@ -169,7 +169,7 @@ Define the hydraulic domain and scheme (1D/2D/coupled) with a stable mesh; assig
 
 Import topography (DTM) and modify it to consider underwater topography, presence of structures such as levees of relevant hydraulic structures (such as weirs or bridges) m please refer to the flood modeling tool manual for details.
 
-![](.gitbook/assets/d8-2-slo-podravje-region-draft2_image11.png)
+![](../.gitbook/assets/d8-2-slo-podravje-region-draft2_image11.png)
 
 _Figure 11 – Representation of the 2D hydraulic model domain (existing and proposed conditions) in Ljudski vrt._
 
@@ -179,7 +179,7 @@ If you have reference maps (e.g. Figure 2) or observed stages corresponding to o
 
 > **Where no detailed modeling of the river is possible** nor of interest (e.g. for lack of river cross sections or presence of stable embankments) an alternative approach is estimating **flood volume outside of the river** (e.g. a fraction of the expected event volume in the river) and simulating a flood domain outside of the river, as in the example of Figure 7
 
-![Immagine che contiene schermata, blu, Parallelo, linea Il contenuto generato dall'IA potrebbe non essere corretto.](.gitbook/assets/d8-2-slo-podravje-region-draft2_image12.png) ![](.gitbook/assets/d8-2-slo-podravje-region-draft2_image13.png)
+![Immagine che contiene schermata, blu, Parallelo, linea Il contenuto generato dall'IA potrebbe non essere corretto.](../.gitbook/assets/d8-2-slo-podravje-region-draft2_image12.png) ![](../.gitbook/assets/d8-2-slo-podravje-region-draft2_image13.png)
 
 _Figure 12 – example of flood maps for a generic lowland area, derived by 2d Modeling of estimated flood volumes outside of the river, courtesy of_ [_SaferPlaces_](https://saferplaces.co/rimini-and-climate-change-the-added-value-of-the-sea-park-parco-del-mare/) _platform._
 
@@ -193,11 +193,11 @@ Overlay hazard with buildings, infrastructure, land use or other relevant exposu
 
 In the Ljudski Vrt case study, the hydraulic outputs from the 2D HEC-RAS model were analysed to evaluate flood propagation under the 10-, 100-, and 500-year design hydrographs derived from the HEC-HMS hydrological model. Water-depth rasters were classified into standard hazard categories (<0.5 m, 0.5–1.5 m, >1.5 m) to identify areas where overflowing from the pond threatens the Ljudski Vrt Primary School and adjacent residential zones. The simulations confirmed that, under pre-project conditions, floodwaters exceed the pond banks on the southern and eastern sides and propagate toward Župančičeva Street and the school complex. Model validity was checked using observed historical flooding extents (e.g., events of 2018) and local testimonies, showing high consistency between the simulated and observed flood patterns. These analytical layers form the basis for evaluating exposure, potential damage, and for comparing baseline versus mitigation scenarios.
 
-![](.gitbook/assets/d8-2-slo-podravje-region-draft2_image14.png)
+![](../.gitbook/assets/d8-2-slo-podravje-region-draft2_image14.png)
 
 _Figure 13 - Flood extent under pre-project conditions for the 100-year discharge scenario._
 
-![](.gitbook/assets/d8-2-slo-podravje-region-draft2_image15.png)
+![](../.gitbook/assets/d8-2-slo-podravje-region-draft2_image15.png)
 
 _Figure 14 - Flood extent under post-project conditions for the 100-year discharge scenario, including residual flooding areas for the 500-year event (black outline)._
 
@@ -223,13 +223,13 @@ These conditions pose health risks, especially for vulnerable populations (elder
 
 Historical climate data already show clear warming trends in Slovenia. The comparison of average July temperatures between the e periods 1971–2000 and 1981–2010 reveals a consistent increase across the country, while the deviation map highlights areas with the most pronounced anomalies. These patterns underline the growing relevance of heatwave and UHI assessments in the Podravje Region (Figure 15,Figure 16)
 
-> <img src=".gitbook/assets/d8-2-slo-podravje-region-draft2_image16.png" alt="Slika, ki vsebuje besede besedilo, grafični prikaz, vrstica, diagram Vsebina, ustvarjena z umetno inteligenco, morda ni pravilna." data-size="original">
+> <img src="../.gitbook/assets/d8-2-slo-podravje-region-draft2_image16.png" alt="Slika, ki vsebuje besede besedilo, grafični prikaz, vrstica, diagram Vsebina, ustvarjena z umetno inteligenco, morda ni pravilna." data-size="original">
 
 _Figure 15 - Deviation of average temperature in Slovenia._
 
-> <img src=".gitbook/assets/d8-2-slo-podravje-region-draft2_image17.png" alt="Slika, ki vsebuje besede besedilo, zemljevid, atlas, posnetek zaslona Vsebina, ustvarjena z umetno inteligenco, morda ni pravilna." data-size="original">
+> <img src="../.gitbook/assets/d8-2-slo-podravje-region-draft2_image17.png" alt="Slika, ki vsebuje besede besedilo, zemljevid, atlas, posnetek zaslona Vsebina, ustvarjena z umetno inteligenco, morda ni pravilna." data-size="original">
 >
-> <img src=".gitbook/assets/d8-2-slo-podravje-region-draft2_image18.png" alt="Slika, ki vsebuje besede besedilo, zemljevid Vsebina, ustvarjena z umetno inteligenco, morda ni pravilna." data-size="original">
+> <img src="../.gitbook/assets/d8-2-slo-podravje-region-draft2_image18.png" alt="Slika, ki vsebuje besede besedilo, zemljevid Vsebina, ustvarjena z umetno inteligenco, morda ni pravilna." data-size="original">
 
 _Figure 16 -Comparison of average temperature in July (left period 1971-2000, right: period 1981-2010)_
 
@@ -292,13 +292,13 @@ Study Area Overview – Q-Center Ptuj
 
 The study area focuses on the parking area in front of the Q-Center shopping centre in Ptuj, located in a highly urbanised commercial zone with extensive sealed surfaces. The parking area covers approximately 0.22 ha and is currently fully asphalted, with no tree canopy, green infrastructure, or permeable surfaces. As such, it represents a typical example of an urban heat hotspot during summer heatwave conditions.
 
-![](.gitbook/assets/d8-2-slo-podravje-region-draft2_image19.png)
+![](../.gitbook/assets/d8-2-slo-podravje-region-draft2_image19.png)
 
 _Figure 17 – Center study area._
 
 Given the absence of implemented reference projects in Ptuj, the assessment adopts solutions derived from a comparable nearby town, Slovenska Bistrica, where a small-scale green parking area has been constructed in recent years. This project serves as a local, context-specific example of how parking infrastructure can be redesigned to reduce heat stress while maintaining functionality.
 
-![](.gitbook/assets/d8-2-slo-podravje-region-draft2_image20.png)
+![](../.gitbook/assets/d8-2-slo-podravje-region-draft2_image20.png)
 
 _Figure 18- Layout of the green parking area used as a reference case study in Slovenska Bistrica._
 
@@ -319,9 +319,9 @@ For microclimate modelling, these layers often require reformatting to match the
 * Attributing building polygons with height and material properties
 * Preparing hourly meteorological series in the correct format
 
-These pre-processing operations can be performed manually in GIS or using dedicated utilities integrated in the modelling framework. For instance, the **UMEP plugin for QGIS** offers functions to extract urban form parameters, generate input grids, and prepare weather files for the Urban Weather Generator, as illustrated in its online [tutorial](https://umep-docs.readthedocs.io/projects/tutorial/en/latest/Tutorials/UWGSpatial.html). ![](.gitbook/assets/d8-2-slo-podravje-region-draft2_image21.png)
+These pre-processing operations can be performed manually in GIS or using dedicated utilities integrated in the modelling framework. For instance, the **UMEP plugin for QGIS** offers functions to extract urban form parameters, generate input grids, and prepare weather files for the Urban Weather Generator, as illustrated in its online [tutorial](https://umep-docs.readthedocs.io/projects/tutorial/en/latest/Tutorials/UWGSpatial.html). ![](../.gitbook/assets/d8-2-slo-podravje-region-draft2_image21.png)
 
-![Immagine che contiene mappa, testo Il contenuto generato dall'IA potrebbe non essere corretto.](.gitbook/assets/d8-2-slo-podravje-region-draft2_image22.png)
+![Immagine che contiene mappa, testo Il contenuto generato dall'IA potrebbe non essere corretto.](../.gitbook/assets/d8-2-slo-podravje-region-draft2_image22.png)
 
 _Figure 19 - an example of LST \[°C] Satellite map from Landsat 8 image for July 2025 loaded and classified in GIS, at the bottom overlay of the map with over 65 population density map from_ [_WorlpopoHUB_](https://hub.worldpop.org/)_._
 
@@ -347,7 +347,7 @@ Where available, satellite-derived LST maps and temperature anomaly layers from 
 
 These validated baseline results then serve as a quantitative reference for evaluating the potential effects of Nature-Based Solutions in the following step.
 
-![Immagine che contiene mappa, testo Il contenuto generato dall'IA potrebbe non essere corretto.](.gitbook/assets/d8-2-slo-podravje-region-draft2_image23.png)
+![Immagine che contiene mappa, testo Il contenuto generato dall'IA potrebbe non essere corretto.](../.gitbook/assets/d8-2-slo-podravje-region-draft2_image23.png)
 
 _Figure 20 – example of temperature difference in mean ground temperature \[°C] for an urban area simulated with UMEP._
 

@@ -1,4 +1,4 @@
-# D8.2 AUT-Lab1 Er Dr draft2
+# Region2 - Innovation Lab Wagram-Tulln
 
 ## Introduction and Objectives of the Climate Risk Assessment
 
@@ -8,11 +8,13 @@
 
 ### Innovation Lab 1 addresses water-related extremes—intense precipitation and drought—framed as **“too little and too much water.”** **NbS** such as [multifunctional hedgerows](https://resist-project.eu/story/nature-based-solutions-in-rural-areas-hedgerows-and-traditional-bocages/) are considered to reduce **water-induced soil erosion and drought impacts** in crop areas.
 
+### &#x20;<img src="../.gitbook/assets/unknown.emf" alt="" data-size="original">
+
 Figure 1 - p physical map of Lower Austria. Source: https://maps-austria.com/lower-austria-map
 
 ### Under **future climate conditions**, both hazards are expected to intensify. The CRA therefore couples climate projections with exposure and vulnerability in farmland to quantify changing erosion and drought risks.
 
-![](.gitbook/assets/d8-2-aut-lab1-er-dr-draft2_image2.jpg)
+![](../.gitbook/assets/d8-2-aut-lab1-er-dr-draft2_image2.jpg)
 
 Figure 2 – example of an existing multi-purpose hedges in the Wagram region of Lower Austria. Picture by V. Schalk.
 
@@ -28,7 +30,7 @@ The assessment targets **arable land and is designed to inform decisions at both
 
 The tutorial also states the main boundaries of the approach. **Uncertainty in regional climate** projections and variability in **hedgerow performance** across soils, topographies, and practices limit precision; **prolonged drought followed by intense rainfall may exceed NbS capacity**, so results should feed an adaptive planning process.
 
-![Immagine che contiene aria aperta, erba, cielo, uccello Il contenuto generato dall'IA potrebbe non essere corretto.](.gitbook/assets/d8-2-aut-lab1-er-dr-draft2_image3.jpg)
+![Immagine che contiene aria aperta, erba, cielo, uccello Il contenuto generato dall'IA potrebbe non essere corretto.](../.gitbook/assets/d8-2-aut-lab1-er-dr-draft2_image3.jpg)
 
 Figure 3 - year-old multi-use hedge in Absdorf (Wagram). The hedge will be extended to create a habitat network during Lab 1. Picture by K. Deim (ABB).
 
@@ -95,11 +97,11 @@ Table 2– used data, an alternative dataset to replicate the assessment outside
 
 > _The rainfall erosivity factor (R) is available from_ [_ESDAC_](https://esdac.jrc.ec.europa.eu/content/rainfall-erosivity-european-union-and-switzerland) _as a baseline dataset for the EU and Switzerland, derived from high-resolution pluviography data and interpolated to a 500 m grid (Panagos et al., 2015). In addition to the baseline, ESDAC also provides future projections of R under climate change, calculated from bias-corrected regional climate model outputs (EURO-CORDEX). These projections indicate a general increase in rainfall erosivity towards 2050, especially in central and northern Europe, reflecting the expected intensification of extreme precipitation. Users can therefore choose between present-day R for baseline assessments and climate-adjusted R layers for scenario analyses in RUSLE applications._
 
-![Immagine che contiene mappa, Aerofotogrammetria, Vista aerea, aria aperta Il contenuto generato dall'IA potrebbe non essere corretto.](.gitbook/assets/d8-2-aut-lab1-er-dr-draft2_image4.png)
+![Immagine che contiene mappa, Aerofotogrammetria, Vista aerea, aria aperta Il contenuto generato dall'IA potrebbe non essere corretto.](../.gitbook/assets/d8-2-aut-lab1-er-dr-draft2_image4.png)
 
 Figure 4 - Example layer showing reference parcels and digitized landscape elements defined by Agrarmarkt Austria under the EU Horizontal CAP Regulation, annually updated, enabling precise linkage of soil erosion modelling results with field-scale agricultural units.
 
-![Immagine che contiene testo, schermata, quadrato, diagramma Il contenuto generato dall'IA potrebbe non essere corretto.](.gitbook/assets/d8-2-aut-lab1-er-dr-draft2_image5.png)
+![Immagine che contiene testo, schermata, quadrato, diagramma Il contenuto generato dall'IA potrebbe non essere corretto.](../.gitbook/assets/d8-2-aut-lab1-er-dr-draft2_image5.png)
 
 Figure 5 - large-scale assessments, vulnerability proxies are available from Eurostat’s experimental geospatial agricultural census datasets (multi-resolution grids, 1–80 km), providing spatially harmonised indicators on farm number, cultivated areas, farmer demographics (age, gender), livestock, labour, and production methods. While coarser in scale, these can serve as vulnerability layers when regional data are unavailable.
 
@@ -135,11 +137,11 @@ Preprocessing: includes harmonizing coordinate systems, resampling datasets to a
 
 As an alternative, where local data are not available, users may rely on the precomputed ESDAC products (R at 500 m, K/C/P at 100 m). These datasets are coarser in resolution but provide a consistent and harmonised European baseline for exploratory assessments and large-scale applications, as illustrated in the example maps provided below.
 
-![](.gitbook/assets/d8-2-aut-lab1-er-dr-draft2_image6.png)
+![](../.gitbook/assets/d8-2-aut-lab1-er-dr-draft2_image6.png)
 
 Figure 6 – example of 10 m Lidar derived DTM from Austrian geoportal(left) and corresponding Ls factor derived in Qgis (right)
 
-![](.gitbook/assets/d8-2-aut-lab1-er-dr-draft2_image7.png)
+![](../.gitbook/assets/d8-2-aut-lab1-er-dr-draft2_image7.png)
 
 Figure 7– examples of Rainfall Erosivity R \[MJ mm ha-1 h-1 yr-1] \[ (left) and Soil Erodibility (K- Factor, right) from ESACD databases.
 
@@ -176,9 +178,9 @@ Third, **scenario comparisons** are undertaken. Results can be analysed **under 
 
 Finally, the interpretation integrates **socio-economic vulnerability indicators** **at municipal level**, such as farm structure and dependence on agricultural income. This combination of hazard, exposure, and vulnerability highlights areas where physical risk coincides with lower adaptive capacity, providing a risk-oriented basis for prioritisation.
 
-![Immagine che contiene mappa, testo, atlante Il contenuto generato dall'IA potrebbe non essere corretto.](.gitbook/assets/d8-2-aut-lab1-er-dr-draft2_image8.png) ![](.gitbook/assets/d8-2-aut-lab1-er-dr-draft2_image9.png)
+![Immagine che contiene mappa, testo, atlante Il contenuto generato dall'IA potrebbe non essere corretto.](../.gitbook/assets/d8-2-aut-lab1-er-dr-draft2_image8.png) ![](../.gitbook/assets/d8-2-aut-lab1-er-dr-draft2_image9.png)
 
-![Immagine che contiene rosso, mappa, Policromia, Bordeaux Il contenuto generato dall'IA potrebbe non essere corretto.](.gitbook/assets/d8-2-aut-lab1-er-dr-draft2_image10.png)
+![Immagine che contiene rosso, mappa, Policromia, Bordeaux Il contenuto generato dall'IA potrebbe non essere corretto.](../.gitbook/assets/d8-2-aut-lab1-er-dr-draft2_image10.png)
 
 Figure 8– Left: extract from the RUSLE2015 soil erosion dataset (ESDAC), showing estimated average annual soil loss (t ha⁻¹ yr⁻¹) for a selected area in Austria, derived from the harmonised European layers of R, K, LS, C and P factors. Right: overlay of the same erosion map with INVEKOS reference parcels (Agrarmarkt Austria, 2025-1, Table 2), which represent agricultural blocks and digitised landscape elements under the EU CAP regulation. This integration allows soil erosion estimates to be directly linked to field-scale agricultural units. Aggregation example over larger territorial unit is provided in the lower figure.
 
@@ -254,7 +256,7 @@ Table 4 – used data, an alternative dataset to replicate the assessment outsid
 
 As mentioned above the CLIMAAX agricultural drought workflow served as a basis for this modelling. For the general methodology refer to the CLIMAAX handbook. The workflow was modified so that instead of a periodic daily average of the climatic parameters, daily resolved parameters were used to calculate ET<sub>0</sub>. This should ensure that particularly dry years are not averaged out too much. This results in annual average yield loss values ​​for the studied periods and scenarios (Historical 1971-2000; RCP8.5 2041-2070; RCP4.5 2071-2100; RCP8.5 2071-2100). The yield loss calculation was carried out for eight different crops, which are of great importance in agricultural production in Lower Austria. In total, an ensemble of six EURO-CORDEX models was used for each scenario and period described.
 
-![](.gitbook/assets/d8-2-aut-lab1-er-dr-draft2_image11.png)
+![](../.gitbook/assets/d8-2-aut-lab1-er-dr-draft2_image11.png)
 
 Figure 9 - example boxplot for resulting mean yield loss values per crop across the studied climate scenarios.
 
@@ -266,7 +268,7 @@ _Identifying the prevailing wind direction for optimal hedge placement_
 
 The first step involves determining the prevailing wind direction to place hedges at right angles to this direction. For the case of the Wagram Lab, long-term [annual wind data](https://doi.org/10.60669/6yna-mw14) (1991–2024) from two meteorological stations (Langenlebarn and Stockerau) were analysed. Daily occurrences of wind direction were aggregated by cardinal and intercardinal directions (e.g., N, NE, E) and used to identify the dominant wind direction relevant for hedge effects in the context of agricultural drought. Based on the prevailing wind direction across the two stations (Langenlebarn: southwest, Stockerau: west), the dominant wind direction of 247.5° (WSW) was selected as most relevant for the study area (Figure 10). Hedges with an orientation of SSE-NNW were therefore considered as most optimal to reduce the effect of wind on evapotranspiration in the context of agricultural drought.
 
-![](.gitbook/assets/d8-2-aut-lab1-er-dr-draft2_image12.png)
+![](../.gitbook/assets/d8-2-aut-lab1-er-dr-draft2_image12.png)
 
 Figure 10 - Occurrences of wind direction (%) based on weather station measurements at Langenlebarn and Stockerau (1991-2024).
 
@@ -282,7 +284,7 @@ The third and final step involves the approximation of hedge effects on evapotra
 
 Based for each hedge scenario, as well as the actual hedges planted by the Agrarbezirksbehörde (ABB), a raster-based change factor was calculated to represent wind shelter effects on evapotranspiration in the lee of hedges. For each raster cell (10 m), the shortest distance to the nearest hedge was computed, and cells located downwind of hedges were identified using angular relationships between wind direction and hedge orientation. A linear distance-decay function was applied to a factor of change, with maximum shelter at the hedge (0.5) and a gradual reduction to no effect beyond a defined distance of 80 m. The result is a spatially explicit change-factor raster that can be used to modify evapotranspiration in subsequent modelling steps (Figure 11).
 
-![](.gitbook/assets/d8-2-aut-lab1-er-dr-draft2_image13.png)
+![](../.gitbook/assets/d8-2-aut-lab1-er-dr-draft2_image13.png)
 
 Figure 11 - Example of a hedge scenario with change factors for evapotranspiration in the Wagram Lab.
 
