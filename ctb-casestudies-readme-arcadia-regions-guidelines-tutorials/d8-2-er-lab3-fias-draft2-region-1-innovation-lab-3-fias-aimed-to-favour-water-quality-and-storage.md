@@ -6,9 +6,11 @@
 
 The Innovation Lab 3 is located in the upper Bidente–Ronco basin, in the municipalities of [Galeata](https://maps.app.goo.gl/1z1h3h64Sf2cemWr7)–[Santa Sofia](https://maps.app.goo.gl/AaxfgSnbjj6mExaB7) (Forlì–Cesena Province, Emilia-Romagna, Italy). This area represents a mixed forest–agricultural landscape in the Apennine foothills, characterized by steep slopes, permeable soils, and high rainfall variability.
 
-|                                                                                                                                                                                    |                                                                                                                                                                                |
-| ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
-| ![Immagine che contiene aria aperta, nuvola, cielo, paesaggio Il contenuto generato dall'IA potrebbe non essere corretto.](../.gitbook/assets/d8-2-er-lab3-fias-draft2_image1.jpg) | ![Immagine che contiene aria aperta, nuvola, erba, natura Il contenuto generato dall'IA potrebbe non essere corretto.](../.gitbook/assets/d8-2-er-lab3-fias-draft2_image2.jpg) |
+
+
+<figure><img src="../.gitbook/assets/d8-2-er-lab3-fias-draft2_image2.jpg" alt="" width="375"><figcaption></figcaption></figure>
+
+<figure><img src="../.gitbook/assets/d8-2-er-lab3-fias-draft2_image1.jpg" alt="" width="375"><figcaption></figcaption></figure>
 
 _Figure 1 - Figure of the study area: Castellaro Nursery_
 
@@ -140,9 +142,11 @@ Prepare meteorological inputs as **station-based daily Time Series** in the mode
 
 The following images (Figure 6) show the basin analysed within **Co-Innovation Lab 3**, together with the results of the first tests carried out with **SWAT+** on the study area in terms of **Full HRU** and **Actual HRU**. It should be noted that the simulations are still ongoing; therefore, the results presented here are only **preliminary**.
 
-| A | B |
-| - | - |
-| C | D |
+
+
+| A                                        | B![](../.gitbook/assets/image.png)       |
+| ---------------------------------------- | ---------------------------------------- |
+| C![](<../.gitbook/assets/image (1).png>) | D![](<../.gitbook/assets/image (2).png>) |
 
 _Figure 6- Example of preprocessing of geospatial base layers clipped to the area of interest. Figure A represents the preliminary watershed identified from the first simulations; Figure B shows the basin with the DEM background; Figure C illustrates the Full HRUs and Figure D the basin with the Actual HRUs (see note for the definition of Full and Actual HRUs)._
 
