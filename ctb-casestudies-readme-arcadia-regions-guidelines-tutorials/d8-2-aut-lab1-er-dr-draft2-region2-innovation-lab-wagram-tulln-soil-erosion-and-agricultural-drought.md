@@ -4,9 +4,9 @@
 
 ### Regional context.
 
-### [Lower Austria](https://en.wikipedia.org/wiki/Lower_Austria) is a predominantly rural, arable landscape where agriculture is the primary exposure unit for climate risk analysis. The regional CRA focuses on a**gricultural areas and evaluates risks at municipal and state scales.**
+[Lower Austria](https://en.wikipedia.org/wiki/Lower_Austria) is a predominantly rural, arable landscape where agriculture is the primary exposure unit for climate risk analysis. The regional CRA focuses on a**gricultural areas and evaluates risks at municipal and state scales.**
 
-### Innovation Lab 1 addresses water-related extremes—intense precipitation and drought—framed as **“too little and too much water.”** **NbS** such as [multifunctional hedgerows](https://resist-project.eu/story/nature-based-solutions-in-rural-areas-hedgerows-and-traditional-bocages/) are considered to reduce **water-induced soil erosion and drought impacts** in crop areas.
+Innovation Lab 1 addresses water-related extremes—intense precipitation and drought—framed as **“too little and too much water.”** **NbS** such as [multifunctional hedgerows](https://resist-project.eu/story/nature-based-solutions-in-rural-areas-hedgerows-and-traditional-bocages/) are considered to reduce **water-induced soil erosion and drought impacts** in crop areas.
 
 ### &#x20;
 
@@ -14,13 +14,13 @@
 
 Figure 1 - physical map of Lower Austria. Source: https://maps-austria.com/lower-austria-map
 
-### Under **future climate conditions**, both hazards are expected to intensify. The CRA therefore couples climate projections with exposure and vulnerability in farmland to quantify changing erosion and drought risks.
+Under **future climate conditions**, both hazards are expected to intensify. The CRA therefore couples climate projections with exposure and vulnerability in farmland to quantify changing erosion and drought risks.
 
 ![](../.gitbook/assets/d8-2-aut-lab1-er-dr-draft2_image2.jpg)
 
 Figure 2 – example of an existing multi-purpose hedges in the Wagram region of Lower Austria. Picture by V. Schalk.
 
-### The assessment is co-developed with regional partners to support evidence-based adaptation, informing state-level strategy and coordination of local measures and land-use planning.
+The assessment is co-developed with regional partners to support evidence-based adaptation, informing state-level strategy and coordination of local measures and land-use planning.
 
 ### Scope of the tutorial.
 
