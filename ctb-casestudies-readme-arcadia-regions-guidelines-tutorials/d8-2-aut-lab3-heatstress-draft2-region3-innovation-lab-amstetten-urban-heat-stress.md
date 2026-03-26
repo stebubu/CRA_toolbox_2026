@@ -16,7 +16,7 @@ Nature-Based Solutions (NbS) such as **expansion of tree canopy, creation of pub
 
 The Climate Risk Assessment in this therefore focuses on testing the effectiveness of these NbS to reduce thermal stress and to provide evidence for integration into **urban planning and adaptation strategies**.
 
-![Immagine che contiene mappa, testo Il contenuto generato dall'IA potrebbe non essere corretto.](../.gitbook/assets/d8-2-aut-lab3-heatstress-draft2_image2.png)
+![](../.gitbook/assets/d8-2-aut-lab3-heatstress-draft2_image2.png)
 
 _Figure 1 - physical map of Lower Austria. Source: https://maps-austria.com/lower-austria-map_ (top)_, location of city of Amstetten (bottom)_
 
@@ -103,7 +103,7 @@ _Table 2 – used data, an alternative dataset to replicate the assessment outsi
 
 > _Urban climate modelling at this scale generally benefits from high-resolution topographic data, typically derived from LiDAR surveys. Such datasets allow not only an accurate description of urban topography but also the extraction of critical (information, such as building heights from digital surface models (DSM), which can then be assigned to building footprints and other model element (Figure 4)._
 
-![Immagine che contiene testo, mappa Il contenuto generato dall'IA potrebbe non essere corretto.](../.gitbook/assets/d8-2-aut-lab3-heatstress-draft2_image4.png)
+![](../.gitbook/assets/d8-2-aut-lab3-heatstress-draft2_image4.png)
 
 _Figure 3 - Administrative boundaries of the city of Amstetten overlaid on the available national DTM at 10 × 10 m resolution. This terrain model provides the base layer for urban climate simulations._
 
@@ -157,7 +157,7 @@ The climate component is provided by temperature and precipitation series from r
 
 ![](../.gitbook/assets/d8-2-aut-lab3-heatstress-draft2_image7.png)
 
-![Immagine che contiene testo, schermata, mappa, diagramma Il contenuto generato dall'IA potrebbe non essere corretto.](../.gitbook/assets/d8-2-aut-lab3-heatstress-draft2_image8.png)
+![](../.gitbook/assets/d8-2-aut-lab3-heatstress-draft2_image8.png)
 
 _Figure 5 – example of EPW files as “typical meteorological dataset with a typical year” download nearby Amstetten and open for modification._
 
@@ -207,13 +207,13 @@ The baseline **represents the current urban climate conditions** in Amstetten du
 
 This initial model run provides a reference picture of the prevailing situation, highlighting the areas most exposed to high thermal loads due to building density, land cover composition, or lack of vegetation. The outputs take the form of spatial maps and time series of temperature and radiation, which can be analysed to identify hotspots and areas of relative resilience.
 
-![Immagine che contiene testo, linea, Diagramma, Carattere Il contenuto generato dall'IA potrebbe non essere corretto.](../.gitbook/assets/d8-2-aut-lab3-heatstress-draft2_image10.jpg)
+![](../.gitbook/assets/d8-2-aut-lab3-heatstress-draft2_image10.jpg)
 
 _Figure 7 – example of Above: Wind speed and global radiation from epw-file. Below: Air temperature from ground station data compared with those simulated in the grid of the model including the station (source_ \[1]_)_
 
 The baseline maps can also be combined w**ith socio-economic datasets, such as population density or income levels,** to identify vulnerable groups and evaluate the potential social and economic impacts of heat stress. This integrated view allows the baseline to serve not only as a technical benchmark for subsequent scenario analysis, but also as a decision-support layer for urban planners and public authorities.
 
-![Immagine che contiene mappa, testo Il contenuto generato dall'IA potrebbe non essere corretto.](../.gitbook/assets/d8-2-aut-lab3-heatstress-draft2_image11.png)
+![](../.gitbook/assets/d8-2-aut-lab3-heatstress-draft2_image11.png)
 
 _Figure 8 – example of temperature difference in mean ground temperature \[°C] for an urban area simulated with UMEP._
 

@@ -56,7 +56,7 @@ Climate projections indicate an increased frequency of extreme precipitation, wh
 
 _Table 1 – key indicators tracked-Flood Hazard_
 
-![Slika, ki vsebuje besede zemljevid, besedilo, atlas Vsebina, ustvarjena z umetno inteligenco, morda ni pravilna.](../.gitbook/assets/d8-2-slo-podravje-region-draft2_image2.png)
+![](../.gitbook/assets/d8-2-slo-podravje-region-draft2_image2.png)
 
 _Figure 2 – example of flood risk map for Flood map Slovenia – river Drava in its downstream in Slovenia._
 
@@ -179,7 +179,7 @@ If you have reference maps (e.g. Figure 2) or observed stages corresponding to o
 
 > **Where no detailed modeling of the river is possible** nor of interest (e.g. for lack of river cross sections or presence of stable embankments) an alternative approach is estimating **flood volume outside of the river** (e.g. a fraction of the expected event volume in the river) and simulating a flood domain outside of the river, as in the example of Figure 7
 
-![Immagine che contiene schermata, blu, Parallelo, linea Il contenuto generato dall'IA potrebbe non essere corretto.](../.gitbook/assets/d8-2-slo-podravje-region-draft2_image12.png) ![](../.gitbook/assets/d8-2-slo-podravje-region-draft2_image13.png)
+![I](../.gitbook/assets/d8-2-slo-podravje-region-draft2_image12.png) ![](../.gitbook/assets/d8-2-slo-podravje-region-draft2_image13.png)
 
 _Figure 12 – example of flood maps for a generic lowland area, derived by 2d Modeling of estimated flood volumes outside of the river, courtesy of_ [_SaferPlaces_](https://saferplaces.co/rimini-and-climate-change-the-added-value-of-the-sea-park-parco-del-mare/) _platform._
 
@@ -321,7 +321,7 @@ For microclimate modelling, these layers often require reformatting to match the
 
 These pre-processing operations can be performed manually in GIS or using dedicated utilities integrated in the modelling framework. For instance, the **UMEP plugin for QGIS** offers functions to extract urban form parameters, generate input grids, and prepare weather files for the Urban Weather Generator, as illustrated in its online [tutorial](https://umep-docs.readthedocs.io/projects/tutorial/en/latest/Tutorials/UWGSpatial.html). ![](../.gitbook/assets/d8-2-slo-podravje-region-draft2_image21.png)
 
-![Immagine che contiene mappa, testo Il contenuto generato dall'IA potrebbe non essere corretto.](../.gitbook/assets/d8-2-slo-podravje-region-draft2_image22.png)
+![](../.gitbook/assets/d8-2-slo-podravje-region-draft2_image22.png)
 
 _Figure 19 - an example of LST \[°C] Satellite map from Landsat 8 image for July 2025 loaded and classified in GIS, at the bottom overlay of the map with over 65 population density map from_ [_WorlpopoHUB_](https://hub.worldpop.org/)_._
 
@@ -347,7 +347,7 @@ Where available, satellite-derived LST maps and temperature anomaly layers from 
 
 These validated baseline results then serve as a quantitative reference for evaluating the potential effects of Nature-Based Solutions in the following step.
 
-![Immagine che contiene mappa, testo Il contenuto generato dall'IA potrebbe non essere corretto.](../.gitbook/assets/d8-2-slo-podravje-region-draft2_image23.png)
+![](../.gitbook/assets/d8-2-slo-podravje-region-draft2_image23.png)
 
 _Figure 20 – example of temperature difference in mean ground temperature \[°C] for an urban area simulated with UMEP._
 

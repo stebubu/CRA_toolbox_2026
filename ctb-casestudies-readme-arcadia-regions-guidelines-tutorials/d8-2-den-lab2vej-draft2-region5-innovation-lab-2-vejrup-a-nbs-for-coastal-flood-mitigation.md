@@ -10,7 +10,7 @@ The area north of Kerteminde road is undergoing major land-use transitions: agri
 
 Municipal climate adaptation strategies, as set out in the [**Odense Climate Adaptation Plan**](https://www.odense.dk/byens-udvikling/klima/klimatilpasning/klimatilpasningsplan) (Figure 1), foresee the withdrawal of coastal protection up to the Kerteminde road. This retreat strategy is promoted within the framework of the [**Ministry for the green transition**](https://mgtp.dk/groent-danmark/english-a-greener-denmark) and is intended to create space for restored wetlands and salt marshes. These measures are expected to mitigate coastal flooding, reduce nutrient runoff to the fjord, and support biodiversity.
 
-![A map with text and a map with red dots AI-generated content may be incorrect.](../.gitbook/assets/d8-2-den-lab2vej-draft2_image1.png)
+![](../.gitbook/assets/d8-2-den-lab2vej-draft2_image1.png)
 
 Figure 1 - Climate risk assessment map from Odense Municipality climate adaptation plan 2024.
 
@@ -52,7 +52,7 @@ Coastal flood events threaten agricultural land, planned commercial districts, a
 
 To address these challenges, local strategies promoted through [**The ministry of the green transition**](https://mgtp.dk/groent-danmark/english-a-greener-denmark) envisage the withdrawal of coastal protection to Kerteminde road and the use of nature-based solutions—such as wetland and salt marsh creation—combined with structural defences where necessary ([Odense fjord coastal council 2024](https://odensefjordsamarbejdet.dk/wp-content/uploads/2024/09/Analyser-og-anbefalinger-Kystvandraadet-for-Odense-Fjord.pdf), Figure 2). The overall aim is to “make room for nature facing the fjord,” reducing flood risk while supporting biodiversity, nutrient retention, and CO₂ reduction.
 
-![Immagine che contiene mappa, testo, atlante Il contenuto generato dall'IA potrebbe non essere corretto.](../.gitbook/assets/d8-2-den-lab2vej-draft2_image2.png)
+![](../.gitbook/assets/d8-2-den-lab2vej-draft2_image2.png)
 
 Figure 2 - Wetland restoration maps for wetland scenario 1\* and 2\*\*. Note that the two layers are overlapping, and wetland scenario 2 is slightly smaller than wetland scenario 1.
 
@@ -121,7 +121,7 @@ High-resolution LiDAR-based DEM (0.4 m, Figure 3) from national geoportal forms 
 >
 > For further reference, see the GDAL [_gdalwarp documentation_](https://gdal.org/en/stable/programs/gdalwarp.html).
 
-![Immagine che contiene pendio, neve, bianco e nero Il contenuto generato dall'IA potrebbe non essere corretto.](../.gitbook/assets/d8-2-den-lab2vej-draft2_image4.png) ![Immagine che contiene Aerofotogrammetria, mappa, aereo, Vista aerea Il contenuto generato dall'IA potrebbe non essere corretto.](../.gitbook/assets/d8-2-den-lab2vej-draft2_image5.png)
+![](../.gitbook/assets/d8-2-den-lab2vej-draft2_image4.png) ![](../.gitbook/assets/d8-2-den-lab2vej-draft2_image5.png)
 
 Figure 3– example of Lidar DTM along the coast from GeoDanmark geoportal (down sampled @ 1,2 m ) compared to satellite map, obstacles such as buildings and trees are filtered from the terrain surface. Underwater topography is not represented.
 
@@ -145,15 +145,15 @@ Model outputs typically include raster-vector classified flood maps by depth ran
 
 These maps allow a first evaluation of coastal flood hazard, and they form the basis for the subsequent overlay with land use and planning data in step 3.
 
-![A screenshot of a map AI-generated content may be incorrect.](../.gitbook/assets/d8-2-den-lab2vej-draft2_image6.png)
+![](../.gitbook/assets/d8-2-den-lab2vej-draft2_image6.png)
 
 Figure 4 – example of large, flooded area with 10 cm marine water by a 100-year storm surge in 2100 in Odense Fjord catchment area.
 
-![Immagine che contiene Aerofotogrammetria, Vista aerea, mappa, aereo Il contenuto generato dall'IA potrebbe non essere corretto.](../.gitbook/assets/d8-2-den-lab2vej-draft2_image7.png) ![](../.gitbook/assets/d8-2-den-lab2vej-draft2_image8.png)
+![](../.gitbook/assets/d8-2-den-lab2vej-draft2_image7.png) ![](../.gitbook/assets/d8-2-den-lab2vej-draft2_image8.png)
 
 _Figure_ _5 – example of detailed costal flood inundation model for actual (T100, 1,72 m a.s.l. ) and projected (T100 2100, 2,52 m a.s.l. ) surge conditions ,(courtesy of_ [_SaferPlaces_](https://saferplaces.co/rimini-and-climate-change-the-added-value-of-the-sea-park-parco-del-mare/) _platform)._
 
-![Immagine che contiene testo, schermata, diagramma, linea Il contenuto generato dall'IA potrebbe non essere corretto.](../.gitbook/assets/d8-2-den-lab2vej-draft2_image9.png)
+![](../.gitbook/assets/d8-2-den-lab2vej-draft2_image9.png)
 
 Figure 6 - Workflow to obtain flood risk map using one of the flood models listed in Table 2
 
@@ -163,7 +163,7 @@ Flood extent and depth maps generated in Step 2 are imported into GIS for post-p
 
 The classification of flood depth ranges (e.g. <25 cm, 25–50 cm, 50–100 cm, >100 cm) supports the identification of vulnerability hotspots. By intersecting hazard outputs with agriculture, commercial areas, residential zones, and planned restoration sites, it is possible to estimate which surfaces and assets are exposed and also generate simple spatial statistics as the key indicators mentioned in Table 1
 
-![Immagine che contiene testo, schermata, grafica, Policromia Il contenuto generato dall'IA potrebbe non essere corretto.](../.gitbook/assets/d8-2-den-lab2vej-draft2_image10.png)
+![](../.gitbook/assets/d8-2-den-lab2vej-draft2_image10.png)
 
 Figure 7– example of overlay of basic land use-cover map with flood areas in climate change scenarios in GIs environment.
 

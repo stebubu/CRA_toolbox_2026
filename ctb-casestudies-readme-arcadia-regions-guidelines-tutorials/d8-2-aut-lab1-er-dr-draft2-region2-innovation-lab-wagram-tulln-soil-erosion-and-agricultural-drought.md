@@ -8,9 +8,11 @@
 
 ### Innovation Lab 1 addresses water-related extremes—intense precipitation and drought—framed as **“too little and too much water.”** **NbS** such as [multifunctional hedgerows](https://resist-project.eu/story/nature-based-solutions-in-rural-areas-hedgerows-and-traditional-bocages/) are considered to reduce **water-induced soil erosion and drought impacts** in crop areas.
 
-### &#x20;<img src="../.gitbook/assets/unknown.emf" alt="" data-size="original">
+### &#x20;
 
-Figure 1 - p physical map of Lower Austria. Source: https://maps-austria.com/lower-austria-map
+<figure><img src="../.gitbook/assets/unknown.emf" alt=""><figcaption></figcaption></figure>
+
+Figure 1 - physical map of Lower Austria. Source: https://maps-austria.com/lower-austria-map
 
 ### Under **future climate conditions**, both hazards are expected to intensify. The CRA therefore couples climate projections with exposure and vulnerability in farmland to quantify changing erosion and drought risks.
 
@@ -30,7 +32,7 @@ The assessment targets **arable land and is designed to inform decisions at both
 
 The tutorial also states the main boundaries of the approach. **Uncertainty in regional climate** projections and variability in **hedgerow performance** across soils, topographies, and practices limit precision; **prolonged drought followed by intense rainfall may exceed NbS capacity**, so results should feed an adaptive planning process.
 
-![Immagine che contiene aria aperta, erba, cielo, uccello Il contenuto generato dall'IA potrebbe non essere corretto.](../.gitbook/assets/d8-2-aut-lab1-er-dr-draft2_image3.jpg)
+![](../.gitbook/assets/d8-2-aut-lab1-er-dr-draft2_image3.jpg)
 
 Figure 3 - year-old multi-use hedge in Absdorf (Wagram). The hedge will be extended to create a habitat network during Lab 1. Picture by K. Deim (ABB).
 
@@ -101,7 +103,7 @@ Table 2– used data, an alternative dataset to replicate the assessment outside
 
 Figure 4 - Example layer showing reference parcels and digitized landscape elements defined by Agrarmarkt Austria under the EU Horizontal CAP Regulation, annually updated, enabling precise linkage of soil erosion modelling results with field-scale agricultural units.
 
-![Immagine che contiene testo, schermata, quadrato, diagramma Il contenuto generato dall'IA potrebbe non essere corretto.](../.gitbook/assets/d8-2-aut-lab1-er-dr-draft2_image5.png)
+![](../.gitbook/assets/d8-2-aut-lab1-er-dr-draft2_image5.png)
 
 Figure 5 - large-scale assessments, vulnerability proxies are available from Eurostat’s experimental geospatial agricultural census datasets (multi-resolution grids, 1–80 km), providing spatially harmonised indicators on farm number, cultivated areas, farmer demographics (age, gender), livestock, labour, and production methods. While coarser in scale, these can serve as vulnerability layers when regional data are unavailable.
 
@@ -178,9 +180,9 @@ Third, **scenario comparisons** are undertaken. Results can be analysed **under 
 
 Finally, the interpretation integrates **socio-economic vulnerability indicators** **at municipal level**, such as farm structure and dependence on agricultural income. This combination of hazard, exposure, and vulnerability highlights areas where physical risk coincides with lower adaptive capacity, providing a risk-oriented basis for prioritisation.
 
-![Immagine che contiene mappa, testo, atlante Il contenuto generato dall'IA potrebbe non essere corretto.](../.gitbook/assets/d8-2-aut-lab1-er-dr-draft2_image8.png) ![](../.gitbook/assets/d8-2-aut-lab1-er-dr-draft2_image9.png)
+![](../.gitbook/assets/d8-2-aut-lab1-er-dr-draft2_image8.png) ![](../.gitbook/assets/d8-2-aut-lab1-er-dr-draft2_image9.png)
 
-![Immagine che contiene rosso, mappa, Policromia, Bordeaux Il contenuto generato dall'IA potrebbe non essere corretto.](../.gitbook/assets/d8-2-aut-lab1-er-dr-draft2_image10.png)
+![](../.gitbook/assets/d8-2-aut-lab1-er-dr-draft2_image10.png)
 
 Figure 8– Left: extract from the RUSLE2015 soil erosion dataset (ESDAC), showing estimated average annual soil loss (t ha⁻¹ yr⁻¹) for a selected area in Austria, derived from the harmonised European layers of R, K, LS, C and P factors. Right: overlay of the same erosion map with INVEKOS reference parcels (Agrarmarkt Austria, 2025-1, Table 2), which represent agricultural blocks and digitised landscape elements under the EU CAP regulation. This integration allows soil erosion estimates to be directly linked to field-scale agricultural units. Aggregation example over larger territorial unit is provided in the lower figure.
 

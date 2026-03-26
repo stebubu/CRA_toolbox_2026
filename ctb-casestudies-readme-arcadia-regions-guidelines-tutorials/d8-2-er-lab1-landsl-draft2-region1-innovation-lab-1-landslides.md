@@ -110,7 +110,7 @@ Table 3– used tools and role in the Landslide Hazard workflow: only open-sourc
 
 Before entering the four steps of the Climate Risk Assessment, it is useful to visualize the general structure of the workflow. The scheme below (Figure 3) illustrates a general workflow of a CRITERIA-3D model application when data related to occurred landslide are available.
 
-![Immagine che contiene testo, diagramma, schermata Il contenuto generato dall'IA potrebbe non essere corretto.](../.gitbook/assets/d8-2-er-lab1-landsl-draft2_image4.png)
+![](../.gitbook/assets/d8-2-er-lab1-landsl-draft2_image4.png)
 
 Figure 3 - Schematic representation of the model application workflow with parameters calibration using real landslides
 

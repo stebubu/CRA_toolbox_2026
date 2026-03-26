@@ -79,7 +79,7 @@ _Table 2 – used tools and role in the Erosion Hazard workflow, all tools are f
 
 Study grid: A regular 10 × 10 m grid (613 cells) was created in QGIS to cover the Ferry Terminal area. All analysis is carried out at grid-cell level.
 
-![En bild som visar karta, text, skärmbild AI-genererat innehåll kan vara felaktigt.](../.gitbook/assets/d8-2-swe-lab1-malmo-ferryterminal-heatstress-draft2red_image6.png)
+![](../.gitbook/assets/d8-2-swe-lab1-malmo-ferryterminal-heatstress-draft2red_image6.png)
 
 _Figure 5 - Ferry Terminal area with 2024 orthophoto and the 10 × 10 m analysis grid (Malmö internal GIS database)._
 
@@ -95,11 +95,11 @@ Land cover was digitised and classified into paved, buildings, evergreen trees, 
 **Urban forest polygons and climate data**\
 The NbS design for the urban forest (Figure 6 and Figure 7) was imported as polygons and overlaid with the grid to identify which cells are affected by the intervention. A Copenhagen EPW file (DNK\_Copenhagen.061800\_IWEC.epw) was added as reference climate data for the region but is not used in the heat index calculations.
 
-![En bild som visar Flygfotografi, text, karta, flygbaserad AI-genererat innehåll kan vara felaktigt.](../.gitbook/assets/d8-2-swe-lab1-malmo-ferryterminal-heatstress-draft2red_image7.png)
+![](../.gitbook/assets/d8-2-swe-lab1-malmo-ferryterminal-heatstress-draft2red_image7.png)
 
 _Figure 6 - Plan view of the Ferry Terminal area, with the urban forest highlighted in yellow._
 
-![En bild som visar karta, text AI-genererat innehåll kan vara felaktigt.](../.gitbook/assets/d8-2-swe-lab1-malmo-ferryterminal-heatstress-draft2red_image8.png)
+![](../.gitbook/assets/d8-2-swe-lab1-malmo-ferryterminal-heatstress-draft2red_image8.png)
 
 _Figure 7 - Detailed photo of the urban forest at the Ferry Terminal._
 
@@ -134,7 +134,7 @@ Two fields were created in the grid: heat\_before – heat index for each cell i
 
 **Before urban forest plantation (Nbs)**
 
-![En bild som visar diagram, karta, skärmbild, Plan AI-genererat innehåll kan vara felaktigt.](../.gitbook/assets/d8-2-swe-lab1-malmo-ferryterminal-heatstress-draft2red_image9.png)
+![](../.gitbook/assets/d8-2-swe-lab1-malmo-ferryterminal-heatstress-draft2red_image9.png)
 
 _Figure 8 - Land cover map of the Malmö Ferry Terminal area._
 
@@ -146,7 +146,7 @@ Figure 8 shows classifies surfaces into 5 types (deciduous and bare soil is not 
 
 _Figure 9 - Land cover in the study area after implementation of the urban forest (current state, 2025)._
 
-![En bild som visar karta, skärmbild, text AI-genererat innehåll kan vara felaktigt.](../.gitbook/assets/d8-2-swe-lab1-malmo-ferryterminal-heatstress-draft2red_image11.png)
+![](../.gitbook/assets/d8-2-swe-lab1-malmo-ferryterminal-heatstress-draft2red_image11.png)
 
 _Figure 10 - Building height distribution in the Ferry Terminal area._
 

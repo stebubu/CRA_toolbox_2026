@@ -84,7 +84,7 @@ _Table 2 – used data, an alternative dataset to replicate the assessment outsi
 
 ![](../.gitbook/assets/d8-2-swe-lab2hel-bgi-draft2_image9.png)
 
-![Immagine che contiene Aerofotogrammetria, Vista aerea, mappa, aereo Il contenuto generato dall'IA potrebbe non essere corretto.](../.gitbook/assets/d8-2-swe-lab2hel-bgi-draft2_image10.png)
+![](../.gitbook/assets/d8-2-swe-lab2hel-bgi-draft2_image10.png)
 
 _Figure 3 – example of Lidar DTM, one of the main driver of flood risk assessment, for Helsingborg area compared to satellite map; obstacles such as buildings and trees are filtered from the DTM surface._
 
@@ -120,7 +120,7 @@ The **contributing catchment boundaries** provide a reference framework for stru
 
 > _It should be noted, however, that adopting the full contributing catchment as model domain may result in an **excessively large computational extent.** In such cases, it is advisable to first perform a hydrological assessment of peak discharges / flood waves in the modelled river, so that the hydraulic risk model can be restricted to the areas actually affected by flooding and targeted for Nature-Based Solutions. This approach avoids unnecessarily large DEM inputs and reduces computational load without compromising the relevance of the analysis._
 
-![Immagine che contiene mappa, testo, atlante Il contenuto generato dall'IA potrebbe non essere corretto.](../.gitbook/assets/d8-2-swe-lab2hel-bgi-draft2_image11.jpg)
+![I](../.gitbook/assets/d8-2-swe-lab2hel-bgi-draft2_image11.jpg)
 
 _Figure 4 - example map showing value cores and connectivity map obtained via GIS overlaying of key layers._
 
@@ -138,9 +138,9 @@ _Figure 5 – example of depression detection via raster-based analysis of DTM (
 
 The initial morphological analysis already provides valuable insight into potential intervention areas. By extracting flow directions and delineating depressions or temporary storage zones from the DEM, it is possible to generate maps of flow paths and inundation-prone areas. When these outputs are overlaid in the GIS environment, they offer a first spatial indication of where Blue-Green Infrastructure could be located to maximise retention capacity and align with natural hydrological processes (Figure 6).
 
-![Immagine che contiene testo, mappa, atlante, schermata Il contenuto generato dall'IA potrebbe non essere corretto.](../.gitbook/assets/d8-2-swe-lab2hel-bgi-draft2_image13.png)
+![](../.gitbook/assets/d8-2-swe-lab2hel-bgi-draft2_image13.png)
 
-![Immagine che contiene mappa, testo, atlante Il contenuto generato dall'IA potrebbe non essere corretto.](../.gitbook/assets/d8-2-swe-lab2hel-bgi-draft2_image14.jpg)
+![](../.gitbook/assets/d8-2-swe-lab2hel-bgi-draft2_image14.jpg)
 
 _Figure 6- example of Flow paths and flood zones detection via Flood Modeling tools, overlayed in GIS environment to base maps._
 
@@ -150,7 +150,7 @@ If hydraulic simulation is carried out, the choice of modelling approach should 
 
 ![](../.gitbook/assets/d8-2-swe-lab2hel-bgi-draft2_image15.png)
 
-![Immagine che contiene mappa, testo Il contenuto generato dall'IA potrebbe non essere corretto.](../.gitbook/assets/d8-2-swe-lab2hel-bgi-draft2_image16.png)
+![](../.gitbook/assets/d8-2-swe-lab2hel-bgi-draft2_image16.png)
 
 _Figure 7 - Example of 2D flood model of a flood volume upstream of an urban area (courtesy of_ [_SaferPlaces_](https://saferplaces.co/)_)_
 

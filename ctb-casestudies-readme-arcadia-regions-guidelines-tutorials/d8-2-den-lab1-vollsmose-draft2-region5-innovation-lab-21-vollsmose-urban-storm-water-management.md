@@ -111,7 +111,7 @@ Rainfall time series are used to define design storm events for the mapping simu
 
 All datasets are then converted into GIS-compatible formats and spatially aligned. Terrain and land cover layers are prepared for input into flood mapping tools.
 
-![Immagine che contiene neve, mappa, inverno, natura Il contenuto generato dall'IA potrebbe non essere corretto.](../.gitbook/assets/d8-2-den-lab1-vollsmose-draft2_image1.png) ![](../.gitbook/assets/d8-2-den-lab1-vollsmose-draft2_image2.png)
+![I](../.gitbook/assets/d8-2-den-lab1-vollsmose-draft2_image1.png) ![](../.gitbook/assets/d8-2-den-lab1-vollsmose-draft2_image2.png)
 
 ![](../.gitbook/assets/d8-2-den-lab1-vollsmose-draft2_image3.png)
 
@@ -121,7 +121,9 @@ Figure 1 – example of Lidar DTM along the coast from GeoDanmark geoportal (dow
 
 In the surface runoff workflow, the pre-processed terrain and rainfall datasets are imported into dedicated mapping platforms to simulate how stormwater accumulates and spreads across the urban area during intense precipitation events. The core representation is based on the LiDAR-derived terrain, which defines depressions and flow paths, while design storms provide the forcing input. The model produces estimates of ponding areas, water depths, and storage zones, plus preferential flow direction downstream, offering an initial picture of pluvial flood exposure.
 
-Different levels of complexity can be applied depending on the platform. Some systems rely on simplified, zero-dimensional approaches where rainfall is converted into accumulated volumes within depressions without representing the dynamic propagation of flow. These methods are efficient for screening and for highlighting potential hot spots of flooding at the end of an event. More sophisticated approaches allow advanced dynamic modelling, where rainfall is applied continuously over the domain and surface routing is represented in time and space, capturing the dynamics of the rainfall flood event. This provides a more realistic simulation of flood wave propagation, flow velocities, and temporary storage, but requires greater computational effort and more detailed parameterisation. _In the following figures, we illustrate this difference for a small test area: the left image shows results from a static zero-dimensional model simulating a 100 mm rainfall event lasting two hours, while the right image shows the envelope of maximum water depth over six hours produced by a two-dimensional dynamic model._![](../.gitbook/assets/d8-2-den-lab1-vollsmose-draft2_image4.png)![](../.gitbook/assets/d8-2-den-lab1-vollsmose-draft2_image5.png)
+Different levels of complexity can be applied depending on the platform. Some systems rely on simplified, zero-dimensional approaches where rainfall is converted into accumulated volumes within depressions without representing the dynamic propagation of flow. These methods are efficient for screening and for highlighting potential hot spots of flooding at the end of an event. More sophisticated approaches allow advanced dynamic modelling, where rainfall is applied continuously over the domain and surface routing is represented in time and space, capturing the dynamics of the rainfall flood event. This provides a more realistic simulation of flood wave propagation, flow velocities, and temporary storage, but requires greater computational effort and more detailed parameterisation. _In the following figures, we illustrate this difference for a small test area: the left image shows results from a static zero-dimensional model simulating a 100 mm rainfall event lasting two hours, while the right image shows the envelope of maximum water depth over six hours produced by a two-dimensional dynamic model._
+
+<img src="../.gitbook/assets/d8-2-den-lab1-vollsmose-draft2_image4.png" alt="" data-size="original">![](../.gitbook/assets/d8-2-den-lab1-vollsmose-draft2_image5.png)
 
 ![](../.gitbook/assets/d8-2-den-lab1-vollsmose-draft2_image6.png)
 
@@ -241,7 +243,7 @@ Rainfall time series represent the main forcing for the hydraulic simulations. F
 
 Given the relatively small scale of most urban drainage studies (single neighbourhoods or sub-catchments), it is generally sufficient to rely on one or a few nearby meteorological stations. For example In Denmark, the Danish Meteorological Institute (DMI) provides access to [**Meteorological Observation Data**](https://opendatadocs.dmi.govcloud.dk/en/Data/Meteorological_Observation_Data) and **Climate Data** that have undergone quality control.
 
-![Immagine che contiene erba, aria aperta, cielo, campo Il contenuto generato dall'IA potrebbe non essere corretto.](../.gitbook/assets/d8-2-den-lab1-vollsmose-draft2_image10.jpg)
+![](../.gitbook/assets/d8-2-den-lab1-vollsmose-draft2_image10.jpg)
 
 Figure 6 - Image of synop station from DMI Meteorological Observation Data system, source DMI Open Data.
 
@@ -251,7 +253,7 @@ For water quality assessment, pollutant input parameters shall be prepared. Thes
 
 As a reference, Denmark provides open access to environmental monitoring data through the [**Kemidata portal**](https://kemidata.miljoeportal.dk/), which compiles information on chemical and ecological status of surface waters. Such datasets can serve as benchmarks for calibrating or validating simulated pollutant concentrations and for assessing whether stormwater treatment measures help meet water quality objectives. The following figure illustrates an example of surface water monitoring data available from Kemidata, which can be integrated into the analysis as an external point of comparison.
 
-![Immagine che contiene testo, schermata, mappa Il contenuto generato dall'IA potrebbe non essere corretto.](../.gitbook/assets/d8-2-den-lab1-vollsmose-draft2_image11.png)
+![](../.gitbook/assets/d8-2-den-lab1-vollsmose-draft2_image11.png)
 
 Figure 7 - Example of surface water monitoring data available from the Danish Kemidata portal.
 
