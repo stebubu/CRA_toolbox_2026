@@ -73,7 +73,7 @@ _Table 2 – used tools and role in the Erosion Hazard workflow, all tools are f
 
 ### Methodology
 
-#### As the CRA workflow currently builds on the UMEP morphology and land-cover tools, the analysis focuses on a static, land-cover-based heat index. This allows the assessment of surface sealing and the effects of urban forest interventions on heat exposure patterns, while dynamic heat-stress simulations (SVF, SOLWEIG, UWG) are under testing and validation for future integration.
+As the CRA workflow currently builds on the UMEP morphology and land-cover tools, the analysis focuses on a static, land-cover-based heat index. This allows the assessment of surface sealing and the effects of urban forest interventions on heat exposure patterns, while dynamic heat-stress simulations (SVF, SOLWEIG, UWG) are under testing and validation for future integration.
 
 #### Step 1 – Prepare input data
 
@@ -153,12 +153,12 @@ _Figure 10 - Building height distribution in the Ferry Terminal area._
 |             |                                |                      |                      |                     |                     |
 | ----------- | ------------------------------ | -------------------- | -------------------- | ------------------- | ------------------- |
 | **LC code** | **Land-cover type**            | **Area before (m²)** | **Share before (%)** | **Area after (m²)** | **Share after (%)** |
-| 1           | Paved                          | 45299                | 73.9\*\*%\*\*        | 43899               | 71.6\*\*%\*\*       |
-| 2           | Buildings                      | 6900                 | 11.3\*\*%\*\*        | 6900                | 11.3\*\*%\*\*       |
-| 3           | Evergreen trees (urban forest) | 0                    | 0                    | 1400                | 2.3\*\*%\*\*        |
-| 4           | Deciduous trees                | 400                  | 0.7\*\*%\*\*         | 400                 | 0.7\*\*%\*\*        |
-| 5           | Grass                          | 700                  | 1.1\*\*%\*\*         | 700                 | 1.1\*\*%\*\*        |
-| 7           | Water                          | 8000                 | 13.1\*\*%\*\*        | 8000                | 13.1\*\*%\*\*       |
+| 1           | Paved                          | 45299                | 73.9                 | 43899               | 71.6                |
+| 2           | Buildings                      | 6900                 | 11.3                 | 6900                | 11.3                |
+| 3           | Evergreen trees (urban forest) | 0                    | 0                    | 1400                | 2.3                 |
+| 4           | Deciduous trees                | 400                  | 0.7                  | 400                 | 0.7                 |
+| 5           | Grass                          | 700                  | 1.1                  | 700                 | 1.1                 |
+| 7           | Water                          | 8000                 | 13.1                 | 8000                | 13.1                |
 | Total       |                                | 61299                |                      | 61299               |                     |
 
 _Table 3 - Ferry terminal area and share before and after implementation of the urban forest._
