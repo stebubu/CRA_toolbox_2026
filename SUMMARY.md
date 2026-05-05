@@ -14,7 +14,7 @@
   * [Region Podravje -  City Ptuj](ctb-casestudies-readme-arcadia-regions-guidelines-tutorials/d8-2-slo-podravje-region-draft2-region10-innovation-lab-city-ptuj-flood-mitigation-and-heat-stress.md)
   * [Region Emilia-Romagna - Co-Innovation Lab 1 - Bidente and Lamone River Catchment](ctb-casestudies-readme-arcadia-regions-guidelines-tutorials/d8-2-er-lab1-landsl-draft2-region1-innovation-lab-1-landslides.md)
   * [Region Emilia-Romagna - Co-Innovation Lab 3- Forest Nursuries Romagna](ctb-casestudies-readme-arcadia-regions-guidelines-tutorials/d8-2-er-lab3-fias-draft2-region-1-innovation-lab-3-fias-aimed-to-favour-water-quality-and-storage.md)
-  * [Region Lower Austria - Co-Innovation Lab Wagram](ctb-casestudies-readme-arcadia-regions-guidelines-tutorials/d8-2-aut-lab1-er-dr-draft2-region2-innovation-lab-wagram-tulln-soil-erosion-and-agricultural-drought.md)
+  * [Region Lower Austria - Co-Innovation Lab 1 Wagram](ctb-casestudies-readme-arcadia-regions-guidelines-tutorials/d8-2-aut-lab1-er-dr-draft2-region2-innovation-lab-wagram-tulln-soil-erosion-and-agricultural-drought.md)
   * [Region Lower Austria - Co- Innovation Lab 3 Amstetten](ctb-casestudies-readme-arcadia-regions-guidelines-tutorials/d8-2-aut-lab3-heatstress-draft2-region3-innovation-lab-amstetten-urban-heat-stress.md)
   * [Region Funen - Co-Innovation Lab 1- Vollsmose](ctb-casestudies-readme-arcadia-regions-guidelines-tutorials/d8-2-den-lab1-vollsmose-draft2-region5-innovation-lab-21-vollsmose-urban-storm-water-management.md)
   * [Region Funen - Co-Innovation Lab 2- Vejrup](ctb-casestudies-readme-arcadia-regions-guidelines-tutorials/d8-2-den-lab2vej-draft2-region5-innovation-lab-2-vejrup-a-nbs-for-coastal-flood-mitigation.md)
